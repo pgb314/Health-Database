@@ -1,0 +1,81 @@
+,IndCode,IndName
+0,AIR_42,"Ambient air pollution attributable death rate (per 100 000 population, age-standardized)"
+1,AIR_51,Household air pollution attributable death rate (per 100 000 population)
+2,anc1,Antenatal care coverage - at least one visit (in the two or three years preceding the survey) (%
+3,BP_04,Raised blood pressure (SBP>=140 OR DBP>=90) (age-standardized estimate)
+4,BP_06,Mean systolic blood pressure (age-standardized estimate)
+5,CCO_1,Poverty headcount ratio at $1.25 a day (PPP) (% of population)
+6,CCO_2,Human development index rank
+7,CM_02,Number of infant deaths
+8,CM_03,Number of neonatal deaths
+9,DEVICES03,Total density per 100 000 population: District/rural hospitals
+10,DEVICES04,Total density per 100 000 population: Provincial hospitals
+11,DEVICES05,Total density per 100 000 population: Specialized hospitals
+12,GDO_q9x1_5,"Total dementia hospital admissions (per 100,000)"
+13,GHED_CHEGDP_SHA2011,Current health expenditure (CHE) as percentage of gross domestic product (GDP) (%)
+14,M_Est_cig_curr,Estimate of current cigarette smoking prevalence (%)
+15,M_Est_tob_curr,Estimate of current tobacco use prevalence (%)
+16,MCV2,Measles-containing-vaccine second-dose (MCV2) immunization coverage by the nationally recommended age (%)
+17,MDG_0000000010,Median availability of selected generic medicines (%) - Public
+18,MDG_0000000017,Deaths due to tuberculosis among HIV-negative people (per 100 000 population)
+19,MDG_0000000020,Incidence of tuberculosis (per 100 000 population per year)
+20,MDG_0000000021,Population aged 15-24 years with comprehensive correct knowledge of HIV/AIDS (%)
+21,MDG_0000000026,Maternal mortality ratio (per 100 000 live births)
+22,MDG_0000000029,Prevalence of HIV among adults aged 15 to 49 (%)
+23,MENING_2,Number of suspected meningitis cases reported
+24,MORT_100,Number of deaths
+25,NCD_BMI_25A,"Prevalence of overweight among adults, BMI &GreaterEqual; 25 (age-standardized estimate) (%)"
+26,NCD_BMI_30A,"Prevalence of obesity among adults, BMI &GreaterEqual; 30 (age-standardized estimate) (%)"
+27,NCD_BMI_MEAN,Mean BMI (kg/m²) (age-standardized estimate)
+28,NCD_BMI_PLUS2C,"Prevalence of obesity among children and adolescents, BMI > +2 standard deviations above the median (crude estimate) (%)"
+29,NCD_PAA,Prevalence of insufficient physical activity among adults aged 18+ years (age-standardized estimate) (%)
+30,NCDMORT3070,"Probability (%) of dying between age 30 and exact age 70 from any of cardiovascular disease, cancer, diabetes, or chronic respiratory disease"
+31,poliov,Polio immunization coverage among one-year-olds (%)
+32,R_afford_gdp,Affordability - percentage of GDP per capita required to purchase 2000 cigarettes of the most sold brand
+33,R_Other_average,Average - taxes as a % of cigarette price - other taxes
+34,RHR_IPV,Intimate partner violence prevalence among ever partnered women (%)
+35,RHR_NPSV,Non-partner sexual violence prevalence (%)
+36,RS_1845,Population
+37,RS_193,Income level
+38,RS_194,Number of registered vehicles
+39,RS_198,Estimated road traffic death rate (per 100 000 population)
+40,RS_208,Attribution of road traffic deaths to alcohol (%)
+41,RS_212,Seat-belt wearing rate (%)
+42,RSUD_1,"Point prevalence (%), alcohol use disorders, 15+ years"
+43,RSUD_2,"Point prevalence (%), drug use disorders, 15+ years"
+44,RSUD_3,"Age-standardized death rates, alcohol and drug use disorders, per 100 000"
+45,RSUD_350,Treatment programmes for children and adolescents with drug use disorders
+46,RSUD_600,Prevention programmes for drugs
+47,RSUD_610,Prevention programmes for specific populations for drugs
+48,RSUD_900,Treatment programmes for children and adolescents with drug use disorders
+49,SA_0000001400,"Alcohol, recorded per capita (15+) consumption (in litres of pure alcohol)"
+50,SA_0000001400_ARCHIVED,"Alcohol, recorded per capita (15+) consumption (in litres of pure alcohol)"
+51,SA_0000001438,"Age-standardized death rates, breast cancer, per 100,000"
+52,SA_0000001439,"Age-standardized death rates, colon and rectum cancers, per 100,000"
+53,SA_0000001444,"Age-standardized death rates, ischaemic heart disease, per 100,000"
+54,SA_0000001445,"Age-standardized death rates, liver cancer, per 100,000"
+55,SA_0000001448,"Age-standardized death rates, mouth and oropharynx cancer, per 100,000"
+56,SA_0000001449,"Age-standardized death rates, oesophagus cancer, per 100,000"
+57,SA_0000001455,"Age-standardized death rates, violence, per 100,000"
+58,SA_0000001456,"Age-standardized death rates (15+ years), alcoholic liver disease, per 100,000"
+59,SA_0000001470,"Alcohol-related road traffic crashes, per 100,000 population"
+60,SA_0000001470_ARCHIVED,"Alcohol-related road traffic crashes, per 100,000 population"
+61,SA_0000001747_ARCHIVED,"Alcohol, recorded per capita (15+) consumption (in litres of pure alcohol), three-year average with 95%CI"
+62,SA_0000001760,15-19 years old total alcohol consumption in litres of pure alcohol
+63,SA_0000001760_ARCHIVED,15-19 years old total alcohol consumption in litres of pure alcohol
+64,SA_0000001781,"15-years old any alcoholic beverage consumed in past 12 months, (%)"
+65,SA_0000001781_ARCHIVED,"15-years old any alcoholic beverage consumed in past 12 months, (%)"
+66,SDGCONFLICT,Estimated direct deaths from major conflicts (per 100 000 population)
+67,SE_DEV_ONTRK,"Children aged 36-59 months who are developmentally on track in at least three of the following domains: literacy-numeracy, physical development, social-emotional development and learning (%)"
+68,WHOSIS_000003,Neonatal mortality rate (per 1000 live births)
+69,WHS2_138,Deaths due to HIV/AIDS (per 100 000 population)
+70,WHS2_152,Deaths due to malaria (per 100 000 population)
+71,WHS3_49,Poliomyelitis - number of reported cases
+72,WHS3_62,Measles - number of reported cases
+73,WHS6_116,Median consumer price ratio of selected generic medicines - Private
+74,Yth_curr_cig_smoking,Prevalence of current cigarette smoking among adolescents (%)
+75,MALARIA_ITN_COVERAGE,"Population with access to an insecticide-treated bed net (ITN) for malaria protection (%), modelled"
+76,Adult_curr_cig_smoking,Prevalence of current cigarette smoking among adults (%)
+77,MALARIA_EST_MORTALITY,Estimated malaria mortality rate (per 100 000 population)
+78,vmsl,Measles immunization coverage among one-year-olds (%)
+79,vpolio,Polio immunization coverage among one-year-olds (%)
