@@ -1,3 +1,17 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import json
+import requests as requests
+import time
+
+
+
+
+
+
+
 def ml1():
     
     models = {'RFR':{'MODEL':RFR(),'PARAM':{'n_estimators': [10, 50, 100, 150, 200, 500],'max_depth':             [1,5,10,15,20],'min_weight_fraction_leaf':[0.0,0.1,0.2]}},
@@ -68,6 +82,7 @@ def dummies(df):
     return df
 
 def get_indicator(ind_code, ind_text):
+    import requests
     BASE_URL = 'https://ghoapi.azureedge.net/api/'
     DATE_2000S = '?$filter=date(TimeDimensionBegin) ge 2000-01-01'    
     service_url = BASE_URL + ind_code + DATE_2000S
