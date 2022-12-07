@@ -75,7 +75,9 @@
 73,WHS6_116,Median consumer price ratio of selected generic medicines - Private
 74,Yth_curr_cig_smoking,Prevalence of current cigarette smoking among adolescents (%)
 75,MALARIA_ITN_COVERAGE,"Population with access to an insecticide-treated bed net (ITN) for malaria protection (%), modelled"
-76,Adult_curr_cig_smoking,Prevalence of current cigarette smoking among adults (%)
-77,MALARIA_EST_MORTALITY,Estimated malaria mortality rate (per 100 000 population)
-78,vmsl,Measles immunization coverage among one-year-olds (%)
-79,vpolio,Polio immunization coverage among one-year-olds (%)
+76,Yth_daily_tob_smoking,Prevalence of daily tobacco smoking among adolescents (%)
+77,Adult_curr_cig_smoking,Prevalence of current cigarette smoking among adults (%)
+78,MALARIA_EST_MORTALITY,Estimated malaria mortality rate (per 100 000 population)
+79,vmsl,Measles immunization coverage among one-year-olds (%)
+80,Adult_daily_cig_smoking,Prevalence of daily cigarette smoking among adults (%)
+81,vpolio,Polio immunization coverage among one-year-olds (%)
