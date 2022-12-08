@@ -1,0 +1,2250 @@
+,IndCode,IndName
+0,AIR_10,Ambient air pollution  attributable DALYs per 100'000 children under 5 years
+1,AIR_11,Household air pollution attributable deaths
+2,AIR_12,Household air pollution attributable deaths in children under 5 years
+3,AIR_15,Household air pollution attributable DALYs
+4,AIR_16,Household air pollution attributable DALYs in children under 5 years
+5,AIR_17,Household air pollution attributable DALYs (per 100 000 population)
+6,AIR_39,"Household air pollution attributable DALYs (per 100 000, age-standardized)"
+7,AIR_4,Ambient air pollution attributable deaths in children under 5 years
+8,AIR_41,Ambient air pollution attributable deaths
+9,AIR_42,"Ambient air pollution attributable death rate (per 100 000 population, age-standardized)"
+10,AIR_43,Ambient air pollution attributable DALYs
+11,AIR_44,DALYs attributable to ambient air pollution (age-standardized)
+12,AIR_45,Ambient air pollution attributable YLLs
+13,AIR_46,YLLs attributable to ambient air pollution (age-standardized)
+14,AIR_5,Ambient air pollution attributable death rate (per 100 000 population)
+15,AIR_51,Household air pollution attributable death rate (per 100 000 population)
+16,AIR_52,"Household air pollution attributable death rate (per 100 000 population, age-standardized)"
+17,AIR_6,Ambient air pollution  attributable deaths per 100'000 children under 5 years
+18,AIR_7,Ambient air pollution attributable DALYs
+19,AIR_8,Ambient air pollution attributable DALYs  in children under 5 years
+20,AIR_9,Ambient air pollution attributable DALYs  (per 100 000 population)
+21,AIR_90,"Ambient air pollution attributable DALYs  (per 100 000 population, age-standardized)"
+22,AMRGLASS_COORD01,Functioning national AMR surveillance plan
+23,AMRGLASS_COORD02,Establishment of National Coordination Centre (NCC)
+24,AMRGLASS_COORD03,Nomination of National Focal Point (NFP)
+25,AMRGLASS_COORD04,Establishment of national reference laboratory (NRL)
+26,AMRGLASS_QA01,EQA provided to the national reference laboratory (NRL)
+27,AMRGLASS_QA02,EQA provided for bacterial identification and AST
+28,AMRGLASS_QA03,EQA provided to local laboratories participating in GLASS
+29,AMRGLASS_QA04,GLASS pathogens testing covered by EQA
+30,AMRGLASS_QA05,Types of AST standards followed by countries
+31,AMRGLASS_SURVL01,Number of national surveillance sites in each country providing data to GLASS: hospital category
+32,AMRGLASS_SURVL02,Number of National surveillance sites in each country providing data to GLASS: outpatient facility category
+33,AMRGLASS_SURVL03,Number of local clinical laboratories in each country performing AST to support national AMR surveillance sites
+34,anc1,Antenatal care coverage - at least one visit (in the two or three years preceding the survey) (%
+35,anc15,Antenatal care coverage - at least one visit (in the five years preceding the survey) (%)
+36,anc4,Antenatal care coverage - at least four visits (in the two or three years preceding the survey) (%)
+37,anc45,Antenatal care coverage - at least four visits (in the five years preceding the survey) (%)
+38,asfr1,Adolescent fertility rate (per 1000 women aged 15-19 years)
+39,ASSISTIVETECH_METNEED,Prevalence of met need of assistive products (%)
+40,BP_03,Raised blood pressure (SBP>=140 OR DBP>=90) (crude estimate)
+41,BP_04,Raised blood pressure (SBP>=140 OR DBP>=90) (age-standardized estimate)
+42,BP_05,Mean systolic blood pressure (crude estimate)
+43,BP_06,Mean systolic blood pressure (age-standardized estimate)
+44,Camp_airtime,Process evaluation was employed to assess implementation
+45,Camp_aud_research,Formative research was conducted
+46,Camp_eval_impact,Outcome evaluation was employed to assess effectiveness
+47,Camp_gov_prog,Campaign was part of a comprehensive tobacco control programme
+48,Camp_mat_tested,Campaign was pre-tested
+49,Camp_media_planning,Campaign utilized media planning
+50,Camp_nat,At least one national mass media campaign ran during the survey period
+51,Camp_news,Earned media/public relations were used to promote the campaign
+52,Camp_tv_radio,Campaign aired on television and/or radio
+53,carep,Children aged < 5 years with pneumonia symptoms taken to a health facility (%)
+54,CaseCS,Congenital syphilis number of reported cases
+55,CATARACTSURGICAL,Cataract surgical coverage of adults aged 50 and over (%)
+56,CATARACTSURGICALEFFECTIVE,Effective cataract surgical coverage of adults aged 50 and over (%)
+57,CC_1,Climate change attributable deaths
+58,CC_2,Climate change attributable DALYs ('000)
+59,CC_3,Climate change attributable deaths per 100'000 capita
+60,CC_4,Climate change attributable DALYs per 100'000 capita
+61,CC_5,Climate change attributable deaths ('000) in children under 5 years
+62,CC_6,Climate change  attributable deaths per 100'000 children under 5 years
+63,CC_7,Climate change attributable DALYs ('000) in children under 5 years
+64,CC_8,Climate change  attributable DALYs per 100'000 children under 5 years
+65,cci,Composite coverage index (%)
+66,cci2030,Composite coverage index (%)
+67,CCO_1,Poverty headcount ratio at $1.25 a day (PPP) (% of population)
+68,CCO_2,Human development index rank
+69,CCO_3,Gender inequality index rank
+70,CHILDMORT5TO14,Mortality rate for 5-14 year-olds (probability of dying per 1000 children aged 5-14 years)
+71,CHOLERA_0000000001,Number of reported cases of cholera
+72,CHOLERA_0000000002,Number of reported deaths from cholera
+73,CHOLERA_0000000003,Cholera case fatality rate
+74,CM_01,Number of under-five deaths
+75,CM_02,Number of infant deaths
+76,CM_03,Number of neonatal deaths
+77,cpmt,Contraceptive prevalence - modern and traditional methods (%)
+78,csection,Births by caesarean section (in the two or three years preceding the survey) (%)
+79,csection5,Births by caesarean section (in the five years preceding the survey) (%)
+80,DEVICES00,Total density per 100 000 population: Hospitals
+81,DEVICES01,Total density per 100 000 population: Health posts
+82,DEVICES02,Total density per 100 000 population: Health centres
+83,DEVICES03,Total density per 100 000 population: District/rural hospitals
+84,DEVICES04,Total density per 100 000 population: Provincial hospitals
+85,DEVICES05,Total density per 100 000 population: Specialized hospitals
+86,DEVICES06,Availability of national standards or recommended lists of medical devices
+87,DEVICES07,Types of lists recommending health technology for high burden diseases
+88,DEVICES08,Total density per million population: Magnetic Resonance Imaging
+89,DEVICES09,Total density per million population: Computed tomography units
+90,DEVICES10,Total density per million population: Positron Emission tomography
+91,DEVICES11,Total density per million population: Gamma camera or Nuclear medicine
+92,DEVICES12,Total density per million population: Linear Accelerator
+93,DEVICES13,Type of nomenclature system
+94,DEVICES14,Use of nomenclature system
+95,DEVICES15,Health technology (medical device) national policy
+96,DEVICES16,Unit in the Ministry of Health responsible for the management of medical devices
+97,DEVICES17,Procurement of medical devices carried out at the national level
+98,DEVICES18,Availability of national list of approved medical devices for procurement or reimbursement
+99,DEVICES19,"National guidelines, policies or recommendations on the procurement of medical devices"
+100,DEVICES20,Availability of technical specifications of medical devices to support procurement or donations
+101,DEVICES21,Total density per million population: Telecobalt Unit
+102,DEVICES22,Total density per million population: Radiotherapy units
+103,DEVICES23,Total density per million females aged from 50 to 69 years old: Mammography units
+104,E_Group,"Enforcing bans on tobacco advertising, promotion and sponsorship"
+105,E1_compliance,Compliance of ban on advertising on national TV and radio
+106,E1_nat_tv_radio,Ban on advertising: National TV and radio
+107,E10_compliance,Compliance of ban on promotional discounts
+108,E10_promo_discounts,Ban on promotional discounts
+109,E11_brand_stretching,Ban on non-tobacco goods AND services identified with tobacco brand names
+110,E11_compliance,Compliance of ban on non-tobacco goods AND services identified with tobacco brand names
+111,E12_brand_sharing,Ban on brand name of non-tobacco products used for tobacco product
+112,E12_compliance,Compliance of ban on brand name of non-tobacco products used for tobacco product
+113,E13_brand_placement,Ban on appearance of tobacco brands in TV and/or films (product placement)
+114,E13_compliance,Compliance of ban on appearance of tobacco brands in TV and/or films (product placement)
+115,E14_compliance,Compliance of ban on appearance of tobacco products in TV and/or films
+116,E14_prod_tv_films,Appearance of tobacco products in TV and/or films
+117,E14a_prod_tv_films,Ban on appearance of tobacco products in TV and/or films
+118,E14b_movies_anti_tob_ads,"Requirement to present prescribed anti-tobacco ads before, during or after the broadcasting or showing of any visual entertainment media product that depicts tobacco products, use or images"
+119,E15_compliance,Compliance of ban on sponsored events
+120,E15_sponsored_events,Sponsored events
+121,E15a_sponsorship,Complete ban on sponsorship
+122,E15b_sponsor_contribution,"Ban on any form of contribution (financial or other support) to any event, activity or individual"
+123,E15c_sponsor_publicity,"Banning the publicity of financial or other sponsorship or support by the tobacco industry of events, activities, individuals"
+124,E16_csr_promo_self,Ban on tobacco companies/tobacco industry publicizing their “Corporate Social Responsibility” activities
+125,E17_csr_promo_others,Ban on entities other than tobacco companies/tobacco industry publicizing the Corporate Social Responsibility activities of the tobacco companies
+126,E18_csr_anti_tobacco_media,"Ban on tobacco companies funding or making contributions (including in-kind contributions) to smoking prevention media campaigns, including those directed at youth"
+127,E19_movies_anti_tob_ads,"Required anti-tobacco ads for any visual entertainment media product that depicts tobacco products, use or images"
+128,E2_intl_tv_radio,"Ban on advertising: International TV and radio (broadcast from abroad, including satellite)"
+129,E21_vending_machines,Complete ban on tobacco vending machines
+130,E22_subnational_exists,"Subnational bans on tobacco advertising, promotion and sponsorship"
+131,E23_subnat_complete_bans_exist,"Subnational advertising, promotion and sponsorship bans - at least one jurisdiction has a comprehensive ban in place"
+132,E24_internet_sales_ban,Ban on internet sales of tobacco products
+133,E25_ban_display_pt_of_sale,Ban on display of tobacco products at points of sale
+134,E26_direct_ad_fines,Law requires fines for violations of direct advertising bans
+135,E27_indirect_ad_fines,Law requires fines for violations of indirect advertising bans
+136,E3_compliance,Compliance of ban on advertising on local magazines and newspapers
+137,E3_nat_print,Ban on advertising: Local magazines and newspapers
+138,E4_intl_print,Ban on advertising: International magazines and newspapers
+139,E5_billboards,Ban on advertising: Billboards and outdoor advertising
+140,E5_compliance,Compliance of ban on advertising on billboards and outdoor advertising
+141,E6_compliance,Compliance of ban on advertising at point of sale
+142,E6_pt_of_sale,Ban on advertising: Point of sale
+143,E6b_ban_display_pt_of_sale,Ban on display of tobacco products at points of sale
+144,E7_internet,Ban on advertising: Internet
+145,E9_compliance,Compliance of ban on free distribution of tobacco products in the mail or through other means
+146,E9_free_distrib,Ban on free distribution of tobacco products in the mail or through other means
+147,EC_direct_compliance,Compliance with bans on direct advertising
+148,EC_indirect_compliance,Compliance with bans on promotion and sponsorship
+149,EMFLIMITELECTRIC,Electric field (kV/m)
+150,EMFLIMITELECTRICLF,Electric field (kV/m)
+151,EMFLIMITELECTRICRF,Electric field (V/m)
+152,EMFLIMITMAGNETIC,Magnetic flux density (microT)
+153,EMFLIMITPOWERDENSITY,Power density (W/m^2)
+154,EMFPOWERFREQUENCY,Power frequency (Hz)
+155,EMFSAR,Specific absorption rate (SAR) (W/kg)
+156,EMFSTANDARD,Existence of standards
+157,EMFSTATUS,Legislative status
+158,FINPROTECTION_CATA_ESTIMATE_AVAILABLE,Availability of estimates on large  health expenditures as a share of total expenditure or income
+159,FINPROTECTION_CATA_TOT_10_LEVEL_MILLION,"Population with household spending on health greater than 10% of total household budget (SDG 3.8.2, estimated data) (millions)"
+160,FINPROTECTION_CATA_TOT_10_LEVEL_SH,"Population with household spending on health greater than 10% of total household budget (SDG 3.8.2, estimated data) (%)"
+161,FINPROTECTION_CATA_TOT_10_POP,"Population with household spending on health greater than 10% of total household budget (SDG 3.8.2, reported data) (%)"
+162,FINPROTECTION_CATA_TOT_25_LEVEL_MILLION,"Population with household spending on health greater than 25% of total household budget (SDG 3.8.2, estimated data) (millions)"
+163,FINPROTECTION_CATA_TOT_25_LEVEL_SH,"Population with household spending on health greater than 25% of total household budget (SDG 3.8.2, estimated data) (%)"
+164,FINPROTECTION_CATA_TOT_25_POP,"Population with household spending on health greater than 25% of total household budget (SDG 3.8.2, reported data) (%)"
+165,FINPROTECTION_IMP_NP_190_LEVEL_MILLION,Total population  pushed below the $1.90 a day  poverty line by household  health expenditures (millions)
+166,FINPROTECTION_IMP_NP_190_LEVEL_SH,Total population  pushed below the $1.90 a day  poverty line by household  health expenditures (%)
+167,FINPROTECTION_IMP_NP_310_LEVEL_MILLION,Total population  pushed below the $3.10 a day  poverty line by household  health expenditures (millions)
+168,FINPROTECTION_IMP_NP_310_LEVEL_SH,Total population  pushed below the $3.10 a day  poverty line by household  health expenditures (%)
+169,FINPROTECTION_IMP_NP190_POP,Population  pushed below the $1.90 a day  poverty line by household  health expenditures (%)
+170,FINPROTECTION_IMP_NP310_POP,Population  pushed below the $3.10 a day  poverty line by household  health expenditures (%)
+171,FINPROTECTION_IMP_PG_190_STD,"Increase in poverty gap due to household  health expenditures, expressed as a proportion of the $1.90 a-day poverty line (%)"
+172,FINPROTECTION_IMP_PG_310_STD,"Increase in poverty gap due to household  health expenditures, expressed as a proportion of the 3.10 a-day poverty line (%)"
+173,FINPROTECTION_IMPOV_ESTIMATE_AVAILABLE,Availability of estimates on impoverishment due to out-of-pocket health expenditures
+174,fps,Demand for family planning satisfied - modern and traditional methods (%)
+175,fpsmo,Demand for family planning satisfied - modern methods (%)
+176,GBD_DALYRTAGE,"Age-standardized DALYs (per 100,000)"
+177,GDO_q10x1,National regulator approval of anti-dementia medication
+178,GDO_q10x1x1,Availability of generic anti-dementia medication
+179,GDO_q10x1x2,Availability of at least one anti-dementia medication approved for on-label use reimbursement
+180,GDO_q10x2_1AVAIL,Availability of atleast one adult hygiene products for people with dementia
+181,GDO_q10x2_HOSUE,Availability of atleast one housing adjustment for people with dementia
+182,GDO_q10x2_TECH,Availability of  atleast one assistive technology for people with dementia
+183,GDO_q11x1,Existence of dementia national nongovernmental organization
+184,GDO_q11x2x1,Dementia nongovernmental organization equipped with office
+185,GDO_q11x2x2_1,Dementia nongovernmental organization office branches (Sub-national)
+186,GDO_q11x2x2_2,Dementia nongovernmental organization office branches (Local)
+187,GDO_q11x2x2_3,Dementia nongovernmental organization office branches (National only)
+188,GDO_q11x2x3,Dementia nongovernmental organization staff primarily salaried/volunteer
+189,GDO_q11x2x5,Provision of governmental funding to dementia nongovernmental organization for activities/services
+190,GDO_q11x2x6,Dementia nongovernmental organization's involvement in policy development
+191,GDO_q12x1,Existence of dementia carer support services
+192,GDO_q12x1x1,Implementation level [national/subnational] of dementia carer support services
+193,GDO_q12x1x2,Existence of dedicated resources for dementia carer support services
+194,GDO_q12x1x3,Existence of implementation plan for dementia carer support services
+195,GDO_q12x2_2,Existence of psycho-social supports for dementia carers
+196,GDO_q12x2_3,Existence of respite care for dementia carers
+197,GDO_q12x2_4,Existence of information on legal rights for dementia carers
+198,GDO_q12x2_5,Existence of financial benefits/social protection for dementia carers
+199,GDO_q12x2x1x1_1,"Accessibility of dementia carer training and education [Capital/capital and main cities/capital, main cities, rural areas]"
+200,GDO_q12x2x1x1_1NGO,Majority provider of dementia carer training and education (NGO)
+201,GDO_q12x2x1x1_1PRV,Majority provider of dementia carer training and education (Private sector)
+202,GDO_q12x2x1x1_1PUB,Majority provider of dementia carer training and education (Public sector)
+203,GDO_q12x2x1x1_2,"Accessibility of psycho-social supports for dementia carers [Capital/capital and main cities/capital, main cities, rural areas]"
+204,GDO_q12x2x1x1_2NGO,Majority provider of psycho-social supports for dementia carers (NGO)
+205,GDO_q12x2x1x1_2PRV,Majority provider of psycho-social supports for dementia carers (Private sector)
+206,GDO_q12x2x1x1_2PUB,Majority provider of psycho-social supports for dementia carers (Public sector)
+207,GDO_q12x2x1x1_3,"Accessibility of respite care for dementia carers [Capital/capital and main cities/capital, main cities, rural areas]"
+208,GDO_q12x2x1x1_3NGO,Majority provider of respite care for dementia carers (NGO)
+209,GDO_q12x2x1x1_3PRV,Majority provider of respite care for dementia carers (Private sector)
+210,GDO_q12x2x1x1_3PUB,Majority provider of respite care for dementia carers (Public sector)
+211,GDO_q12x2x1x1_4,"Accessibility of information on legal rights for dementia carers [Capital/capital and main cities/capital, main cities, rural areas]"
+212,GDO_q12x2x1x1_4NGO,Majority provider of information on legal rights for dementia carers (NGO)
+213,GDO_q12x2x1x1_4PRV,Majority provider of information on legal rights for dementia carers (Private sector)
+214,GDO_q12x2x1x1_4PUB,Majority provider of information  on legal rights for dementia carers (Public sector)
+215,GDO_q12x2x1x1_5,"Accessibility of financial benefits/social protection for dementia carers [Capital/capital and main cities/capital, main cities, rural areas]"
+216,GDO_q12x2x1x1_5NGO,Majority provider of information on financial benefits/social protection for dementia carers (NGO)
+217,GDO_q12x2x1x1_5PRV,Majority provider of information on financial benefits/social protection for dementia carers (Private sector)
+218,GDO_q12x2x1x1_5PUB,Majority provider of information  on financial benefits/social protection for dementia carers (Public sector)
+219,GDO_q12x2x1x3,Estimated number of dementia carers receiving training and education
+220,GDO_q12x2x2x3,Estimated number of dementia carers receiving psycho-social supports
+221,GDO_q12x2x3x3,Estimated number of dementia carers receiving respite care
+222,GDO_q12x2x4x3,Estimated number of dementia carers receiving information on legal rights
+223,GDO_q12x2x5x3,Estimated number of dementia carers receiving financial benefits/social protection
+224,GDO_q13x1,Existence of at least one functioning dementia awareness campaign
+225,GDO_q13x1x1,Implementation level [national/subnational] of dementia awareness campaign
+226,GDO_q13x3,Existence of at least one functioning risk reduction campaign
+227,GDO_q13x3x1,Implementation level [national/subnational] of dementia risk reduction campaign
+228,GDO_q14x1,Availability of dementia-friendly initiatives that improve accessibility
+229,GDO_q14x2_1,Existence of dementia-friendly initiative to improve accessibility of public spaces
+230,GDO_q14x2_2,Existence of dementia-friendly initiative to improve accessibility of public transportation
+231,GDO_q14x2_3,Existence of dementia-friendly initiative for assistance with home modification
+232,GDO_q14x2_4,Existence of dementia-friendly initiative with assistive technology for loss of capacity
+233,GDO_q14x2_5,Existence of dementia-friendly initiative supporting community places for older people
+234,GDO_q14x2_6,Existence of dementia-friendly initiative supporting social opportunities
+235,GDO_q15x1,Inclusion of dementia training and education for non-health workers
+236,GDO_q15x2_1,Existence of dementia training for volunteers
+237,GDO_q15x2_2,Existence of dementia training for police and fire services
+238,GDO_q15x2_3,Existence of dementia training for first responders
+239,GDO_q15x2_4,Existence of dementia training for legal professionals
+240,GDO_q15x2_5,Existence of dementia training for community workers
+241,GDO_q15x2_6,Existence of dementia training for school children
+242,GDO_q15x2_7,Existence of dementia training for financial service staff
+243,GDO_q15x2_8,Existence of dementia training for retail and hospitality staff
+244,GDO_q16x1,Routine monitoring of people with dementia
+245,GDO_q16x1x1_1,Data sources used to routinely monitor people with dementia (Clinical records)
+246,GDO_q16x1x1_2,Data sources used to routinely monitor people with dementia (Household surveys)
+247,GDO_q16x1x1_3,Data sources used to routinely monitor people with dementia (Administrative data)
+248,GDO_q16x1x1_4,Data sources used to routinely monitor people with dementia (Facility survey or records)
+249,GDO_q16x1x1_other,Data sources used to routinely monitor people with dementia (Other)
+250,GDO_q16x1x2_1,Electronic availability of data sources used to routinely monitor people with dementia
+251,GDO_q16x1x2_2,Data used to routinely monitor people with dementia can be disaggregated
+252,GDO_q16x2_1,Availability of routine hospital admissions records for people with dementia for monitoring purposes
+253,GDO_q16x2_2,Availability of routine outpatient visit records for people with dementia for monitoring purposes
+254,GDO_q16x2_3,Availability of routine outpatient intervention and treatment records for people with dementia for monitoring purposes
+255,GDO_q16x2_4,Availability of routine pharmaceutical records for people with dementia for monitoring purposes
+256,GDO_q16x2_5,Availability of routine antipsychotic prescription records for people with dementia for monitoring purposes
+257,GDO_q16x3,Availability and status of dementia reporting in the past two years
+258,GDO_q17x1,Existence of a current dementia research plan/programme
+259,GDO_q17x1x1,Implementation level [national/subnational] of dementia research plan/programme
+260,GDO_q17x2,Dementia integrated into other national research plan/programme
+261,GDO_q17x2x1_1,Identification of other research plans in which dementia is integrated (Mental health)
+262,GDO_q17x2x1_2,Identification of other research plans in which dementia is integrated (Ageing)
+263,GDO_q17x2x1_3,Identification of other research plans in which dementia is integrated (Neuro or neurodegenerative disease)
+264,GDO_q17x2x1_4,Identification of other research plans in which dementia is integrated (NCD)
+265,GDO_q17x2x2,Implementation level [national/subnational] of research plan in which dementia is integrated
+266,GDO_q18x2,Availability of funding for dementia-specific research plan/programme
+267,GDO_q18x2x1_1,"Total expenditure on dementia research (local currency, self-report)"
+268,GDO_q18x2x3_1,"Total expenditure on dementia basic research (local currency, self-report)"
+269,GDO_q18x2x3_2,"Total expenditure on dementia clinical/translational research (local currency, self-report)"
+270,GDO_q18x2x3_3,"Total expenditure on dementia implementation research (local currency, self-report)"
+271,GDO_q19x2,Number of people with dementia involved in research routinely monitored
+272,GDO_q19x3,Availability of investigational pharmaceutical trials for dementia
+273,GDO_q19x3x1_1,Number of investigational pharmaceutical trials for dementia
+274,GDO_q1x1,Inclusion of dementia in ministry portfolio
+275,GDO_q1x1x1,"Inclusion of dementia in a branch of government [health, ageing, social services, mental health, noncommunicable disease]"
+276,GDO_q1x2,Existence of dementia representative in ministry
+277,GDO_q20,Total number of published dementia research output
+278,GDO_q2x1,Existence of dementia national plan
+279,GDO_q2x1x2,Availability of funding for dementia national plan
+280,GDO_q2x1x3,Targets for monitoring implementation of dementia national plan
+281,GDO_q2x2,Dementia integrated into other national plan
+282,GDO_Q2x2x1_AGE,Identification of other plans in which dementia is integrated (Ageing)
+283,GDO_Q2x2x1_DISAB,Identification of other plans in which dementia is integrated (Disability)
+284,GDO_Q2x2x1_MENTAL,Identification of other plans in which dementia is integrated (Mental health)
+285,GDO_Q2x2x1_NCD,Identification of other plans in which dementia is integrated (NCD)
+286,GDO_q2x2x1_other,Identification of other plans in which dementia is integrated (Other)
+287,GDO_q2x3,Existence of dementia sub-national plan(s)
+288,GDO_q2x3x1_1,Percentage of sub-national regions covered by dementia plan
+289,GDO_q2x4_1,Inclusion of human rights as a guiding principle of the dementia plan
+290,GDO_q2x4_2,Inclusion of equity as a guiding principle of the dementia plan
+291,GDO_q2x4_3,Inclusion of empowerment as a guiding principle of the dementia plan
+292,GDO_q2x4_4,Inclusion of multisectoral collaboration as a guiding principles of the dementia plan
+293,GDO_q2x4_5,Inclusion of universal health coverage as a guiding principle of the dementia plan
+294,GDO_q2x5_1,Inclusion of dementia-friendly communities as a specific action of the dementia plan
+295,GDO_q2x5_2,Inclusion of dementia risk reduction as a specific action of the dementia plan
+296,GDO_q2x5_3,"Inclusion of dementia diagnosis, care and support as a specific action of the dementia plan"
+297,GDO_q2x5_4,Inclusion of dementia workforce training as a specific action of the dementia plan
+298,GDO_q2x5_5,Inclusion of support for dementia carers and families as a specific action of the dementia plan
+299,GDO_q2x5_6,Inclusion of improved information system as a specific action of the dementia plan
+300,GDO_q2x5_7,Inclusion of research and innovation as a specific action of the dementia plan
+301,GDO_q35,Estimated population-based prevalence of depression
+302,GDO_q3x1,Existence of dementia legislation
+303,GDO_q3x1x1_1,Implementation level [national/subnational] of dementia legislation
+304,GDO_q3x2,Existence of other laws that apply to the rights of people with dementia
+305,GDO_q3x3a_1,Existence of legislation for supported decision making for people with dementia
+306,GDO_q3x3a_2,Existence of legislation to file appeals protecting the rights of people with dementia
+307,GDO_q3x3a_3,Existence of legislation to promote community-based services for people with dementia
+308,GDO_q3x3a_4,Existence of legislation to promote monitoring of human rights conditions of people with dementia in facilities where they reside
+309,GDO_q3x3b_1,Existence of legislation to end coercieve practices for people with dementia
+310,GDO_q3x4_1,Existence of legislation for advanced care directives for people with dementia
+311,GDO_q3x4_2,Existence of legislation to end discrimination against people with dementia
+312,GDO_q3x4_3,Existence of legislation to end discrimination against carers of people with dementia
+313,GDO_q4x1,Existence of dementia standards/ guidelines/ protocols
+314,GDO_q4x1x1_SQ001,Implementation level of dementia standards/ guidelines/ protocols (National)
+315,GDO_q4x1x1_SQ002,Implementation level of dementia standards/ guidelines/ protocols (Sub-national)
+316,GDO_q4x1x2,Existence of approved government dementia standards/ guidelines/ protocols
+317,GDO_q4x2_1,Existence of standards/ guidelines/ protocols for prevention and risk reduction of dementia
+318,GDO_q4x2_2,Existence of standards/ guidelines/ protocols for diagnosis of dementia
+319,GDO_q4x2_3,Existence of standards/ guidelines/ protocols for management of dementia
+320,GDO_q4x2_4,Existence of standards/ guidelines/ protocols for other post-diagnostic supports of people with dementia
+321,GDO_q4x2_5,Existence of standards/ guidelines/ protocols for treatment and support of carers and families of people with dementia
+322,GDO_q4x3x4_1,"Existence of standards/ guidelines/ protocols for advance care directives, power of attorney or guardianship for people with dementia"
+323,GDO_q4x3x4_2,Existence of standards/ guidelines/ protocols for palliative and end-of-life care for people with dementia
+324,GDO_q4x3x4_3,Existence of standards/ guidelines/ protocols of care in nursing & residential care facilities for people with dementia
+325,GDO_q4x3x4_4,Existence of standards/ guidelines/ protocols of care in hospital for people with dementia
+326,GDO_q5x1,Availability of mechanisms to coordinate dementia care across sectors
+327,GDO_q5x1x1_1,Identification of different sectors in dementia care coordination  (Health)
+328,GDO_q5x1x1_2,Identification of different sectors in dementia care coordination (Social)
+329,GDO_q5x1x1_3,Identification of different sectors in dementia care coordination (Education)
+330,GDO_q5x1x1_4,Identification of different sectors in dementia care coordination (Employment)
+331,GDO_q5x1x1_5,Identification of different sectors in dementia care coordination (Justice)
+332,GDO_q5x1x1_6,Identification of different sectors in dementia care coordination (Housing)
+333,GDO_q5x1x1_7,Identification of different sectors in dementia care coordination (Civil society)
+334,GDO_q5x1x1_8,Identification of different sectors in dementia care coordination (Private sector)
+335,GDO_q5x1x1_other,Identification of different sectors in dementia care coordination (Other)
+336,GDO_q5x1x2,Implementation level [national/subnational] of dementia care coordination
+337,GDO_q5x1x3,Presence of formal agreement/joint plan for dementia care coordination
+338,GDO_q5x2,Availability of dementia care coordination standards/ guidelines/ protocols
+339,GDO_q6x1_2,"Number of neurologists (per 100,000)"
+340,GDO_q6x1_3,"Number of geriatricians or psychogeriatricians (per 100,000)"
+341,GDO_q6x2_1,Inclusion of basic dementia competencies in training of physicians
+342,GDO_q6x2_2,Inclusion of basic dementia competencies in training of specialists
+343,GDO_q6x2_3,Inclusion of basic dementia competencies in training of nurses
+344,GDO_q6x2_4,Inclusion of basic dementia competencies in training of pharmaceutical personnel
+345,GDO_q6x2_5,Inclusion of basic dementia competencies in training of social workers
+346,GDO_q6x2_6,Inclusion of basic dementia competencies in training of personal support workers
+347,GDO_q7x1_AVAIL,Availability of dementia diagnostic rate
+348,GDO_q8x1,Existence of community-based health or social care services for dementia
+349,GDO_q8x2_1,Availability of diagnostic services in community for dementia
+350,GDO_q8x2_2,Availability of behaviour and psychological management in community for dementia
+351,GDO_q8x2_3,Availability of psychosocial and rehabilitation services in community for dementia
+352,GDO_q8x2_4,Availability of activities of daily living support services in community for dementia
+353,GDO_q8x2_5,Availability of palliative and end-of-life care services in community for dementia
+354,GDO_q8x2_6,Availability of social and financial protection for dementia
+355,GDO_q8x3_1,"Accessibility of diagnostic services in community for dementia [Capital/capital and main cities/capital, main cities, rural areas]"
+356,GDO_q8x3_2,"Accessibility of behaviour and psychological management in community for dementia [Capital/capital and main cities/capital, main cities, rural areas]"
+357,GDO_q8x3_3,"Accessibility of psychosocial and rehabilitation services in community for dementia [Capital/capital and main cities/capital, main cities, rural areas]"
+358,GDO_q8x3_4,"Accessibility of activities of daily living support services in community for dementia [Capital/capital and main cities/capital, main cities, rural areas]"
+359,GDO_q8x3_5,"Accessibility of palliative and end-of-life care services in community for dementia [Capital/capital and main cities/capital, main cities, rural areas]"
+360,GDO_q8x3_6,"Accessibility of social and financial protection for dementia [Capital/capital and main cities/capital, main cities, rural areas]"
+361,GDO_q8x4_1,"Majority provider of diagnostic services in community for dementia [public, private]"
+362,GDO_q8x4_2,"Majority provider of behaviour and psychological management in community for dementia [public, private]"
+363,GDO_q8x4_3,"Majority provider of psychosocial and rehabilitation services in community for dementia [public, private]"
+364,GDO_q8x4_4,"Majority provider of activities of daily living support services in community for dementia [public, private]"
+365,GDO_q8x4_5,"Majority provider of palliative and end-of-life care services in community for dementia [public, private]"
+366,GDO_q8x4_6,"Majority provider of social and financial protection for dementia [public, private]"
+367,GDO_q8x5_2,Estimated number of people receiving behaviour and psychological management services in community for dementia
+368,GDO_q8x5_3,Estimated number of people receiving psychosocial and rehabilitation services in community for dementia
+369,GDO_q8x5_4,Estimated number of people receiving activities of daily living support services in community for dementia
+370,GDO_q8x5_5,Estimated number of people receiving palliative and end-of-life care services in community for dementia
+371,GDO_q8x5_6,Estimated number of people with dementia receiving social and financial protection for dementia
+372,GDO_q9_1,Dementia care facilities [hospitals]
+373,GDO_q9_2,Care facilities [long-term care]
+374,GDO_q9_3,Care facilities [hospice centres]
+375,GDO_q9_4,Adult day centres
+376,GDO_q9_5,Outpatient health centres
+377,GDO_q9_6,Outpatient social centres
+378,GDO_q9x1_3,"Dementia-specific hospital beds (per 10,000 population)"
+379,GDO_q9x1_4,"Geriatric-specific hospital beds (per 10,000 population)"
+380,GDO_q9x1_5,"Total dementia hospital admissions (per 100,000)"
+381,GDO_q9x1_7,Estimated percentage of hospitals following national dementia standards
+382,GDO_q9x2_1,"Density of residential long-term care facilities (per 100,000 population)"
+383,GDO_q9x2_2,Residential long-term care beds (per 10 000 population)
+384,GDO_q9x2_3,"Dementia-specific residential long-term care beds (per 10,000 population)"
+385,GDO_q9x2_4,Estimated number of people with dementia living in residential long-term care
+386,GDO_q9x2_5,Estimated percentage of residential long-term care facilities following national dementia standards
+387,GDO_q9x3_1,"Density of hospice centres (per 100,000 population)"
+388,GDO_q9x3_2,Hospice centre beds (per 10 000 population)
+389,GDO_q9x3_3,"Dementia-specific hospice care beds (per 10,000 population)"
+390,GDO_q9x4_1,"Density of adult day centres (per 100,000 population)"
+391,GDO_q9x4_2,"Adult day centre places (per 10,000 population)"
+392,GDO_q9x4_3,"Dementia-specific adult day centre places (per 10,000 population)"
+393,GDO_q9x5_1,"Density of outpatient health centres (per 100,000 population)"
+394,GDO_q9x5_2,Estimated number of people with dementia receiving services at outpatient health centre
+395,GDO_q9x6_1,"Density of outpatient social centres (per 100,000 population)"
+396,GDO_q9x6_2,Estimated number of people with dementia receiving services at outpatient social centre
+397,GHE_DALYNUM,Disability-adjusted life years (DALYs)
+398,GHE_DALYRATE,Disability-adjusted life years (DALYs) (per 100 000 population)
+399,GHE_YLDNUM,Years of healthy life lost due to disability (YLDs)
+400,GHE_YLDRATE,Years of healthy life lost due to disability (YLDs) (per 100 000 population)
+401,GHE_YLLNUM,Years of life lost from mortality (YLLs)
+402,GHE_YLLRATE,Years of life lost from mortality (YLLs) (per 100 000 population)
+403,GHED_CHE_pc_PPP_SHA2011,Current health expenditure (CHE) per capita in PPP int$
+404,GHED_CHE_pc_US_SHA2011,Current health expenditure (CHE) per capita in US$
+405,GHED_CHEGDP_SHA2011,Current health expenditure (CHE) as percentage of gross domestic product (GDP) (%)
+406,GHED_EXT_pc_PPP_SHA2011,External health expenditure (EXT) per capita in PPP int$
+407,GHED_EXT_pc_US_SHA2011,External health expenditure (EXT) per capita in US$
+408,GHED_EXTCHE_SHA2011,External health expenditure (EXT) as percentage of current health expenditure (CHE) (%)
+409,GHED_GGHE-D_pc_PPP_SHA2011,Domestic general government health expenditure (GGHE-D) per capita in PPP int$
+410,GHED_GGHE-D_pc_US_SHA2011,Domestic general government health expenditure (GGHE-D) per capita in US$
+411,GHED_GGHE-DCHE_SHA2011,Domestic general government health expenditure (GGHE-D) as percentage of current health expenditure (CHE) (%)
+412,GHED_GGHE-DGDP_SHA2011,Domestic general government health expenditure (GGHE-D) as percentage of gross domestic product (GDP) (%)
+413,GHED_GGHE-DGGE_SHA2011,Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)
+414,GHED_OOP_pc_PPP_SHA2011,Out-of-pocket expenditure (OOP) per capita in PPP int$
+415,GHED_OOP_pc_US_SHA2011,Out-of-pocket expenditure (OOP) per capita in US$
+416,GHED_OOPSCHE_SHA2011,Out-of-pocket expenditure as percentage of current health expenditure (CHE) (%)
+417,GHED_PVT-D_pc_PPP_SHA2011,Domestic private health expenditure (PVT-D) per capita in PPP int$
+418,GHED_PVT-D_pc_US_SHA2011,Domestic private health expenditure (PVT-D) per capita in US$
+419,GHED_PVT-DCHE_SHA2011,Domestic private health expenditure (PVT-D) as percentage of current health expenditure (CHE) (%)
+420,GOE_Q001,National universal health coverage strategy
+421,GOE_Q002,strategy refers to the use of ICT to support UHC
+422,GOE_Q003,National eHealth strategy
+423,GOE_Q004,National eHealth strategy refers to objectives of UHC
+424,GOE_Q006,National  health information system (HIS) policy or strategy
+425,GOE_Q007,Public funding for eHealth
+426,GOE_Q008,Private funding for eHealth
+427,GOE_Q009,Donor/ non-public development funding for eHealth
+428,GOE_Q010,Public-private partnerships for eHealth
+429,GOE_Q011,Strategy implementation funding available for eHealth
+430,GOE_Q012,Proportion of public funding
+431,GOE_Q013,Proportion of private funding
+432,GOE_Q014,Proportion of donor/non public development funding
+433,GOE_Q015,Proportion ofpublic private partnerships funding
+434,GOE_Q017,Government-supported health internet sites provide information in multiple languages
+435,GOE_Q018,Tertiary institutions provide students of health sciences with training on eHealth
+436,GOE_Q022,Institutions offer in-service training to health professionals on ICT for health
+437,GOE_Q028,mHealth programmes are sponsored by government
+438,GOE_Q030_1,Regulating mobile devices and software
+439,GOE_Q030_2,Promoting standards and interoperability
+440,GOE_Q030_3,Providing guidance on privacy and security
+441,GOE_Q030_4,Providing oversight and enforcement of data ownership
+442,GOE_Q030_5,Promoting the development and adoption of mHealth
+443,GOE_Q031,"Regulatory oversight of mobile apps for quality, safety and reliability"
+444,GOE_Q032,Providing incentives and guidance for innovation research and evaluation of health
+445,GOE_Q047,Government-sponsored mHealth programmes are being evaluated
+446,GOE_Q057,Capacity
+447,GOE_Q058,Infrastructure
+448,GOE_Q059,Funding
+449,GOE_Q060,Effectiveness
+450,GOE_Q061,Cost-effectiveness
+451,GOE_Q062,Demand
+452,GOE_Q063,Legal
+453,GOE_Q064,Policy
+454,GOE_Q065,Priorities
+455,GOE_Q069,Country has telehealth policy or strategy
+456,GOE_Q070,Strategy includes objectives as to how telehealth contributes to UHC
+457,GOE_Q081,Evaluation of any government-sponsored telehealth programmes
+458,GOE_Q103,eLearning is used in pre-service education to teach health sciences students
+459,GOE_Q104_1,Reducing cost of delivering content
+460,GOE_Q104_2,Improving access to content and experts
+461,GOE_Q104_3,Enabling access to education where learning facilities are limited
+462,GOE_Q109,Pre-service eLearning programmes have been evaluated
+463,GOE_Q118,eLearning used for in-service training of health professionals
+464,GOE_Q119_1,Reducing cost of delivering content
+465,GOE_Q119_2,Improving access to content and experts
+466,GOE_Q119_3,Enabling access to education where learning facilities are limited
+467,GOE_Q120,eLearning courses accredited by continuing medical education or professional licensing bodies
+468,GOE_Q122,eLearning programmes for in-service training of health professionals have been evaluated
+469,GOE_Q131,Lack of capacity
+470,GOE_Q132,Lack of infrastructure
+471,GOE_Q133,Lack of funding
+472,GOE_Q134,Not possible to gain a health sciences degree entirely through eLearning
+473,GOE_Q135,Lack of evidence that eLearning is effective
+474,GOE_Q136,Lack of evidence over cost-effectiveness
+475,GOE_Q137,Lack of demand for eLearning programmes
+476,GOE_Q138,Lack of suitable courses available
+477,GOE_Q139,Insitutional educational policy does not include eLearning as an approach to teaching health sciences
+478,GOE_Q140,Competing educational priorities
+479,GOE_Q144,Country has national EHR
+480,GOE_Q146,Country has specific legislation governing the use of national EHR system
+481,GOE_Q153,Lack of capacity
+482,GOE_Q154,Lack of infrastructure
+483,GOE_Q155,Lack of funding
+484,GOE_Q156,lack of evidence showing effectiveness of EHR
+485,GOE_Q157,Lack of evidence showing cost-effectiveness or EHR
+486,GOE_Q158,Lack of demand by health professionals and patients
+487,GOE_Q159,Lack of legislation or regulations covering use of EHR
+488,GOE_Q160,National strategy does not promote the adoption of EHR
+489,GOE_Q161,Lack of national or international standards for interoperability of EHR
+490,GOE_Q162,Competing health system priorities
+491,GOE_Q168,"To define medical jurisdiction, liability or reimbursement of eHealth services such as telehealth"
+492,GOE_Q169,"To address patient safety and quality of care based on data quality, data transmission standards, or clinical competency criteria"
+493,GOE_Q170,To protect privacy of personally identifiable data of individuals irrespective of whether it is paper or digital format
+494,GOE_Q171,To protect the privacy of individuals' health-related  data held in electronic format as an EHR
+495,GOE_Q172,Which governs the sharing of digital data between health professionals in other health services in the same country through the use of an EHR
+496,GOE_Q173,Which governs the sharing of digital data between health professionals  in health services in other countries through the use of an EHR
+497,GOE_Q174,Which allows for the sharing of personal and health data between research entities
+498,GOE_Q175,Which allows individuals electronic access to their own health-related data when held in an EHR
+499,GOE_Q176,Which allows individuals to demand that their own data be corrected  when held in an EHR if it is known to be inaccurate
+500,GOE_Q177,Which allows individuals to demand the deletion of health-related data from their EHR
+501,GOE_Q178,Individuals have the legal right to specify which health-related data from their EHR can be shared with health professionals of their choice
+502,GOE_Q181,Country has national policy or strategy on the use of social media by government organizations
+503,GOE_Q182,Policy or strategy makes specific reference tothe use of social media in the health domain
+504,GOE_Q196,Country has  national policy or strategy regulating the use of big data in the health sector
+505,GOE_Q197,Country has national policy or strategy regulating the use of big data by private companies
+506,GOE_Q198,Effective standards and best practices for data capture not fully established
+507,GOE_Q199,Insufficient incentives for data sharing
+508,GOE_Q200,Capacity building required for new skills
+509,GOE_Q201,Privacy and security laws need to be in place
+510,GOE_Q202,Research into new analytical methods needs occur to meet the challenges of working with big data
+511,GOE_Q203,Lack of integration between various health services
+512,HIV_0000000001,Estimated number of people (all ages) living with HIV
+513,HIV_0000000006,Number of people dying from HIV-related causes
+514,HIV_0000000007,"Testing and counselling facilities, reported number"
+515,HIV_0000000008,"Testing and counselling facilities, estimated number per 100 000 adult population"
+516,HIV_0000000009,Reported number of people receiving antiretroviral therapy
+517,HIV_0000000011,Reported number of children receiving antiretroviral therapy
+518,HIV_0000000012,"Reported number of children receiving antiretroviral therapy, month and year of report"
+519,HIV_0000000015,Number of pregnant women living with HIV who received antiretrovirals for preventing mother-to-child transmission
+520,HIV_0000000020,Estimated percentage of pregnant women living with HIV who received antiretrovirals for preventing mother-to-child transmission
+521,HIV_0000000021,Estimated number of pregnant women living with HIV needing antiretrovirals for preventing mother-to-child transmission
+522,HIV_0000000022,Estimated number of people eligible for antiretroviral therapy according to 2010 guidelines
+523,HIV_0000000023,Estimated number of children needing antiretroviral therapy based on WHO methods
+524,HIV_0000000024,Estimated antiretroviral therapy coverage among children
+525,HIV_0000000025,"Testing and counselling facilities, reporting period"
+526,HIV_0000000026,Number of new HIV infections
+527,HIV_ARTCOVERAGE,Estimated antiretroviral therapy coverage among people living with HIV (%)
+528,HRH_40,Biomedical engineers density (per 10 000 population)
+529,HRH_41,Number of licensed qualified surgeons actively working
+530,HRH_42,Number of licensed qualified obstetricians actively working
+531,HRH_43,Number of licensed qualified anaesthesiologists actively working
+532,HRH_44,Number of biomedical engineers
+533,HRH_45,Biomedical technicians density (per 10 000 population)
+534,HRH_46,Number of biomedical technicians
+535,HSS_UHCLEGISLATION,Countries that have passed legislation on Universal Health Coverage (UHC)
+536,HWF_0001,"Medical doctors (per 10,000)"
+537,HWF_0002,Medical doctors (number)
+538,HWF_0003,Generalist medical practitioners (number)
+539,HWF_0004,Specialist medical practitioners (number)
+540,HWF_0005,Medical doctors not further defined (number)
+541,HWF_0006,"Nursing and midwifery personnel (per 10,000)"
+542,HWF_0007,Nursing and midwifery personnel  (number)
+543,HWF_0008,Nursing personnel (number)
+544,HWF_0009,Midwifery personnel (number)
+545,HWF_0010,"Dentists (per 10,000)"
+546,HWF_0011,Dentists (number)
+547,HWF_0012,Dental Assistants and Therapists (number)
+548,HWF_0013,Dental Prosthetic Technicians (number)
+549,HWF_0014,"Pharmacists  (per 10,000)"
+550,HWF_0015,Pharmacists  (number)
+551,HWF_0016,Pharmaceutical Technicians and Assistants  (number)
+552,HWF_0017,Environmental and Occupational Health and Hygiene Professionals  (number)
+553,HWF_0018,Environmental and Occupational Health Inspectors and Associates  (number)
+554,HWF_0019,Medical and Pathology Laboratory scientists  (number)
+555,HWF_0020,Medical and Pathology Laboratory Technicians  (number)
+556,HWF_0021,Physiotherapists (number)
+557,HWF_0022,Physiotherapy Technicians and Assistants  (number)
+558,HWF_0023,Traditional and Complementary Medicine Professionals  (number)
+559,HWF_0024,Community Health Workers (number)
+560,HWWS_1,Handwashing with soap after using the toilet (%)
+561,HWWS_2,Handwashing with soap after cleaning child's stool (%)
+562,IHR01,Legislation
+563,IHR02,Coordination
+564,IHR03,Surveillance
+565,IHR04,Response
+566,IHR05,Preparedness
+567,IHR06,Risk communication
+568,IHR07,Human resources
+569,IHR08,Laboratory
+570,IHR09,Points of entry
+571,IHR10,Zoonosis
+572,IHR11,Food safety
+573,IHR12,Chemical
+574,IHR13,Radionuclear
+575,imr,Infant mortality rate (deaths per 1000 live births)
+576,IR_CARBAMATE_EXTENT,Percentage of sites for which carbamate resistance was reported
+577,IR_CARBAMATE_PRESENCE,Carbamate resistance reported for at least one site
+578,IR_INSECTICIDERESISTANCE_PREV,Number of insecticide classes to which resistance was reported
+579,IR_ORGANOCHLORINE_EXTENT,Percentage of sites for which organochlorine resistance was reported
+580,IR_ORGANOCHLORINE_PRESENCE,Organochlorine resistance reported for at least one site
+581,IR_ORGANOPHOSPHATE_EXTENT,Percentage of sites for which organophosphate resistance was reported
+582,IR_ORGANOPHOSPHATE_PRESENCE,Organophosphate resistance reported for at least one site
+583,IR_PYRETHROID_EXTENT,Percentage of sites for which pyrethroid resistance was reported
+584,IR_PYRETHROID_PRESENCE,Pyrethroid resistance reported for at least one site
+585,itnch,Children aged < 5 years sleeping under insecticide-treated nets (%)
+586,itnwm,Pregnant women sleeping under insecticide-treated nets (%)
+587,ITU_ICT_1,Percentage of individuals using the Internet
+588,ITU_ICT_2,Mobile-cellular telephone subscriptions per 100 inhabitants
+589,ITU_IDI,ICT Development Index (IDI)
+590,ITU_IDI_RANK,ICT Development Index (IDI) rank
+591,LEAD_1,Percentage of the children under 15 years with blood lead levels above 5ug/dl
+592,LEAD_10,Lead attributable DALYs per 100'000 children under 5 years
+593,LEAD_2,Percentage of the children under 15 years with blood lead levels above 10ug/dl
+594,LEAD_3,Percentage of the adults (15+ years) with blood lead levels above 5ug/dl
+595,LEAD_4,Percentage of the adults (15+ years) with blood lead levels above 10ug/dl
+596,LEAD_5,Lead attributable deaths
+597,LEAD_6,Lead attributable DALYs ('000)
+598,LEAD_7,Lead attributable deaths per 100'000 capita
+599,LEAD_8,Lead attributable DALYs per 100'000 capita
+600,LEAD_9,Lead attributable DALYs ('000) in children under 5 years
+601,LEADCONTROL,Legally-binding controls on lead paint
+602,LIFE_0000000029,nMx - age-specific death rate between ages x and x+n
+603,LIFE_0000000030,nqx - probability of dying between ages x and x+n
+604,LIFE_0000000031,lx - number of people left alive at age x
+605,LIFE_0000000032,ndx - number of people dying between ages x and x+n
+606,LIFE_0000000033,nLx - person-years lived between ages x and x+n
+607,LIFE_0000000034,Tx - person-years lived above age x
+608,LIFE_0000000035,ex - expectation of life at age x
+609,M_def_1_prev_adult,Adult indicator 1 rate
+610,M_def_1_prev_youth,Youth indicator 1 rate
+611,M_def_1_text_adult,Adult indicator 1 definition
+612,M_def_1_text_youth,Youth indicator 1 definition
+613,M_def_2_prev_adult,Adult indicator 2 rate
+614,M_def_2_prev_youth,Youth indicator 2 rate
+615,M_def_2_text_adult,Adult indicator 2 definition
+616,M_def_2_text_youth,Youth indicator 2 definition
+617,M_Est_cig_curr,Estimate of current cigarette smoking prevalence (%)
+618,M_Est_tob_curr,Estimate of current tobacco use prevalence (%)
+619,M_Group,Monitoring tobacco use and prevention policies
+620,M_smkless_age_range_adult,Adult survey age range - smokeless
+621,M_smkless_age_range_youth,Youth survey age range - smokeless
+622,M_smkless_def_text_adult,Adult smokeless tobacco use indicator definition
+623,M_smkless_def_text_youth,Youth smokeless tobacco use indicator definition
+624,M_smkless_prev_adult,Adult smokeless tobacco use indicator rate
+625,M_smkless_prev_youth,Youth smokeless tobacco use indicator rate
+626,M_smkless_survey_title_adult,Name of survey of adults - smokeless
+627,M_smkless_survey_title_youth,Name of survey of youth - smokeless
+628,M_smkless_svy_national_adult,Representativeness of survey of adults - smokeless
+629,M_smkless_svy_national_youth,Representativeness of survey of youth - smokeless
+630,M_survey_title_adult,Name of survey of adults
+631,M_survey_title_youth,Name of survey of youth
+632,M_svy_age_adult,Adult survey age range
+633,M_svy_age_youth,Youth survey age range
+634,M_svy_national_adult,Representativeness of survey of adults
+635,M_svy_national_youth,Representativeness of youth survey
+636,MCV2,Measles-containing-vaccine second-dose (MCV2) immunization coverage by the nationally recommended age (%)
+637,MDG_0000000001,Infant mortality rate (probability of dying between birth and age 1 per 1000 live births)
+638,MDG_0000000003,Adolescent birth rate (per 1000 women aged 15-19 years)
+639,MDG_0000000007,Under-five mortality rate (probability of dying by age 5 per 1000 live births)
+640,MDG_0000000010,Median availability of selected generic medicines (%) - Public
+641,MDG_0000000011,Median consumer price ratio of selected generic medicines - Public
+642,MDG_0000000015,Prevalence of condom use by adults during higher-risk sex (15-49) (%)
+643,MDG_0000000017,Deaths due to tuberculosis among HIV-negative people (per 100 000 population)
+644,MDG_0000000020,Incidence of tuberculosis (per 100 000 population per year)
+645,MDG_0000000021,Population aged 15-24 years with comprehensive correct knowledge of HIV/AIDS (%)
+646,MDG_0000000025,Births attended by skilled health personnel (%)
+647,MDG_0000000026,Maternal mortality ratio (per 100 000 live births)
+648,MDG_0000000029,Prevalence of HIV among adults aged 15 to 49 (%)
+649,MDG_0000000030,Smear-positive tuberculosis case-detection rate (%)
+650,MDG_0000000031,Smear-positive tuberculosis treatment-success rate (%)
+651,MDG_0000000032,Maternal mortality ratio (per 100 000 live births) - Country reported estimates
+652,MDG_0000000033,Antiretroviral therapy coverage among people with HIV infection eligible for ART according to 2010 guidelines (%)
+653,MDG_0000000034,"Antiretroviral therapy coverage among people with advanced HIV infection (%), WHO 2006 guidelines"
+654,MENING_1,Number of suspected meningitis deaths reported
+655,MENING_2,Number of suspected meningitis cases reported
+656,MENING_3,Number of meningitis epidemic districts
+657,MH_1,Mental health policy
+658,MH_10,"Mental health outpatient facilities (per 100,000)"
+659,MH_11,"Mental health day treatment facilities (per 100,000)"
+660,MH_12,Age-standardized suicide rates (per 100 000 population)
+661,MH_13,"Beds for mental health in general hospitals (per 100,000)"
+662,MH_14,"Community residential facilities (per 100,000)"
+663,MH_15,"Beds in community residential facilities (per 100,000)"
+664,MH_16,"Beds in mental hospitals (per 100,000)"
+665,MH_17,"Mental hospitals (per 100,000)"
+666,MH_18,"Mental health units in general hospitals (per 100,000)"
+667,MH_19,"Mental hospital admissions (per 100,000)"
+668,MH_2,Mental health plan
+669,MH_20,"Outpatient visits (per 100,000)"
+670,MH_24,"Mental health units in general hospitals admissions (per 100,000)"
+671,MH_25,Stand-alone policy or plan for mental health
+672,MH_3,Stand-alone mental health legislation
+673,MH_4,Government expenditures on mental health as a percentage of total government expenditures on health (%)
+674,MH_5,Government expenditures on mental hospitals as a percentage of total government expenditures on mental health (%)
+675,MH_6,"Psychiatrists working in mental health sector (per 100,000)"
+676,MH_7,"Nurses working in mental health sector (per 100,000)"
+677,MH_8,"Social workers working in mental health sector (per 100,000)"
+678,MH_9,"Psychologists working in mental health sector (per 100,000)"
+679,MORT_100,Number of deaths
+680,MORT_200,Deaths per 1 000 live births
+681,MORT_300,Distribution of causes of death among children aged < 5 years (%)
+682,MORT_600,Projection of number of deaths
+683,MORT_700,Projection of deaths per 100 000 population
+684,MORT_MATERNALNUM,Number of maternal deaths
+685,MORTADO,Adolescent mortality rate (per 100 000 population)
+686,NCD_BMI_18A,"Prevalence of underweight among adults, BMI < 18 (age-standardized estimate) (%)"
+687,NCD_BMI_18C,"Prevalence of underweight among adults, BMI < 18 (crude estimate) (%)"
+688,NCD_BMI_25A,"Prevalence of overweight among adults, BMI &GreaterEqual; 25 (age-standardized estimate) (%)"
+689,NCD_BMI_25C,"Prevalence of overweight among adults, BMI &GreaterEqual; 25 (crude estimate) (%)"
+690,NCD_BMI_30A,"Prevalence of obesity among adults, BMI &GreaterEqual; 30 (age-standardized estimate) (%)"
+691,NCD_BMI_30C,"Prevalence of obesity among adults, BMI &GreaterEqual; 30 (crude estimate) (%)"
+692,NCD_BMI_MEAN,Mean BMI (kg/m²) (age-standardized estimate)
+693,NCD_BMI_MEANC,Mean BMI (kg/m&#xb2;) (crude estimate)
+694,NCD_BMI_MINUS2C,"Prevalence of thinness among children and adolescents, BMI < -2 standard deviations below the median (crude estimate) (%)"
+695,NCD_BMI_PLUS1C,"Prevalence of overweight among children and adolescents, BMI > +1 standard deviations above the median (crude estimate) (%)"
+696,NCD_BMI_PLUS2C,"Prevalence of obesity among children and adolescents, BMI > +2 standard deviations above the median (crude estimate) (%)"
+697,NCD_CCS_ACE,General availability of ACE inhibitors in the public health sector
+698,NCD_CCS_AlcPlan,Existence of operational policy/strategy/action plan to reduce the harmful use of alcohol
+699,NCD_CCS_Aspirin,General availability of aspirin (100 mg) in the public health sector
+700,NCD_CCS_betablockers,General availability of beta blockers in the public health sector
+701,NCD_CCS_BowelCancer,General availability of colon cancer screening at the primary health care level
+702,NCD_CCS_BreastCancer,General availability of breast cancer screening (by palpation or mammogram) at the primary health care level
+703,NCD_CCS_breastcancerscreening,Existence of national screening program for breast cancer
+704,NCD_CCS_Bronchodilators,General availability of bronchodilators in the public health sector
+705,NCD_CCS_CancerPlan,Existence of operational policy/strategy/action plan for cancer
+706,NCD_CCS_CancerRegNational,Existence of population-based cancer registry
+707,NCD_CCS_CCBlkrs,General availability of CC blockers in the public health sector
+708,NCD_CCS_CervCy,General availability of cervical cytology at the primary health care level
+709,NCD_CCS_cervicalcancermethod,Most widely used screening method in national cervical cancer screening program
+710,NCD_CCS_cervicalcancerpgmcvg,Coverage of national cervical cancer screening program (%)
+711,NCD_CCS_cervicalcancerpgmtype,Type of national cervical cancer screening program
+712,NCD_CCS_cervicalcancerscreening,Existence of national screening program for cervical cancer
+713,NCD_CCS_chemo,General availability of chemotherapy in the public health system
+714,NCD_CCS_CholMsmt,General availability of total cholesterol measurement at the primary health care level
+715,NCD_CCS_coronary,General availability of coronary bypass or stenting in the public health system
+716,NCD_CCS_CRDPlan,Existence of operational policy/strategy/action plan for chronic respiratory diseases
+717,NCD_CCS_CVDPlan,Existence of operational policy/strategy/action plan for cardiovascular diseases
+718,NCD_CCS_DiabetesReg,Existence of a diabetes registry
+719,NCD_CCS_DiabetesTest,"General availability of diabetes testing (by blood glucose measurement, OGTT, or HbA1c) at the primary health care level"
+720,NCD_CCS_DiabPlan,Existence of operational policy/strategy/action plan for diabetes
+721,NCD_CCS_diabtest,"General availability of diabetes testing (by blood glucose measurement, OGTT) at the primary health care level"
+722,NCD_CCS_dialysis,General availability of dialysis in the public health system
+723,NCD_CCS_dietpaaware,Implementation of diet and/or physical activity public awareness program
+724,NCD_CCS_DietPlan,Existence of operational policy/strategy/action plan to reduce unhealthy diet related to NCDs
+725,NCD_CCS_HbA1c,General availability of diabetes testing (by HbA1c) at the primary health care level
+726,NCD_CCS_hpv,Existence of national HPV vaccination programme
+727,NCD_CCS_Insulin,General availability of insulin in the public health sector
+728,NCD_CCS_integNCDplan,"Existence of an operational, multisectoral national NCD policy, strategy or action plan that integrates several NCDs and their risk factors"
+729,NCD_CCS_Metformin,General availability of metformin in the public health sector
+730,NCD_CCS_Mkting,Existence of any policies on marketing of foods to children
+731,NCD_CCS_MultisecComm,"Existence of a national multisectoral commission, agency or mechanism for NCDs"
+732,NCD_CCS_NCDGuide,Existence of evidence-based national guidelines/protocols/standards for the management of major NCDs through a primary care approach
+733,NCD_CCS_NCDIndicators,Existence of a set of national NCD indicators and has set time-bound national targets for these indicators
+734,NCD_CCS_NCDUnit_Operational,"Existence of an Operational Unit, Branch, or Dept. in Ministry of Health with responsibility for NCDs"
+735,NCD_CCS_Nicotine,General availability of nicotine replacement therapy in the public health sector
+736,NCD_CCS_oralhealthplan,Existence of operational policy/strategy/action plan for oral health
+737,NCD_CCS_OralMorph,General availability of oral morphine in the public health sector
+738,NCD_CCS_paaware,Implementation of physical activity public awareness program
+739,NCD_CCS_palliative_home,General availability of palliative care in community or home-based care in the public health system
+740,NCD_CCS_palliative_prim,General availability of palliative care in primary health care in the public health system
+741,NCD_CCS_PAPlan,Existence of operational policy/strategy/action plan to reduce physical inactivity
+742,NCD_CCS_PeakFlow,General availability of peak flow measurement at the primary health care level
+743,NCD_CCS_photocoag,General availability of retinal photocoagulation in the public health system
+744,NCD_CCS_PM3_Surv,Has a STEPS survey or a comprehensive health examination survey every 5 years
+745,NCD_CCS_renaltrans,General availability of renal replacement by transplantation in the public health system
+746,NCD_CCS_rheum,Provision for secondary prevention of rheumatic fever and rheumatic heart disease in more than 50% of public sector health facilities
+747,NCD_CCS_rheumfollowup,Has systems for follow-up/recall to deliver long-term penicillin prophylaxis to patients with rheumatic fever and rheumatic heart disease
+748,NCD_CCS_rheumreg,Existence of a register of patients who had rheumatic fever and rheumatic heart disease
+749,NCD_CCS_riskstrat,Availability of cardiovascular risk stratification in 50% or more primary health care facilities
+750,NCD_CCS_SaltPol,Existence of any policies to reduce population salt consumption
+751,NCD_CCS_SatFat,Existence of national policies on saturated fatty acids / trans-fats
+752,NCD_CCS_Spirom,General availability of spirometry at the primary health care level
+753,NCD_CCS_SSBTAX,Existence of tax on sugar-sweetened beverages
+754,NCD_CCS_Statins,General availability of statins in the public health sector
+755,NCD_CCS_Steroid,General availability of steroid inhalers in the public health sector
+756,NCD_CCS_stroke,Provision for care of acute stroke and rehabilitation in more than 50% of public sector health facilities
+757,NCD_CCS_sulphonylurea,General availability of sulphonylurea(s) in the public health sector
+758,NCD_CCS_SurvMonRep9NCD,Existence of an NCD surveillance and monitoring system in place to enable reporting against the nine global NCD targets
+759,NCD_CCS_targets,Existence of a set of time-bound national targets based on WHO guidance
+760,NCD_CCS_Thiazide,General availability of thiazide diuretics in the public health sector
+761,NCD_CCS_thrombolytic,General availability of thrombolytic therapy in the public health system
+762,NCD_CCS_TobPlan,Existence of operational policy/strategy/action plan to decrease tobacco use
+763,NCD_CCS_UrineAlbumin,General availability of urine testing for albumin
+764,NCD_DTH_TOT,Total NCD Deaths (in thousands)
+765,NCD_GLUC_01,Mean fasting blood glucose (mmol/l) (age-standardized estimate)
+766,NCD_GLUC_02,Mean fasting blood glucose (mmol/l) (crude estimate)
+767,NCD_GLUC_03,Raised fasting blood glucose (>= 7.0 mmol/L) (crude estimate)
+768,NCD_GLUC_04,Raised fasting blood glucose (>=7.0 mmol/L) (age-standardized estimate)
+769,NCD_PAA,Prevalence of insufficient physical activity among adults aged 18+ years (age-standardized estimate) (%)
+770,NCD_PAC,Prevalence of insufficient physical activity among adults aged 18+ years (crude estimate) (%)
+771,NCD_PAC_ADO,Insufficiently active (crude estimate)
+772,NCD_UNDER70,Premature deaths due to noncommunicable diseases (NCD) as a proportion of all NCD deaths
+773,NCDMORT3070,"Probability (%) of dying between age 30 and exact age 70 from any of cardiovascular disease, cancer, diabetes, or chronic respiratory disease"
+774,NHABASIS,Basis for NHA estimate
+775,nmr,Neonatal mortality rate (deaths per 1000 live births)
+776,NTCP_agcy,National agency for tobacco control exists
+777,NTCP_budget_year,Budget year
+778,NTCP_curr,Reported currency
+779,NTCP_FTE,Number of full-time equivalent staff in national agency
+780,NTCP_govt_exp,Annual budget for tobacco control in currency reported
+781,NTCP_govt_obj,Government objectives on tobacco control exist
+782,NTD_1,Number of new reported cases of Buruli ulcer
+783,NTD_2,Dracunculiasis certification status of countries at the beginning of the year
+784,NTD_3,Annual incidence of dracunculiasis cases
+785,NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense)
+786,NTD_5,Number of new reported cases of human African trypanosomiasis (T.b. rhodesiense)
+787,NTD_6,Status of elimination of trachoma as a public health problem
+788,NTD_7,"Population in areas that warrant treatment with antibiotics, facial cleanliness and environmental improvement for elimination of trachoma as a public health problem"
+789,NTD_8,Number of people who received treatment with antibiotics for trachoma
+790,NTD_BEJELSTATUS,Status of bejel endemicity
+791,NTD_LEISHCEND,Status of endemicity of cutaneous leishmaniasis
+792,NTD_LEISHCNUM,Number of cases of cutaneous leishmaniasis reported
+793,NTD_LEISHCNUM_IM,Number of imported cases of cutaneous leishmaniasis reported
+794,NTD_LEISHVEND,Status of endemicity of visceral leishmaniasis
+795,NTD_LEISHVNUM,Number of cases of visceral leishmaniasis reported
+796,NTD_LEISHVNUM_IM,Number of imported cases of visceral leishmaniasis reported
+797,NTD_LEPR11,Number of female leprosy new cases
+798,NTD_LEPR2,New leprosy case detection rate per 1 000 000 population
+799,NTD_LEPR3,Leprosy - Number of cases registered for treatment
+800,NTD_LEPR4,Leprosy registered prevalence rate per 1 000 000 population
+801,NTD_LEPR5,Number of new G2D leprosy cases
+802,NTD_LEPR7,Leprosy - New leprosy cases with G2D rate per 1 000 000 population
+803,NTD_LEPR8,Leprosy - Number of new leprosy cases among children (less than 15 years of age)
+804,NTD_LEPR9,Number of new leprosy cases with G2D among children (less than 15 years of age)
+805,NTD_ONCHEMO,Estimated number of individuals in the country requiring preventive chemotherapy for onchocerciasis
+806,NTD_ONCHSTATUS,Status of endemicity of onchocerciasis
+807,NTD_ONCTREAT,Reported number of individuals treated for onchocerciasis
+808,NTD_PINTASTATUS,Status of pinta endemicity
+809,NTD_RAB2,Reported number of human rabies deaths
+810,NTD_TRA5,Number of people operated for trachomatous trichiasis
+811,NTD_TSOL1,Status of endemicity of Taenia solium
+812,NTD_TSOL3,Number of pigs in the country
+813,NTD_TSOL4,Practice of backyard pig production
+814,NTD_YAWSEND,Status of yaws endemicity
+815,NTD_YAWSNUM,Number of cases of yaws reported
+816,NUTOVERWEIGHTNUM,"Overweight numbers among children under 5 years of age (millions), model-based estimates"
+817,NUTOVERWEIGHTPREV,"Overweight prevalence among children under 5 years of age (% weight-for-height >+2 SD), model-based estimates"
+818,NUTRITION_2005,Proportion of children aged 6-23 months who receive a minimum acceptable diet
+819,NUTRITION_564,Children aged <5 years wasted for age (%)
+820,NUTRITION_570,Early initiation of breastfeeding (%)
+821,NUTRITION_579,Exclusive breastfeeding under 6 months (%)
+822,NUTRITION_ANT_HAZ_NE2,"Stunting prevalence among children under 5 years of age (% height-for-age <-2 SD), survey-based estimates"
+823,NUTRITION_ANT_WHZ_NE2,"Overweight prevalence among children under 5 years of age (% weight-for-height >+2 SD), survey-based estimates"
+824,NUTRITION_WA_2,"Underweight prevalence among children under 5 years of age   (% weight-for-age <-2 SD), survey-based estimates"
+825,NUTRITION_WH_2,"Wasting prevalence among children under 5 years of age (% weight-for-height <-2 SD), survey-based estimates"
+826,NUTRITION_WH_3,"Severe wasted prevalence among children under 5 years of age   (% weight-for-height <-3 SD), survey-based estimates"
+827,NUTSEVWASTINGNUM,"Severe wasted numbers among children under 5 years of age (millions), model-based estimates"
+828,NUTSEVWASTINGPREV,"Severe wasted prevalence among children under 5 years of age (%), model-based estimates"
+829,NUTSTUNTINGNUM,"Stunting numbers among children under 5 years of age (millions), model-based estimates"
+830,NUTSTUNTINGPREV,"Stunting prevalence among children under 5 years of age (% height-for-age <-2 SD), model-based estimates"
+831,NUTUNDERWEIGHTNUM,"Underweight numbers among children under 5 years of age (millions), model-based estimates"
+832,NUTUNDERWEIGHTPREV,"Underweight prevalence among children under 5 years of age (%), model-based estimates"
+833,NUTWASTINGNUM,"Wasted numbers among children under 5 years of age (millions), model-based estimates"
+834,NUTWASTINGPREV,"Wasted prevalence among children under 5 years of age (%), model-based estimates"
+835,O_Avail_community,Treatment for tobacco dependence available in the community
+836,O_Avail_hlth_clin,Treatment for tobacco dependence available in health clinics or other primary care facilities
+837,O_Avail_hosp,Treatment for tobacco dependence available in hospitals
+838,O_Avail_off_hlth_prof,Treatment for tobacco dependence available in offices of health professionals
+839,O_Avail_other,Treatment for tobacco dependence available in other settings
+840,O_Bup_ins,Bupropion - cost covered
+841,O_Bup_sold,Bupropion - legally sold
+842,O_Bup_where,Bupropion - place available
+843,O_Group,Offering help to quit tobacco use
+844,O_Ins_community,Treatment for tobacco dependence in the community cost covered
+845,O_Ins_hlth_clin,Treatment for tobacco dependence in health clinics or other primary care facilities cost covered
+846,O_Ins_hosp,Treatment for tobacco dependence in hospitals cost covered
+847,O_Ins_off_hlth_prof,Treatment for tobacco dependence in offices of health professionals cost covered
+848,O_Ins_other,Treatment for tobacco dependence in other settings cost covered
+849,O_NRT_EML,Nicotine replacement therapy on the Essential Medicines List
+850,O_NRT_ins,Nicotine replacement therapy - cost covered
+851,O_NRT_sold,Nicotine replacement therapy - legally sold
+852,O_NRT_where,Nicotine replacement therapy - place available
+853,O_Quitline,Access to a toll-free quit line
+854,O_Varen_ins,Varenicline - cost covered
+855,O_Varen_sold,Varenicline - legally sold
+856,O_Varen_where,Varenicline - place available
+857,OCC_1,Occupational risk factors attributable deaths
+858,OCC_10,Occupational carcinogens attributable DALYs ('000)
+859,OCC_11,Occupational carcinogens attributable deaths per 100'000 capita
+860,OCC_12,Occupational carcinogens attributable DALYs per 100'000 capita
+861,OCC_13,Occupational noise attributable DALYs ('000)
+862,OCC_14,Occupational noise attributable DALYs per 100'000 capita
+863,OCC_15,Occupational ergonomic stressors attributable deaths
+864,OCC_16,Occupational ergonomic stressors attributable DALYs ('000)
+865,OCC_17,Occupational ergonomic stressors attributable deaths per 100'000 capita
+866,OCC_18,Occupational ergonomic stressors attributable DALYs per 100'000 capita
+867,OCC_19,Occupational injuries attributable deaths
+868,OCC_2,Occupational risk factors attributable DALYs ('000)
+869,OCC_20,Occupational injuries attributable DALYs ('000)
+870,OCC_21,Occupational injuries attributable deaths per 100'000 capita
+871,OCC_22,Occupational injuries attributable DALYs per 100'000 capita
+872,OCC_3,Occupational risk factors attributable deaths per 100'000 capita
+873,OCC_4,Occupational risk factors attributable DALYs per 100'000 capita
+874,OCC_5,Occupational airborne particulates attributable deaths
+875,OCC_6,Occupational airborne particulates attributable DALYs ('000)
+876,OCC_7,Occupational airborne particulates attributable deaths per 100'000 capita
+877,OCC_8,Occupational airborne particulates attributable DALYs per 100'000 capita
+878,OCC_9,Occupational carcinogens attributable deaths
+879,ODA_1,"Donor commitments (Million, constant 2009 US$)"
+880,ODA_2,"Commitments to recipient countries (Million, constant 2009 US$)"
+881,ODA_3,"Donor disbursements (Million, constant 2009 US$)"
+882,ODA_4,"Disbursements to recipient countries (Million, constant 2009 US$)"
+883,ors,Children aged < 5 years with diarrhoea receiving oral rehydration salts (%)
+884,ort,Children aged < 5 years with diarrhoea receiving oral rehydration therapy and continued feeding (%)
+885,overwgt5,Overweight prevalence in children aged <five years (%)
+886,P_count_places_sf,National smoking ban: NUMBER OF PLACES SMOKE-FREE
+887,P_Group,Protecting people from tobacco smoke
+888,P1_compliance,Compliance of ban on smoking in HEALTH-CARE FACILITIES
+889,P1_healthcare,National smoking ban in HEALTH-CARE FACILITIES
+890,P10_subnat_auth_exists,Subnational smoking bans - authority exists
+891,P11_fines_any,National smoking ban: FINES FOR VIOLATIONS
+892,P12_fines_establishment,National smoking ban: FINES ON THE ESTABLISHMENT
+893,P13_fines_smoker,National smoking ban: FINES ON THE PATRON
+894,P14_funds_for_enforce,National smoking ban: DEDICATED FUNDS FOR ENFORCEMENT
+895,P15_complaints,National smoking ban: CITIZEN COMPLAINTS AND INVESTIGATIONS
+896,P16_subnat_complete_bans_exist,Comprehensive bans in place subnationally
+897,P2_compliance,Compliance of ban on smoking in EDUCATIONAL FACILITIES EXCEPT UNIVERSITIES
+898,P2_education,National smoking ban in EDUCATIONAL FACILITIES EXCEPT UNIVERSITIES
+899,P3_compliance,Compliance of ban on smoking in UNIVERSITIES
+900,P3_universities,National smoking ban in UNIVERSITIES
+901,P4_compliance,Compliance of ban on smoking in GOVERNMENT FACILITIES
+902,P4_govt,National smoking ban in GOVERNMENT FACILITIES
+903,P5_compliance,Compliance of ban on smoking in INDOOR OFFICES
+904,P5_indoor_off,National smoking ban in INDOOR OFFICES
+905,P6_compliance,Compliance of ban on smoking in RESTAURANTS
+906,P6_restaurants,National smoking ban in RESTAURANTS
+907,P7_compliance,Compliance of ban on smoking in PUBS AND BARS
+908,P7_pubs,National smoking ban in PUBS AND BARS
+909,P8_compliance,Compliance of ban on smoking in PUBLIC TRANSPORT
+910,P8_pub_transp,National smoking ban in PUBLIC TRANSPORT
+911,P9_all_other,National smoking ban in ALL OTHER INDOOR PUBLIC PLACES
+912,PC_sfe_compliance,Compliance with regulations on smoke-free environments (national legislation)
+913,PCV3,Pneumoccocal conjugate vaccines (PCV3) immunization coverage among 1-year-olds (%)
+914,PercposANC,Antenatal care attendees who were positive for syphilis (%)
+915,PerctestedANC,Women accessing antenatal care (ANC) services who were tested for syphilis (%)
+916,PerctreatedANC,Antenatal care attendees positive for syphilis who received treatment (%)
+917,pncall,Postnatal care visit within two days of birth (in the x years preceding the survey) (%)
+918,pncall3,Postnatal care visit within two days of birth (in the three years preceding the survey) (%)
+919,pncall5,Postnatal care visit within two days of birth (in the five years preceding the survey) (%)
+920,pnchome,Postnatal care visit within two days of birth - born outside a health facility (in the x years preceding the survey) (%)
+921,pnchome3,Postnatal care visit within two days of birth - born outside a health facility (in the three years preceding the survey) (%)
+922,pnchome5,Postnatal care visit within two days of birth - born outside a health facility (in the five years preceding the survey) (%)
+923,poliov,Polio immunization coverage among one-year-olds (%)
+924,R_Ad_val_average,Average - taxes as a % of cigarette price - ad valorem excise
+925,R_Ad_val_estimate,Most sold brand of cigarettes - taxes as a % of price - ad valorem excise
+926,R_admin_duty_free_allowance,"Tax administration: If duty free imports are limited, duty free allowance (number of cigarette sticks)"
+927,R_admin_duty_free_limited,Tax administration: Bans or limits on duty free imports by travellers
+928,R_admin_tax_stamps,Tax administration: Tax stamps applied on tobacco products
+929,R_afford_gdp,Affordability - percentage of GDP per capita required to purchase 2000 cigarettes of the most sold brand
+930,R_afford_price_dispersion,Affordability: Price dispersion: share of cheapest brand price in premium brand price (the higher the % the smaller the gap)
+931,R_afford_tax_auto_adjust,Affordability: Specific tax component automatically adjusted for inflation (or other)
+932,R_Curr_lowest_cost,Cheapest brand of cigarettes - currency reported
+933,R_Curr_mp,Most sold brand of cigarettes - currency reported
+934,R_Curr_premium_cost,Premium brand of cigarettes - currency reported
+935,R_excise_incr,Tobacco excises increased over the survey period
+936,R_excise_min_specific,Tax structure: Minimum specific tax applied in ad valorem or mixed excise regime
+937,R_excise_proportion,Tax structure: Excise tax proportion of price
+938,R_excise_retail_price_base,Tax structure: Retail price used as base of ad valorem component in ad valorem or mixed excise regime (or retail price exclusive of VAT)
+939,R_excise_specific_reliance,Tax structure: Greater reliance on specific tax in mixed excise regime
+940,R_excise_type,Tax structure: Type of excise tax applied
+941,R_excise_uniform_varied,Tax structure: Uniform excise tax
+942,R_Group,Raising taxes on tobacco
+943,R_imp_duty_average,Average - taxes as a % of cigarette price - import duties
+944,R_imp_duty_estimate,Most sold brand of cigarettes - taxes as a % of price - import duties
+945,R_Other_average,Average - taxes as a % of cigarette price - other taxes
+946,R_Other_estimate,Most sold brand of cigarettes - taxes as a % of price - other taxes
+947,R_Price_mp_estimate,Most sold brand of cigarettes - price in currency reported
+948,R_Price_premium_estimate,Premium brand of cigarettes - price in currency reported
+949,R_Price_premium_ppp,Premium brand of cigarettes - price in international dollars
+950,R_Price_premium_usd,Premium brand of cigarettes - price in US$ at official exchange rates
+951,R_Sp_excise_average,Average - taxes as a % of cigarette price - specific excise
+952,R_Sp_excise_estimate,Most sold brand of cigarettes - taxes as a % of price - specific excise
+953,R_total_tax_average,Average - taxes as a % of cigarette price - total tax
+954,R_total_tax_estimate,Most sold brand of cigarettes - taxes as a % of price - total tax
+955,R_VAT_average,Average - taxes as a % of cigarette price - value added tax
+956,R_VAT_estimate,Most sold brand of cigarettes - taxes as a % of price - value added tax
+957,RADON_Q201,Existence of any national radon activity
+958,RADON_Q301,Existence of national radon survey(s)
+959,RADON_Q302,National radon concentration levels
+960,RADON_Q303,Existence of national radon database
+961,RADON_Q304,Data in national radon database
+962,RADON_Q401,Existence of national radon action plan
+963,RADON_Q402,Existence of national radon regulations
+964,RADON_Q403,Radon in building regulations for new buildings
+965,RADON_Q404,Radon in building regulations for existing buildings i.e. renovation/remodeling/major alteration
+966,RADON_Q405,Radon in national drinking-water regulations
+967,RADON_Q501,Existence of national reference level for dwellings and buildings with high public occupancy
+968,RADON_Q502,Existence of national reference level for buildings with high public occupancy
+969,RADON_Q601,Existence of official protocols for radon measurements
+970,RADON_Q602,Radon concentration measurements for new buildings
+971,RADON_Q603,Radon concentration measurements for existing buildings
+972,RADON_Q604,Authorization/accreditation required for official radon measurement providers
+973,RADON_Q701,Mandatory preventive measures (new buildings)
+974,RADON_Q702,Mandatory mitigation measures if legal value is exceeded (existing buildings)
+975,RADON_Q703,Financial support provided for mitigation (existing dwellings)
+976,RADON_Q704,Authorization/accreditation required for prevention/mitigation service providers
+977,RADON_Q705,Official standards/guidelines for prevention/mitigation
+978,RADON_Q706,Existence of training/education on prevention/mitigation
+979,RADON_Q801,Existence of national radon risk communication strategy
+980,RADON_Q802,Inclusion of radon measurements in property transactions
+981,RADON_Q803,Inclusion of radon in national cancer control strategy
+982,RateCS,Congenital syphilis rate per 100 000 live births
+983,Rev_curr,Annual tax revenues - currency
+984,Rev_excise,Annual tax revenues - total excise (specific and ad valorem)
+985,Rev_govt_total,Annual tax revenues - total revenues
+986,Rev_imp_other,Annual tax revenues - import duties and all other taxes (excluding corporate taxes on tobacco companies)
+987,Rev_type,Annual tax revenues - tobacco products included
+988,Rev_VAT,Annual tax revenues - value added tax (vat) and other sales taxes
+989,Rev_year,Annual tax revenues - year
+990,RHR_IPV,Intimate partner violence prevalence among ever partnered women (%)
+991,RHR_NPSV,Non-partner sexual violence prevalence (%)
+992,ROTAC,Rotavirus vaccines completed dose (RotaC) immunization coverage among 1-year-olds (%)
+993,RS_1845,Population
+994,RS_193,Income level
+995,RS_194,Number of registered vehicles
+996,RS_196,Estimated number of road traffic deaths
+997,RS_198,Estimated road traffic death rate (per 100 000 population)
+998,RS_204,Existence of a national drink-driving law
+999,RS_205,Definition of drink-driving by BAC
+1000,RS_207,Blood Alcohol Concentration (BAC) limit for drivers
+1001,RS_208,Attribution of road traffic deaths to alcohol (%)
+1002,RS_209,Existence of a national seat-belt law
+1003,RS_210,Applicability of seat-belt law to all occupants
+1004,RS_212,Seat-belt wearing rate (%)
+1005,RS_213,Existence of a national child-restraint law
+1006,RS_214,Existence of national speed limits
+1007,RS_217,Maximum speed limits
+1008,RS_219,Applicability of national motorcycle helmet law to all occupants
+1009,RS_223_BIS,Law requires helmet to be fastened
+1010,RS_225,Existence of a road safety lead agency
+1011,RS_228,Existence of a national road safety strategy
+1012,RS_229,Availability of funding for national road safety strategy
+1013,RS_237,Existence of a formal pre-hospital care system
+1014,RS_238,Existence of a universal access telephone number for pre-hospital care
+1015,RS_242,Vehicle standards
+1016,RS_246,Distribution of road traffic deaths by type of road user (%)
+1017,RS_576,Gross national income per capita (Atlas method)
+1018,RSUD_1,"Point prevalence (%), alcohol use disorders, 15+ years"
+1019,RSUD_10,National survey on substance use among children and adolescents
+1020,RSUD_100,Government unit/official responsible for prevention for substance use
+1021,RSUD_11,Data on substance use disorders disseminated in national annual reports
+1022,RSUD_110,Ministry/office that takes primary responsibility for prevention for substance use
+1023,RSUD_12,Substance use policy at the national level
+1024,RSUD_120,Five years change in international cooperation for prevention for substance use
+1025,RSUD_13,"Substance use policy at the national level, level of integration"
+1026,RSUD_130,Government unit/official responsible for treatment of substance use disorders
+1027,RSUD_14,Policy documents on the pharmacological treatment of substance use disorders
+1028,RSUD_140,Ministry/office that takes primary responsibility for treatment of substance use disorders
+1029,RSUD_15,Guidelines on the pharmacological treatment of substance use disorders
+1030,RSUD_150,Involvement of representatives of affected or targeted populations in the development and formulation of policies and strategies for treatment of substance use disorders
+1031,RSUD_16,Legislative provision for treatment and rehabilitation of substance use disorders
+1032,RSUD_160,Involvement of representatives of affected or targeted populations in the development and implementation of national programmes for treatment of substance use disorders
+1033,RSUD_17,Legislative provision for compulsory treatment
+1034,RSUD_170,Involvement of representatives of affected or targeted populations in the development and formulation of policies and strategies for prevention for alcohol and drugs
+1035,RSUD_18,Drug courts
+1036,RSUD_180,Involvement of representatives of affected or targeted populations in the development and implementation of national programmes for prevention for alcohol and drugs
+1037,RSUD_19,Programmes diverting clients from the justice system towards treatment
+1038,RSUD_190,Five years change in international cooperation for treatment of substance use disorders
+1039,RSUD_2,"Point prevalence (%), drug use disorders, 15+ years"
+1040,RSUD_20,Confidentiality of health records on substance use disorders  protected by law
+1041,RSUD_200,Confidentiality of people in treatment for substance use disorders
+1042,RSUD_21,Government unit for substance use disorder treatment
+1043,RSUD_210,Voluntary treatment for people with alcohol use disorders in the criminal justice system
+1044,RSUD_22,Budget line for substance use disorder treatment
+1045,RSUD_220,Voluntary treatment for people with drug use disorders in the criminal justice system
+1046,RSUD_23,Financing method for substance use disorder treatment
+1047,RSUD_230,Compulsory treatment for people with alcohol use disorders in the criminal justice system
+1048,RSUD_240,Compulsory treatment for people with drug use disorders in the criminal justice system
+1049,RSUD_250,Five-year change in government resources for prevention for substance use
+1050,RSUD_26,Governement benefits for persons with substance use disorders
+1051,RSUD_260,Five-year change in government resources for treatment of substance use disorders
+1052,RSUD_27,"Government benefits for alcohol use disorders, subsidy or disability pension"
+1053,RSUD_270,Financing methods for treatment for alcohol use disorders
+1054,RSUD_28,"Government benefits for drug use disorders, subsidy or disability pension"
+1055,RSUD_280,Financing methods for treatment for drug use disorders
+1056,RSUD_29,Sector for inpatient detoxification of alcohol use disorders
+1057,RSUD_290,Hypothecated taxes to be spent on prevention and treatment for substance use disorders
+1058,RSUD_3,"Age-standardized death rates, alcohol and drug use disorders, per 100 000"
+1059,RSUD_30,Sector for inpatient treatment of alcohol dependence
+1060,RSUD_300,Government benefits for people with alcohol use disorders
+1061,RSUD_31,Sector for outpatient treatment of alcohol dependence
+1062,RSUD_310,Government benefits for people with drug use disorders
+1063,RSUD_32,Sector for the treatment of alcohol-induced psychoses and other alcohol-induced psychiatric conditions
+1064,RSUD_320,Main sector for treatment for alcohol use disorders
+1065,RSUD_33,Sector for residential long-term rehabilitation of alcohol use disorders
+1066,RSUD_330,Main sector for treatment for drug use disorders
+1067,RSUD_34,Sector for inpatient detoxification of drug use disorders
+1068,RSUD_340,Treatment programmes for children and adolescents with alcohol use disorders
+1069,RSUD_35,Sector for inpatient treatment of drug dependence
+1070,RSUD_350,Treatment programmes for children and adolescents with drug use disorders
+1071,RSUD_36,Sector for outpatient treatment of drug dependence
+1072,RSUD_360,Specialized treatment facilities for substance use disorders
+1073,RSUD_37,Sector for substitution maintenance therapy of opioid dependence
+1074,RSUD_370,Specialized treatment facilities for alcohol use disorders
+1075,RSUD_38,Sector for residential long-term rehabilitation of drug use disorders
+1076,RSUD_380,Specialized treatment facilities for drug use disorders
+1077,RSUD_39,Treatment system for substance use disorders
+1078,RSUD_390,Self-help groups
+1079,RSUD_40,"Treatment setting for substance use disorders, most common"
+1080,RSUD_400,Main substance at treatment entry
+1081,RSUD_41,Specialized treatment services for drug use disoders and HIV/AIDS
+1082,RSUD_410,Reported treatment coverage for substance dependence
+1083,RSUD_42,Specialized treatment services for substance use disorders and TB
+1084,RSUD_420,Guidelines on pharmacological treatment for substance use disorders
+1085,RSUD_43,Open access services for substance use disorders
+1086,RSUD_430,Pharmacotherapy with methadone
+1087,RSUD_44,"Treatment slots for alcohol and drug use disorders, outpatient, per 10 000"
+1088,RSUD_440,Pharmacotherapy with buprenorphine
+1089,RSUD_45,"Beds for the treatment of substance use disorders, per 100 000"
+1090,RSUD_450,Pharmacotherapy with buprenorphine/naloxone
+1091,RSUD_46,"Length of stay for inpatient detoxification, days"
+1092,RSUD_460,Access restrictions to maintenance treatment
+1093,RSUD_47,"Length of stay for inpatient short-term treatment, days"
+1094,RSUD_470,Timeframe for maintenance treatment of opioid dependence
+1095,RSUD_48,"Length of stay for inpatient long-term residential treatment, days"
+1096,RSUD_480,Registration of medications for alcohol dependence and withdrawal
+1097,RSUD_49,Opioid agonist pharmacotherapy for the treatment of opioid dependence (detoxification or maintenance)
+1098,RSUD_490,Registration of medications for opioid dependence
+1099,RSUD_5,"Age-standardized DALYs, alcohol and drug use disorders, per 100 000"
+1100,RSUD_50,Timeframe of opioid agonist treatment
+1101,RSUD_500,Registration of medications for opioid withdrawal
+1102,RSUD_51,Methadone used for the treatment of opioid dependence
+1103,RSUD_510,Registration of naloxone for injection for opioid overdose
+1104,RSUD_52,Methadone used for detoxification or maintenance
+1105,RSUD_520,Availability of naloxone
+1106,RSUD_53,Methadone formulation used for the treatment of opiod dependence
+1107,RSUD_530,Screening and brief intervention for substance use in primary health care
+1108,RSUD_54,Buprenorphine used for the treatment of opioid dependence
+1109,RSUD_540,Screening and brief intervention for substance use in antenatal services
+1110,RSUD_55,Buprenorphine used for detoxification or maintenance
+1111,RSUD_550,Recommendations for screening and brief interventions for substance use in primary health care
+1112,RSUD_56,Buprenorphine/naloxone used for the treatment of opioid dependence
+1113,RSUD_560,Recommendations for screening and brief interventions for substance use in antenatal services
+1114,RSUD_57,Buprenorphine/naloxone used for detoxification or maintenance
+1115,RSUD_570,Groups and agencies involved in prevention programs
+1116,RSUD_58,Methadone provision in clinical and community-based settings
+1117,RSUD_580,Prevention programmes for alcohol
+1118,RSUD_59,Buprenorphine provision in clinical and community-based settings
+1119,RSUD_590,Prevention programmes for specific populations for alcohol
+1120,RSUD_60,Buprenorphine/naloxone provision in clinical and community-based settings
+1121,RSUD_600,Prevention programmes for drugs
+1122,RSUD_61,Supervision requirements for methadone administration
+1123,RSUD_610,Prevention programmes for specific populations for drugs
+1124,RSUD_62,Supervision requirements for buprenorphine administration
+1125,RSUD_620,"HIV, Hepatitis counselling and treatment availability in specialized facilities and services"
+1126,RSUD_63,Supervision requirements for buprenorphine/naloxone administration
+1127,RSUD_630,Programmes readily available
+1128,RSUD_64,Prescription requirements for methadone
+1129,RSUD_640,Standards of treatment and care for public specialized treatment facilities
+1130,RSUD_65,Prescription requirements for buprenorphine
+1131,RSUD_650,Special treatment programmes for gambling disorder
+1132,RSUD_66,Prescription requirements for buprenorphine/naloxone
+1133,RSUD_660,Treatment programmes for women with alcohol use disorders
+1134,RSUD_67,Commencement of treatment with opioid agonists
+1135,RSUD_670,Treatment programmes for women with drug use disorders
+1136,RSUD_68,Pharmacotherapy used for the management of alcohol withdrawal
+1137,RSUD_680,Special housing services for alcohol use disorders
+1138,RSUD_69,Pharmacotherapy used for the management of benzodiazepine withdrawal
+1139,RSUD_690,Special housing services for drug use disorders
+1140,RSUD_7,Psychoactive substance causing entry into treatment
+1141,RSUD_70,Pharmacotherapy used for the management of cannabis withdrawal
+1142,RSUD_700,Employment services for alcohol use disorders
+1143,RSUD_71,Essential list of medicines
+1144,RSUD_710,Employment services for drug use disorders
+1145,RSUD_72,"Essential list of medicines, pharmacotherapy for substance use disorders"
+1146,RSUD_720,Open access interventions for alcohol
+1147,RSUD_73,Government unit for substance use disorder prevention
+1148,RSUD_730,Open access interventions for drugs
+1149,RSUD_74,Budget line for substance use disorder prevention
+1150,RSUD_740,Health professionals providing treatment for alcohol and drug use disorders
+1151,RSUD_75,Funding method for substance use disorder prevention
+1152,RSUD_750,Standards of care for professionals providing treatment for alcohol and drug use disorders
+1153,RSUD_76,"Prevention activities for substance use disorders, main focus"
+1154,RSUD_760,Educational attainment in prevention
+1155,RSUD_77,Programmes for the prevention of substance use disorders for special populations
+1156,RSUD_770,Postgraduate training programme in prevention
+1157,RSUD_78,Screening and brief interventions for substance use and substance use disorders
+1158,RSUD_780,Continuing professional development in prevention
+1159,RSUD_79,Harm reduction programmes for IDUs
+1160,RSUD_790,Educational attainment in treatment
+1161,RSUD_8,Epidemiological data collection system for substance use disorders
+1162,RSUD_80,Health professionals mostly involved in treatment of substance use disorders
+1163,RSUD_800,Postgraduate training programme in treatment
+1164,RSUD_81,Clinical supervision of health care staff
+1165,RSUD_810,Continuing professional development in treatment
+1166,RSUD_82,Standards of care for health professionals
+1167,RSUD_820,Epidemiological data collection for substance use
+1168,RSUD_83,"Standards of care for health professionals, maintenance"
+1169,RSUD_830,Service delivery data collection for substance use
+1170,RSUD_84,"Standards of care for health professionals, human rights"
+1171,RSUD_840,Regular reports on epidemiological and service delivery data for substance use
+1172,RSUD_85,NGOs for alcohol use disorders
+1173,RSUD_850,System of monitoring alcohol involvement in forensic pathology
+1174,RSUD_86,NGOs for drug use disorders
+1175,RSUD_860,System of monitoring drugs involvement in forensic pathology
+1176,RSUD_87,Self-help groups for substance use disorders
+1177,RSUD_870,Epidemiological data collection system for substance use among children and adolescents
+1178,RSUD_88,Groups and agencies for the prevention of substance use disorders
+1179,RSUD_880,Epidemiological data collection system for substance use among children and adolescents
+1180,RSUD_89,Opioid agonist pharmacotherapy for the treatment of opioid dependence (maintenance)
+1181,RSUD_890,Treatment programmes for children and adolescents with alcohol use disorders
+1182,RSUD_9,Service delivery data collection system for substance use disorders
+1183,RSUD_900,Treatment programmes for children and adolescents with drug use disorders
+1184,SA_0000001398,"Alcohol, consumption of pure alcohol by type of beverage (%)"
+1185,SA_0000001398_ARCHIVED,"Alcohol, consumption of pure alcohol by type of beverage (%)"
+1186,SA_0000001400,"Alcohol, recorded per capita (15+) consumption (in litres of pure alcohol)"
+1187,SA_0000001400_ARCHIVED,"Alcohol, recorded per capita (15+) consumption (in litres of pure alcohol)"
+1188,SA_0000001401,"Alcohol, recorded per capita (15+) consumption (in litres of pure alcohol), three-year average"
+1189,SA_0000001401_ARCHIVED,"Alcohol, recorded per capita (15+) consumption (in litres of pure alcohol), three-year average"
+1190,SA_0000001402,"Alcohol, estimate of five-year change in recorded per capita (15+) consumption 2006-2010"
+1191,SA_0000001402_ARCHIVED,"Alcohol, estimate of five-year change in recorded per capita (15+) consumption 2006-2010"
+1192,SA_0000001403,"Alcohol, total (recorded 3 year average + unrecorded) per capita (15+) consumption (in litres of pure alcohol)"
+1193,SA_0000001403_ARCHIVED,"Alcohol, total (recorded 3 year average + unrecorded) per capita (15+) consumption (in litres of pure alcohol)"
+1194,SA_0000001404,"Alcohol, drinkers only per capita (15+)consumption in litres of pure alcohol"
+1195,SA_0000001404_ARCHIVED,"Alcohol, drinkers only per capita (15+)consumption in litres of pure alcohol"
+1196,SA_0000001405,"Alcohol, tourist consumption (in litres of pure alcohol)"
+1197,SA_0000001405_ARCHIVED,"Alcohol, tourist consumption (in litres of pure alcohol)"
+1198,SA_0000001406,"Alcohol, unrecorded per capita (15+) consumption (in litres of pure alcohol)"
+1199,SA_0000001406_ARCHIVED,"Alcohol, unrecorded per capita (15+) consumption (in litres of pure alcohol)"
+1200,SA_0000001409,"Alcohol, abstainers lifetime (%)"
+1201,SA_0000001409_ARCHIVED,"Alcohol, abstainers lifetime (%)"
+1202,SA_0000001410,"Abstainers (15-19 years), lifetime (%)"
+1203,SA_0000001411,"Alcohol, abstainers past 12 months (%)"
+1204,SA_0000001411_ARCHIVED,"Alcohol, abstainers past 12 months (%)"
+1205,SA_0000001412,"Abstainers (15-19 years), past 12 months (%)"
+1206,SA_0000001413,"Alcohol, consumers past 12 months (%)"
+1207,SA_0000001413_ARCHIVED,"Alcohol, consumers past 12 months (%)"
+1208,SA_0000001414,"Alcohol, former drinkers (%)"
+1209,SA_0000001414_ARCHIVED,"Alcohol, former drinkers (%)"
+1210,SA_0000001415_ARCHIVED,"Alcohol, heavy episodic drinking (population) past 30 days (%)"
+1211,SA_0000001416,"Alcohol, heavy episodic drinking (15+), drinkers only, past 30 days (%)"
+1212,SA_0000001416_ARCHIVED,"Alcohol, heavy episodic drinking (15+), drinkers only, past 30 days (%)"
+1213,SA_0000001417,"Alcohol, patterns of drinking score"
+1214,SA_0000001417_ARCHIVED,"Alcohol, patterns of drinking score"
+1215,SA_0000001418,"Age-standardized DALYs, alcohol use disorders, per 100,000"
+1216,SA_0000001419,"Age-standardized DALYs, breast cancer, per 100,000"
+1217,SA_0000001420,"Age-standardized DALYs, colon and rectum cancers, per 100,000"
+1218,SA_0000001421,"Age-standardized DALYs, diabetes mellitus, per 100,000"
+1219,SA_0000001422,"Age-standardized DALYs, drownings, per 100,000"
+1220,SA_0000001423,"Age-standardized DALYs, falls, per 100,000"
+1221,SA_0000001424,"Age-standardized DALYs, fires, per 100,000"
+1222,SA_0000001425,"Age-standardized DALYs, ischaemic heart disease, per 100,000"
+1223,SA_0000001426,"Age-standardized DALYs, liver cancer, per 100,000"
+1224,SA_0000001427,"Age-standardized DALYs, liver cirrhosis, per 100,000"
+1225,SA_0000001429,"Age-standardized DALYs, mouth and oropharynx cancer, per 100,000"
+1226,SA_0000001430,"Age-standardized DALYs, oesophagus cancer, per 100,000"
+1227,SA_0000001431,"Age-standardized DALYs, poisoning, per 100,000"
+1228,SA_0000001432,"Age-standardized DALYs, prematurity and low birth rate, per 100,000"
+1229,SA_0000001433,"Age-standardized DALYs, road traffic accidents, per 100,000"
+1230,SA_0000001434,"Age-standardized DALYs, self-inflicted injury, per 100,000"
+1231,SA_0000001435,"Age-standardized DALYs, other unintentional injuries, per 100,000"
+1232,SA_0000001436,"Age-standardized DALYs, violence, per 100,000"
+1233,SA_0000001437,"Age-standardized death rates, alcohol use disorders, per 100,000"
+1234,SA_0000001438,"Age-standardized death rates, breast cancer, per 100,000"
+1235,SA_0000001439,"Age-standardized death rates, colon and rectum cancers, per 100,000"
+1236,SA_0000001440,"Age-standardized death rates, diabetes mellitus, per 100,000"
+1237,SA_0000001441,"Age-standardized death rates, drownings, per 100,000"
+1238,SA_0000001442,"Age-standardized death rates, falls, per 100,000"
+1239,SA_0000001443,"Age-standardized death rates, fires, per 100,000"
+1240,SA_0000001444,"Age-standardized death rates, ischaemic heart disease, per 100,000"
+1241,SA_0000001445,"Age-standardized death rates, liver cancer, per 100,000"
+1242,SA_0000001446,"Age-standardized death rates, liver cirrhosis, per 100,000"
+1243,SA_0000001448,"Age-standardized death rates, mouth and oropharynx cancer, per 100,000"
+1244,SA_0000001449,"Age-standardized death rates, oesophagus cancer, per 100,000"
+1245,SA_0000001450,"Age-standardized death rates, poisoning, per 100,000"
+1246,SA_0000001451,"Age-standardized death rates, prematurity and low birth rate, per 100,000"
+1247,SA_0000001452,"Age-standardized death rates, road traffic accidents, per 100,000"
+1248,SA_0000001453,"Age-standardized death rates, self-inflicted injury, per 100,000"
+1249,SA_0000001454,"Age-standardized death rates, other unintentional injuries, per 100,000"
+1250,SA_0000001455,"Age-standardized death rates, violence, per 100,000"
+1251,SA_0000001456,"Age-standardized death rates (15+ years), alcoholic liver disease, per 100,000"
+1252,SA_0000001457,"Liver cirrhosis, age-standardized death rates (15+), per 100,000 population"
+1253,SA_0000001457_ARCHIVED,"Liver cirrhosis, age-standardized death rates (15+), per 100,000 population"
+1254,SA_0000001458,"Age-standardized death rates (15+ years), poisoning, per 100,000"
+1255,SA_0000001459,"Road traffic crash deaths, age-standardized death rates (15+), per 100,000 population"
+1256,SA_0000001459_ARCHIVED,"Road traffic crash deaths, age-standardized death rates (15+), per 100,000 population"
+1257,SA_0000001460,"Age-standardized death rates (15+ years), violence, per 100,000"
+1258,SA_0000001461,"Alcohol dependence (15+ ), 12-month prevalence (%) with 95%CI"
+1259,SA_0000001461_ARCHIVED,"Alcohol dependence (15+ ), 12-month prevalence (%) with 95%CI"
+1260,SA_0000001462,"Alcohol use disorders (15+), 12 month prevalence (%) with 95%"
+1261,SA_0000001462_ARCHIVED,"Alcohol use disorders (15+), 12 month prevalence (%) with 95%"
+1262,SA_0000001463,"Alcoholic psychosis, incidence, per 100,000"
+1263,SA_0000001463_ARCHIVED,"Alcoholic psychosis, incidence, per 100,000"
+1264,SA_0000001464,"Cautions and arrests for drink-driving, per 100,000 population"
+1265,SA_0000001464_ARCHIVED,"Cautions and arrests for drink-driving, per 100,000 population"
+1266,SA_0000001465,"Hospital discharges, alcohol-related injuries and poisoning, per 100,000"
+1267,SA_0000001466,"Hospital discharges, alcoholic liver disease, per 100,000"
+1268,SA_0000001467,Perceived trend in alcohol-related harm and consequences
+1269,SA_0000001468,"Treatment admissions (inpatient), alcohol dependence, per 100,000"
+1270,SA_0000001469,"Treatment admissions (inpatient), alcoholic psychosis, per 100,000"
+1271,SA_0000001470,"Alcohol-related road traffic crashes, per 100,000 population"
+1272,SA_0000001470_ARCHIVED,"Alcohol-related road traffic crashes, per 100,000 population"
+1273,SA_0000001471,Alcohol-related road traffic crashes (% of all traffic crashes)
+1274,SA_0000001471_ARCHIVED,Alcohol-related road traffic crashes (% of all traffic crashes)
+1275,SA_0000001472,"Alcohol-related injury mortality, per 1,000"
+1276,SA_0000001473,"Alcohol-related disease mortality, per 100,000 (15+ years)"
+1277,SA_0000001474,Alcoholic excise tax revenue as a per cent of government revenue
+1278,SA_0000001474_ARCHIVED,Alcoholic excise tax revenue as a per cent of government revenue
+1279,SA_0000001475,Annual revenues from alcohol excise tax in millions US$
+1280,SA_0000001475_ARCHIVED,Annual revenues from alcohol excise tax in millions US$
+1281,SA_0000001476,Alcohol expenditure as a per cent of total household expenditure
+1282,SA_0000001476_ARCHIVED,Alcohol expenditure as a per cent of total household expenditure
+1283,SA_0000001477,Social costs of alcohol use in millions US$
+1284,SA_0000001477_ARCHIVED,Social costs of alcohol use in millions US$
+1285,SA_0000001502,Adopted written national policy on alcohol
+1286,SA_0000001502_ARCHIVED,Adopted written national policy on alcohol
+1287,SA_0000001503,Alcoholic beverage legally defined
+1288,SA_0000001504,Alcohol use is banned
+1289,SA_0000001504_ARCHIVED,Alcohol use is banned
+1290,SA_0000001506,National legislation to prevent illegal alcohol
+1291,SA_0000001506_ARCHIVED,National legislation to prevent illegal alcohol
+1292,SA_0000001507,Advertising restrictions on national television
+1293,SA_0000001507_ARCHIVED,Advertising restrictions on national television
+1294,SA_0000001508,Advertising restrictions on cable television
+1295,SA_0000001508_ARCHIVED,Advertising restrictions on cable television
+1296,SA_0000001509,Advertising restrictions on national radio
+1297,SA_0000001509_ARCHIVED,Advertising restrictions on national radio
+1298,SA_0000001510,Advertising restrictions on local radio
+1299,SA_0000001510_ARCHIVED,Advertising restrictions on local radio
+1300,SA_0000001511,Advertising restrictions in print media
+1301,SA_0000001511_ARCHIVED,Advertising restrictions in print media
+1302,SA_0000001512,Advertising restrictions at cinemas
+1303,SA_0000001512_ARCHIVED,Advertising restrictions at cinemas
+1304,SA_0000001513,Advertising restrictions on billboards
+1305,SA_0000001513_ARCHIVED,Advertising restrictions on billboards
+1306,SA_0000001514,Advertising restrictions at point-of-sale
+1307,SA_0000001514_ARCHIVED,Advertising restrictions at point-of-sale
+1308,SA_0000001515,Advertising restrictions on the internet
+1309,SA_0000001515_ARCHIVED,Advertising restrictions on the internet
+1310,SA_0000001516,Restrictions on product placement on national television
+1311,SA_0000001516_ARCHIVED,Restrictions on product placement on national television
+1312,SA_0000001517,Restrictions on product placement on cable television
+1313,SA_0000001517_ARCHIVED,Restrictions on product placement on cable television
+1314,SA_0000001518,Age limits on-premise service
+1315,SA_0000001518_ARCHIVED,Age limits on-premise service
+1316,SA_0000001519,Minimum legal drinking age
+1317,SA_0000001520,Legal blood alcohol concentration (BAC) limits
+1318,SA_0000001521,Random breath testing (RBT) use
+1319,SA_0000001521_ARCHIVED,Random breath testing (RBT) use
+1320,SA_0000001523,"Prices for alcoholic beverages (average, US$)"
+1321,SA_0000001523_ARCHIVED,"Prices for alcoholic beverages (average, US$)"
+1322,SA_0000001525,Off-premise sales restrictions on days
+1323,SA_0000001525_ARCHIVED,Off-premise sales restrictions on days
+1324,SA_0000001526,Off-premise sales restrictions on hours
+1325,SA_0000001526_ARCHIVED,Off-premise sales restrictions on hours
+1326,SA_0000001527,Off-premise sales restrictions on places
+1327,SA_0000001527_ARCHIVED,Off-premise sales restrictions on places
+1328,SA_0000001528,Off-premise sales restrictions on outlet density
+1329,SA_0000001528_ARCHIVED,Off-premise sales restrictions on outlet density
+1330,SA_0000001529,Off-premise sales restrictions at specific events
+1331,SA_0000001529_ARCHIVED,Off-premise sales restrictions at specific events
+1332,SA_0000001530,Off-premise sales restrictions at petrol stations
+1333,SA_0000001530_ARCHIVED,Off-premise sales restrictions at petrol stations
+1334,SA_0000001531,On-premise sales restrictions on days
+1335,SA_0000001531_ARCHIVED,On-premise sales restrictions on days
+1336,SA_0000001532,On-premise sales restrictions on hours
+1337,SA_0000001532_ARCHIVED,On-premise sales restrictions on hours
+1338,SA_0000001533,On-premise sales restrictions on places
+1339,SA_0000001533_ARCHIVED,On-premise sales restrictions on places
+1340,SA_0000001534,On-premise sales restrictions on outlet density
+1341,SA_0000001534_ARCHIVED,On-premise sales restrictions on outlet density
+1342,SA_0000001535,On-premise sales restrictions at specific events
+1343,SA_0000001535_ARCHIVED,On-premise sales restrictions at specific events
+1344,SA_0000001536,On-premise sales restrictions to intoxicated persons
+1345,SA_0000001536_ARCHIVED,On-premise sales restrictions to intoxicated persons
+1346,SA_0000001537,Restrictions on sponsorship of sporting events
+1347,SA_0000001537_ARCHIVED,Restrictions on sponsorship of sporting events
+1348,SA_0000001538,Restrictions on sponsorship of youth events
+1349,SA_0000001538_ARCHIVED,Restrictions on sponsorship of youth events
+1350,SA_0000001539,"Restrictions on sales promotion from producers (parties, events)"
+1351,SA_0000001539_ARCHIVED,"Restrictions on sales promotion from producers (parties, events)"
+1352,SA_0000001540,Restrictions on sales promotion from retailers (sales below cost)
+1353,SA_0000001540_ARCHIVED,Restrictions on sales promotion from retailers (sales below cost)
+1354,SA_0000001541,Restrictions on sales promotion from owners of pubs and bars (alcohol for free)
+1355,SA_0000001541_ARCHIVED,Restrictions on sales promotion from owners of pubs and bars (alcohol for free)
+1356,SA_0000001542,Government monopoly on production
+1357,SA_0000001542_ARCHIVED,Government monopoly on production
+1358,SA_0000001543,Government monopoly on retail sales
+1359,SA_0000001543_ARCHIVED,Government monopoly on retail sales
+1360,SA_0000001544,Licence required for production
+1361,SA_0000001544_ARCHIVED,Licence required for production
+1362,SA_0000001545,Licence required for retail sales
+1363,SA_0000001545_ARCHIVED,Licence required for retail sales
+1364,SA_0000001546,Excise tax as a per cent of the retail price of alcoholic beverages
+1365,SA_0000001546_ARCHIVED,Excise tax as a per cent of the retail price of alcoholic beverages
+1366,SA_0000001547,Excise duty (average) per hectolitre in Euros
+1367,SA_0000001547_ARCHIVED,Excise duty (average) per hectolitre in Euros
+1368,SA_0000001548,Excise tax as a per cent of the total retail price for 1 litre of pure alcohol
+1369,SA_0000001548_ARCHIVED,Excise tax as a per cent of the total retail price for 1 litre of pure alcohol
+1370,SA_0000001549,Duty paid or excise stamp on alcohol container
+1371,SA_0000001549_ARCHIVED,Duty paid or excise stamp on alcohol container
+1372,SA_0000001550,Excise tax on alcoholic beverages
+1373,SA_0000001550_ARCHIVED,Excise tax on alcoholic beverages
+1374,SA_0000001551,Value-added tax (VAT) on alcohol (%)
+1375,SA_0000001551_ARCHIVED,Value-added tax (VAT) on alcohol (%)
+1376,SA_0000001553,Restrictions on alcohol use in public places
+1377,SA_0000001553_ARCHIVED,Restrictions on alcohol use in public places
+1378,SA_0000001554,Health warning labels on alcohol advertising
+1379,SA_0000001554_ARCHIVED,Health warning labels on alcohol advertising
+1380,SA_0000001555,Health warning labels on alcohol containers
+1381,SA_0000001555_ARCHIVED,Health warning labels on alcohol containers
+1382,SA_0000001647,Awareness activities
+1383,SA_0000001647_ARCHIVED,Awareness activities
+1384,SA_0000001648,"Information, education, prevention"
+1385,SA_0000001649,National drinking guidelines
+1386,SA_0000001650,"Standard drink measures, in grams per unit"
+1387,SA_0000001650_ARCHIVED,"Standard drink measures, in grams per unit"
+1388,SA_0000001651,Monitoring
+1389,SA_0000001652,"Interventions, projects, training"
+1390,SA_0000001653,"Treatment, services"
+1391,SA_0000001654,"Surveys, research"
+1392,SA_0000001655,Counselling
+1393,SA_0000001676,Production in 1000s hectolitres
+1394,SA_0000001677,Imports in 1000s hectolitres
+1395,SA_0000001678,Sales of beer in 1000s hectolitres
+1396,SA_0000001679,Exports of beer (barley) in 1000s hectolitres
+1397,SA_0000001680,Perceived trend in production
+1398,SA_0000001681,Perceived trend in imports
+1399,SA_0000001682,Perceived trend in sales
+1400,SA_0000001683,Perceived trend in exports
+1401,SA_0000001684,Sales of wine in 1000s hectolitres
+1402,SA_0000001685,Sales of spirits in 1000s hectolitres
+1403,SA_0000001686,Exports of wine (grape) in 1000s hectolitres
+1404,SA_0000001687,Exports of spirits in 1000s hectolitres
+1405,SA_0000001688,"Alcohol, total per capita (15+) consumption (in litres of pure alcohol) (SDG Indicator 3.5.2)"
+1406,SA_0000001688_ARCHIVED,Total (recorded+unrecorded) alcohol per capita (15+) consumption
+1407,SA_0000001689,"Age-standardized DALYs, cerebrovascular disease, per 100,000"
+1408,SA_0000001690,"Age-standardized death rates, cerebrovascular disease, per 100,000"
+1409,SA_0000001691,Central coordinating entity for alcohol policy implementation
+1410,SA_0000001691_ARCHIVED,Central coordinating entity for alcohol policy implementation
+1411,SA_0000001692,Framework of national alcohol policy
+1412,SA_0000001692_ARCHIVED,Framework of national alcohol policy
+1413,SA_0000001693,Level of adoption of national alcohol policy
+1414,SA_0000001693_ARCHIVED,Level of adoption of national alcohol policy
+1415,SA_0000001694,Sectors represented in national alcohol policy
+1416,SA_0000001694_ARCHIVED,Sectors represented in national alcohol policy
+1417,SA_0000001695,"Cautions and arrests for public drunkenness, per 100,000 population"
+1418,SA_0000001695_ARCHIVED,"Cautions and arrests for public drunkenness, per 100,000 population"
+1419,SA_0000001696,Alcohol-related road traffic crashes with fatalities (% of all road traffic crashes with fatalities)
+1420,SA_0000001696_ARCHIVED,Alcohol-related road traffic crashes with fatalities (% of all road traffic crashes with fatalities)
+1421,SA_0000001697,"Adopted written national policy on alcohol, year adopted"
+1422,SA_0000001698,"Adopted written national policy on alcohol, year revised"
+1423,SA_0000001699,Age limits off-premise sales
+1424,SA_0000001699_ARCHIVED,Age limits off-premise sales
+1425,SA_0000001700,Consumer information on alcohol and health at points of sale
+1426,SA_0000001701,Educational programmes involving target groups in school curriculum
+1427,SA_0000001702,Brief interventions as health promotion/disease prevention
+1428,SA_0000001703,Server training on a regular basis
+1429,SA_0000001704,Data collection on alcohol-related health indicators
+1430,SA_0000001705,System for monitoring alcohol-related harm
+1431,SA_0000001706,National treatment policy for alcohol use disorders
+1432,SA_0000001707,Persons with alcohol use disorders receiving treatment (%)
+1433,SA_0000001708,Designation of alcohol tax revenues to health services
+1434,SA_0000001709,National surveys on drink-driving
+1435,SA_0000001710,Public-funded alcohol research/monitoring programmes
+1436,SA_0000001711,"Public funds designated for alcohol research/monitoring programmes, in Euros"
+1437,SA_0000001712,Community-based interventions/projects involving stakeholders
+1438,SA_0000001713,Interventions/projects actively involving young people and civil society
+1439,SA_0000001714,Training in screening and brief interventions for alcohol problems
+1440,SA_0000001715,Counselling to children in families with alcohol problems
+1441,SA_0000001716,Counselling to pregnant women with alcohol problems
+1442,SA_0000001717,Prevention/counselling at workplaces for those with alcohol problems
+1443,SA_0000001719,Advertising restrictions on social media
+1444,SA_0000001719_ARCHIVED,Advertising restrictions on social media
+1445,SA_0000001720,Restrictions on product placement in films/movies
+1446,SA_0000001720_ARCHIVED,Restrictions on product placement in films/movies
+1447,SA_0000001721,Importance of measures for enhancing compliance with age limits
+1448,SA_0000001721_ARCHIVED,Importance of measures for enhancing compliance with age limits
+1449,SA_0000001722,Government support for community action
+1450,SA_0000001722_ARCHIVED,Government support for community action
+1451,SA_0000001723,Community-based interventions involving stakeholders
+1452,SA_0000001723_ARCHIVED,Community-based interventions involving stakeholders
+1453,SA_0000001724,National guidelines for implementing effective community-based interventions
+1454,SA_0000001724_ARCHIVED,National guidelines for implementing effective community-based interventions
+1455,SA_0000001725,National alcohol policy specifically involves young people activities
+1456,SA_0000001725_ARCHIVED,National alcohol policy specifically involves young people activities
+1457,SA_0000001726,Penalties for drink driving
+1458,SA_0000001726_ARCHIVED,Penalties for drink driving
+1459,SA_0000001727,Sobriety checkpoints
+1460,SA_0000001727_ARCHIVED,Sobriety checkpoints
+1461,SA_0000001728,Detection of marketing infringements
+1462,SA_0000001728_ARCHIVED,Detection of marketing infringements
+1463,SA_0000001729,Penalties for marketing infringements
+1464,SA_0000001730,Price measures
+1465,SA_0000001730_ARCHIVED,Price measures
+1466,SA_0000001731,Level of taxation adjusted for inflation
+1467,SA_0000001731_ARCHIVED,Level of taxation adjusted for inflation
+1468,SA_0000001732,New types of alcoholic beverages emerging
+1469,SA_0000001732_ARCHIVED,New types of alcoholic beverages emerging
+1470,SA_0000001733,"Consumer information about calories, additives, etc on containers"
+1471,SA_0000001733_ARCHIVED,"Consumer information about calories, additives, etc on containers"
+1472,SA_0000001734,Number of standard alcoholic drinks displayed on containers
+1473,SA_0000001734_ARCHIVED,Number of standard alcoholic drinks displayed on containers
+1474,SA_0000001735,Alcohol content displayed on containers
+1475,SA_0000001735_ARCHIVED,Alcohol content displayed on containers
+1476,SA_0000001736,Action Plan for implementation of alcohol policy
+1477,SA_0000001736_ARCHIVED,Action Plan for implementation of alcohol policy
+1478,SA_0000001737,"Alcohol, regional per capita (15+) consumption (in litres of pure alcohol)"
+1479,SA_0000001737_ARCHIVED,"Alcohol, regional per capita (15+) consumption (in litres of pure alcohol)"
+1480,SA_0000001739,"Alcohol, heavy episodic drinking (15+) past 30 days (%), age-standardized with 95%CI"
+1481,SA_0000001739_ARCHIVED,"Alcohol, heavy episodic drinking (15+) past 30 days (%), age-standardized with 95%CI"
+1482,SA_0000001740,Alcohol-attributable Years of Life Lost (YLL) score
+1483,SA_0000001741,"Alcohol-attributable fractions (15+), liver cirrhosis deaths (%)"
+1484,SA_0000001741_ARCHIVED,"Alcohol-attributable fractions (15+), liver cirrhosis deaths (%)"
+1485,SA_0000001742,"Alcohol-attributable fractions (15+), road traffic crash deaths (%)"
+1486,SA_0000001742_ARCHIVED,"Alcohol-attributable fractions (15+), road traffic crash deaths (%)"
+1487,SA_0000001743,"Alcohol-attributable fractions, all-cause deaths (%)"
+1488,SA_0000001743_ARCHIVED,"Alcohol-attributable fractions, all-cause deaths (%)"
+1489,SA_0000001744,"Alcohol, regional prevalence of alcohol dependence (%)"
+1490,SA_0000001744_ARCHIVED,"Alcohol, regional prevalence of alcohol dependence (%)"
+1491,SA_0000001745,"Alcohol, regional prevalence of alcohol use disorders (%)"
+1492,SA_0000001745_ARCHIVED,"Alcohol, regional prevalence of alcohol use disorders (%)"
+1493,SA_0000001746,"Alcohol, total  (recorded + unrecorded) per capita (15+) consumption with 95%CI, projections to 2025"
+1494,SA_0000001746_ARCHIVED,"Alcohol, total  (recorded + unrecorded) per capita (15+) consumption with 95%CI, projections to 2025"
+1495,SA_0000001747_ARCHIVED,"Alcohol, recorded per capita (15+) consumption (in litres of pure alcohol), three-year average with 95%CI"
+1496,SA_0000001748,"Alcohol, unrecorded per capita (15+) consumption (in litres of pure alcohol) with 95%CI"
+1497,SA_0000001748_ARCHIVED,"Alcohol, unrecorded per capita (15+) consumption (in litres of pure alcohol) with 95%CI"
+1498,SA_0000001749,"Alcohol, total (recorded 3 year average + unrecorded) per capita (15+) consumption (in litres of pure alcohol) with 95%CI"
+1499,SA_0000001749_ARCHIVED,"Alcohol, total (recorded 3 year average + unrecorded) per capita (15+) consumption (in litres of pure alcohol) with 95%CI"
+1500,SA_0000001751,"Alcohol, average daily intake in grams among drinkers with 95%CI"
+1501,SA_0000001751_ARCHIVED,"Alcohol, average daily intake in grams among drinkers with 95%CI"
+1502,SA_0000001752,"Alcohol, total (recorded + unrecorded) per capita (15+) consumption, projected estimates for 2016"
+1503,SA_0000001752_ARCHIVED,"Alcohol, total (recorded + unrecorded) per capita (15+) consumption, projected estimates for 2016"
+1504,SA_0000001753_ARCHIVED,"Alcohol use disorders (15+), 12 month prevalence (%), age standardized, with 95%CI"
+1505,SA_0000001754,"Alcohol, harmful use (15+), 12 month prevalence (%) with 95%CI"
+1506,SA_0000001754_ARCHIVED,"Alcohol, harmful use (15+), 12 month prevalence (%) with 95%CI"
+1507,SA_0000001755,"15-19 years old heavy episodic drinkers (population), % with 95%CI"
+1508,SA_0000001755_ARCHIVED,"15-19 years old heavy episodic drinkers (population), % with 95%CI"
+1509,SA_0000001756,"15-19 years old heavy episodic drinkers (drinkers only), %"
+1510,SA_0000001757,"15-19 years old abstainers, lifetime (%)"
+1511,SA_0000001757_ARCHIVED,"15-19 years old abstainers, lifetime (%)"
+1512,SA_0000001758,15-19 years old former drinkers (%)
+1513,SA_0000001758_ARCHIVED,15-19 years old former drinkers (%)
+1514,SA_0000001759,"15-19 years old, current drinkers (%)"
+1515,SA_0000001759_ARCHIVED,"15-19 years old, current drinkers (%)"
+1516,SA_0000001760,15-19 years old total alcohol consumption in litres of pure alcohol
+1517,SA_0000001760_ARCHIVED,15-19 years old total alcohol consumption in litres of pure alcohol
+1518,SA_0000001761,National guidelines for the prevention and reduction of alcohol-related harm in schools
+1519,SA_0000001762,National guidelines for alcohol problem prevention and counselling at workplaces
+1520,SA_0000001762_ARCHIVED,National guidelines for alcohol problem prevention and counselling at workplaces
+1521,SA_0000001763,Workplace representatives nationally involved to prevent and address alcohol-related harm
+1522,SA_0000001763_ARCHIVED,Workplace representatives nationally involved to prevent and address alcohol-related harm
+1523,SA_0000001764,Server training
+1524,SA_0000001764_ARCHIVED,Server training
+1525,SA_0000001765,Legal obligation for schools to include alcohol use prevention
+1526,SA_0000001765_ARCHIVED,Legal obligation for schools to include alcohol use prevention
+1527,SA_0000001766,Legal obligation for schools to interact with parents regarding education and well-being
+1528,SA_0000001766_ARCHIVED,Legal obligation for schools to interact with parents regarding education and well-being
+1529,SA_0000001767,Legislation on alcohol testing at workplaces
+1530,SA_0000001767_ARCHIVED,Legislation on alcohol testing at workplaces
+1531,SA_0000001768,Standard drink defined
+1532,SA_0000001768_ARCHIVED,Standard drink defined
+1533,SA_0000001769,National systems for monitoring alcohol consumption and harms
+1534,SA_0000001769_ARCHIVED,National systems for monitoring alcohol consumption and harms
+1535,SA_0000001770,Regular reports from national monitoring systems
+1536,SA_0000001770_ARCHIVED,Regular reports from national monitoring systems
+1537,SA_0000001771,Comprehensive and regular reporting of alcohol situation
+1538,SA_0000001771_ARCHIVED,Comprehensive and regular reporting of alcohol situation
+1539,SA_0000001772,Clinical guidelines for brief interventions
+1540,SA_0000001772_ARCHIVED,Clinical guidelines for brief interventions
+1541,SA_0000001773,National surveys on adult alcohol consumption
+1542,SA_0000001773_ARCHIVED,National surveys on adult alcohol consumption
+1543,SA_0000001774,National surveys on youth alcohol consumption
+1544,SA_0000001774_ARCHIVED,National surveys on youth alcohol consumption
+1545,SA_0000001775,National surveys on heavy espisodic drinking
+1546,SA_0000001775_ARCHIVED,National surveys on heavy espisodic drinking
+1547,SA_0000001776,Data collection on Foetal Alcohol Syndome
+1548,SA_0000001776_ARCHIVED,Data collection on Foetal Alcohol Syndome
+1549,SA_0000001777,Data collected on harm from alcohol at workplace
+1550,SA_0000001777_ARCHIVED,Data collected on harm from alcohol at workplace
+1551,SA_0000001779,Level of enforcement of BAC limits
+1552,SA_0000001781,"15-years old any alcoholic beverage consumed in past 12 months, (%)"
+1553,SA_0000001781_ARCHIVED,"15-years old any alcoholic beverage consumed in past 12 months, (%)"
+1554,SA_0000001782,"15-years old first drink at 13 years or younger, (%)"
+1555,SA_0000001782_ARCHIVED,"15-years old first drink at 13 years or younger, (%)"
+1556,SA_0000001783,"15-years old any alcoholic beverage consumed in past 30 days, (%)"
+1557,SA_0000001783_ARCHIVED,"15-years old any alcoholic beverage consumed in past 30 days, (%)"
+1558,SA_0000001784,"15-years old, any alcoholic beverage consumed at least once a week, (%)"
+1559,SA_0000001784_ARCHIVED,"15-years old, any alcoholic beverage consumed at least once a week, (%)"
+1560,SA_0000001786,"13-15-years old any alcoholic beverage consumed in past 30 days, (%)"
+1561,SA_0000001786_ARCHIVED,"13-15-years old any alcoholic beverage consumed in past 30 days, (%)"
+1562,SA_0000001787,"13-15-years old first drink before age 14, (%)"
+1563,SA_0000001787_ARCHIVED,"13-15-years old first drink before age 14, (%)"
+1564,SA_0000001788,"Alcohol-related road traffic crashes with fatalities, per 100,000  population"
+1565,SA_0000001788_ARCHIVED,"Alcohol-related road traffic crashes with fatalities, per 100,000  population"
+1566,SA_0000001789,Alcohol-related crimes (% of all crimes)
+1567,SA_0000001789_ARCHIVED,Alcohol-related crimes (% of all crimes)
+1568,SA_0000001790,National drinking guidelines
+1569,SA_0000001791,Graduated licensing
+1570,SA_0000001792,National legislation to prevent illegal alcohol sales
+1571,SA_0000001793,"Penalties for drink driving, repeated offense"
+1572,SA_0000001794,Licensing required for exports of alcoholic beverages
+1573,SA_0000001795,Licensing required for imports of alcoholic beverages
+1574,SA_0000001796,Licensing required for wholesale/distribution of alcoholic beverages
+1575,SA_0000001797,"Licenses issued for production, change since 2010"
+1576,SA_0000001798,"Licenses issued for retail sale, change since 2010"
+1577,SA_0000001799,"Licenses issued for wholesale/distribution, change since 2010"
+1578,SA_0000001800,Monopoly on exports of alcoholic beverages
+1579,SA_0000001801,Monopoly on imports of alcoholic beverages
+1580,SA_0000001802,Monopoly on wholesale /distribution of alcoholic beverages
+1581,SA_0000001803,Health warning labels on pregnancy
+1582,SA_0000001804,Health warning labels on under-age drinking
+1583,SA_0000001805,Health warning labels on drink-driving
+1584,SA_0000001806,Legal requirement for size of health warning labels
+1585,SA_0000001807,"Cancer, age-standardized death rates (15+), per 100,000 population"
+1586,SA_0000001808,"Alcohol-attributable fractions (15+), cancer deaths"
+1587,SA_0000001809,National system of epidemiological data collection for alcohol use
+1588,SA_0000001810,National system of data collection based on health service delivery
+1589,SA_0000001811,Report with epidemiological data on lcohol use and AUDs
+1590,SA_0000001812,Report with data from health services on alcohol use and AUDs
+1591,SA_0000001813,National organization for monitoring alcohol
+1592,SA_0000001814,Taxation of ethanol production
+1593,SA_0000001815,Ethanol tax deducted from excise tax
+1594,SA_0000001816,Tax incentives for production low/no alcohol content beer
+1595,SA_0000001817,Tax incentives for production of other alcoholic beverages
+1596,SA_0000001818,"Alcohol, total  (recorded + unrecorded) per capita (15+) consumption with 95%CI, projections to 2020 and 2025"
+1597,SA_0000001819,Heavy episodic drinking (youth 15 -19 years) past 30 days (%)
+1598,SA_0000001820,"Heavy episodic drinking (youth 15 -19 years), drinkers only, past 30 days (%)"
+1599,SA_0000001821,"Alcohol, unrecorded per capita (15+) consumption (in litres of pure alcohol) with 95%CI"
+1600,SA_0000001821_ARCHIVED,"Alcohol, unrecorded per capita (15+) consumption (in litres of pure alcohol) with 95%CI"
+1601,SA_0000001822,"Alcohol, total per capita (15+) consumption (in litres of pure alcohol) with 95%CI"
+1602,SA_0000001822_ARCHIVED,"Alcohol, total per capita (15+) consumption (in litres of pure alcohol) with 95%CI"
+1603,SA_0000001823,"Alcohol, tourist consumption (in litres of pure alcohol)"
+1604,SA_0000001823_ARCHIVED,"Alcohol, tourist consumption (in litres of pure alcohol)"
+1605,SA_0000001824,"Alcohol, regional alcohol per capita (15+) consumption (in litres of pure alcohol)"
+1606,SA_0000001825,"Regional prevalence, AAFs (15+), liver cirrhosis deaths (%)"
+1607,SA_0000001826,"Regional prevalence, AAFs (15+), road traffic crash deaths (%)"
+1608,SA_0000001827,"Regional prevalence, AAFs (15+), cancer"
+1609,SA_0000001828,"Regional prevalence, AAFs ,all-cause deaths (%)"
+1610,SA_0000001829,Average price 500 mls Beer in US$
+1611,SA_0000001830,Average price 750 mls Wine in US$
+1612,SA_0000001831,Average price 500 mls Spirits in US$
+1613,sba,Births attended by skilled health personnel (in the two or three years preceding the survey) (%)
+1614,sba5,Births attended by skilled health personnel (in the five years preceding the survey) (%)
+1615,SDG_SH_DTH_RNCOM,"Number of deaths attributed to non-communicable diseases, by type of disease and sex"
+1616,SDGAIRBOD,Ambient and household air pollution attributable death rate (per 100 000 population)
+1617,SDGAIRBODA,"Ambient and household air pollution attributable death rate (per 100 000 population, age-standardized)"
+1618,SDGCODCOMPLETENESS,Completeness of cause-of-death data (%)
+1619,SDGCONFLICT,Estimated direct deaths from major conflicts (per 100 000 population)
+1620,SDGDISASTER,Average death rate due to natural disasters (per 100 000 population)
+1621,SDGHEPHBSAGPRV,Hepatitis B surface antigen (HBsAg) prevalence among children under 5 years (%)
+1622,SDGHIV,New HIV infections (per 1000 uninfected population)
+1623,SDGIHR,Average of 13 International Health Regulations core capacity scores
+1624,SDGNTDTREATMENT,Reported number of people requiring interventions against NTDs
+1625,SDGODA,"Total net official development assistance to medical research and basic health sectors per capita (constant 2014 US$), by recipient"
+1626,SDGODA01,"Total net official development assistance to medical research and basic health sectors per capita (US$), by recipient country"
+1627,SDGPM25,Concentrations of fine particulate matter (PM2.5)
+1628,SDGPOISON,Mortality rate attributed to unintentional poisoning (per 100 000 population)
+1629,SDGSHP,Skilled health professionals density (per 10 000 population)
+1630,SDGSUICIDE,Crude suicide rates (per 100 000 population)
+1631,SDGWSHBOD,Mortality rate attributed to exposure to unsafe WASH services (per 100 000 population) (SDG 3.9.2)
+1632,SE_DEV_ONTRK,"Children aged 36-59 months who are developmentally on track in at least three of the following domains: literacy-numeracy, physical development, social-emotional development and learning (%)"
+1633,SE_G23_MATH,Proportion of children in grades 2/3 achieving at least a minimum proficiency level in mathematics (%)
+1634,SE_G23_RDG,Proportion of children in grades 2/3 achieving at least a minimum proficiency level in reading (%)
+1635,SE_LSC_MATH,Proportion of children at the end of lower secondary achieving at least a minimum proficiency level in mathematics (%)
+1636,SE_LSC_RDNG,Proportion of children at the end of lower secondary achieving at least a minimum proficiency level in reading (%)
+1637,SE_PRE_PARTN,Participation rate in organized learning (one year before the official primary entry age) (%)
+1638,SE_PRM_MATH,Proportion of children at the end of primary achieving at least a minimum proficiency level in mathematics (%)
+1639,SE_PRM_RDNG,Proportion of children at the end of primary achieving at least a minimum proficiency level in reading (%)
+1640,SG_REG_CENSUS,Proportion of countries that have conducted at least one population and housing census in the last 10 years (%)
+1641,SH_STA_FGMS,Proportion of girls and women aged 15-49 years who have undergone female genital mutilation/cutting (FMG/C) (%)
+1642,SHS_1,Percentage of children under 15 years exposed to second-hand smoke
+1643,SHS_10,Second-hand smoke attributable DALYs ('000) in children under 5 years
+1644,SHS_11,Second-hand smoke  attributable DALYs per 100'000 children under 5 years
+1645,SHS_2,Percentage of women (15+ years) exposed to second-hand smoke
+1646,SHS_3,Percentage of men (15+ years) exposed to second-hand smoke
+1647,SHS_4,Second-hand smoke attributable deaths
+1648,SHS_5,Second-hand smoke attributable DALYs ('000)
+1649,SHS_6,Second-hand smoke attributable deaths per 100'000 capita
+1650,SHS_7,Second-hand smoke attributable DALYs per 100'000 capita
+1651,SHS_8,Second-hand smoke attributable deaths ('000) in children under 5 years
+1652,SHS_9,Second-hand smoke  attributable deaths per 100'000 children under 5 years
+1653,SI_POV_DAY1,Proportion of population below the international poverty line of US$1.90 per day (%)
+1654,SP_DYN_MRBF15,Proportion of women aged 20-24 years who were married or in a union by age 15 (%)
+1655,SP_DYN_MRBF18,Proportion of women aged 20-24 years who were married or in a union by age 18 (%)
+1656,stunt5,Stunting prevalence in children aged < 5 years (%)
+1657,SUNBEDEXIST,Existence of national regulation
+1658,SUNBEDEXISTSUBNATIONAL,Existence of subnational regulation
+1659,SUNBEDEXISTYEAR,Year of national implementation of regulation
+1660,SUNBEDREG_ACCESS,Access restrictions
+1661,SUNBEDREG_CONTROL,Restriction and inspection of facilities
+1662,SUNBEDREG_INFO,Information requirements
+1663,SUNBEDREG_SAFETY,Safety requirements
+1664,SUNBEDREG_TRAINING,Training requirements
+1665,TB_1,Tuberculosis treatment coverage
+1666,TB_c_dst_rlt_new_pct,New cases tested for RR-/MDR-TB (%)
+1667,TB_c_dst_rlt_ret_pct,Previously treated cases tested for RR-/MDR-TB (%)
+1668,TB_c_lab_cul_5m,Laboratories providing tuberculosis diagnostic services using culture (per 5 million population)
+1669,TB_c_lab_dst_5m,Laboratories providing drug susceptibility testing (DST) (per 5 million population)
+1670,TB_c_lab_sm_100k,Laboratories providing tuberculosis diagnostic services using sputum smear microscopy (per 100 000 population)
+1671,TB_c_mdr_tsr,Treatment success rate for patients treated for MDR-TB (%)
+1672,TB_c_mdr_tx,Cases started on MDR-TB treatment
+1673,TB_c_new_snep_tsr,Treatment success rate for new pulmonary smear-negative and extrapulmonary tuberculosis cases
+1674,TB_c_new_tsr,Treatment success rate: new TB cases
+1675,TB_c_newinc,Tuberculosis - new and relapse cases
+1676,TB_c_notified,Total number of notified TB cases
+1677,TB_c_ret_tsr,Treatment success rate: previously treated TB cases
+1678,TB_c_tbhiv_tsr,Treatment success rate: HIV-positive TB cases
+1679,TB_c_xdr_tsr,Treatment success rate: XDR-TB cases
+1680,TB_conf_mdr_tx_pct,Confirmed cases of MDR-TB started treatment for MDR-TB (%)
+1681,TB_e_inc_num,Number of incident tuberculosis cases
+1682,TB_e_inc_num_014,Number of incident tuberculosis cases in children aged 0 - 14
+1683,TB_e_inc_tbhiv_100k,Incidence of tuberculosis (per 100 000 population) (HIV-positive cases)
+1684,TB_e_inc_tbhiv_num,"Number of incident tuberculosis cases,  (HIV-positive cases)"
+1685,TB_e_mdr_num,Estimated MDR-TB cases among notified pulmonary TB cases
+1686,TB_e_mort_exc_tbhiv_num,"Number of deaths due to tuberculosis, excluding HIV"
+1687,TB_e_prev_num,Number of prevalent tuberculosis cases
+1688,TB_effective_treatment_coverage,Tuberculosis effective treatment coverage (%)
+1689,TB_hiv_art_pct,HIV-positive TB patients on ART (antiretroviral therapy) (%)
+1690,TB_hiv_cpt_pct,HIV-positive TB patients on CPT (co-trimoxazole preventive therapy) (%)
+1691,TB_hivtest_pct,TB patients with known HIV status (%)
+1692,TB_hivtest_pos_pct,Tested TB patients HIV-positive (%)
+1693,TB_mdr,Confirmed cases of MDR-TB
+1694,TB_new_clindx,"New or unknown treatment history cases: Pulmonary, clinically diagnosed"
+1695,TB_new_ep,New cases: extrapulmonary
+1696,TB_new_labconf,"New or unknown treatment history cases: Pulmonary, bacteriologically confirmed"
+1697,TB_new_oth,New cases: other
+1698,TB_new_sn,New cases: pulmonary smear-negative
+1699,TB_new_snsuoth,"New cases: Pulmonary, smear-negative/unknown/not done and other new cases"
+1700,TB_new_sp,"New cases: Pulmonary, smear-positive"
+1701,TB_new_su,New cases: pulmonary smear unknown/not done
+1702,TB_newret_oth,Treatment history unknown
+1703,TB_ret_nrel,"Previously treated  cases, excluding relapse"
+1704,TB_ret_oth,Retreatment cases: other
+1705,TB_ret_rel,Relapse cases (pre-2013 definition)
+1706,TB_ret_rel_clindx,"Relapse cases: Pulmonary, clinically diagnosed"
+1707,TB_ret_rel_ep,Relapse cases: extrapulmonary
+1708,TB_ret_rel_labconf,"Relapse cases: Pulmonary, bacteriologically confirmed"
+1709,TB_ret_tad,Retreatment cases: treatment after default (pulmonary smear and/or culture positive)
+1710,TB_ret_taf,Retreatment cases: treatment after failure (pulmonary smear and/or culture positive)
+1711,TB_rr_mdr,Confirmed cases of RR-/MDR-TB
+1712,TB_sldst_avail,Second-line drug susceptibility testing (DST) available
+1713,TB_tot_newrel,Tuberculosis - new and relapse cases
+1714,tfr,Total fertility rate (per woman)
+1715,TOTENV_1,Deaths attributable to the environment
+1716,TOTENV_10,Total environment  attributable DALYs per 100'000 children under 5 years
+1717,TOTENV_11,Deaths attributable to the environment in children under 5 years (%)
+1718,TOTENV_12,DALYs attributable to the environment in children under 5 years (%)
+1719,TOTENV_2,Age-standardized deaths attributable to the environment (per 100 000 population)
+1720,TOTENV_3,Disability-adjusted life years (DALYs) attributable to the environment
+1721,TOTENV_4,Age-standardized DALYs attributable to the environment (per 100 000 population)
+1722,TOTENV_5,Deaths attributable to the environment (%)
+1723,TOTENV_6,Disability-adjusted life years (DALYs) attributable to the environment (%)
+1724,TOTENV_7,Total environment attributable deaths ('000) in children under 5 years
+1725,TOTENV_8,Total environment  attributable deaths per 100'000 children under 5 years
+1726,TOTENV_9,Total environment attributable DALYs ('000) in children under 5 years
+1727,u5mr,Under-five mortality rate (deaths per 1000 live births)
+1728,UHC_AVAILABILITY_SCORE,Primary data availability for UHC Service Coverage Index (SDG 3.8.1) (%)
+1729,UHC_IHR,Compliance with international health regulations
+1730,UHC_INDEX_REPORTED,UHC Service Coverage Index (SDG 3.8.1)
+1731,UHC_SCI_CAPACITY,UHC Service Coverage sub-index on service capacity and access
+1732,UHC_SCI_INFECT,UHC Service Coverage sub-index on infectious diseases
+1733,UHC_SCI_NCD,UHC Service Coverage sub-index on noncommunicable diseases
+1734,UHC_SCI_RMNCH,"UHC Service Coverage sub-index on reproductive, maternal, newborn and child health"
+1735,UNICEF_ORS,Children aged <5 years with diarrhoea receiving ORS (%)
+1736,UNICEF_PNCMOTHER,Women age 15-49 years who received a health check within 2 days after delivery of their most recent live birth in the last 2 years (%)
+1737,UNICEF_PNCNEWBORN,Proportion of newborns who have postnatal contact with a health provider within 2 days of delivery (%)
+1738,UV_1,UV radiation
+1739,UV_2,UV radiation attributable deaths
+1740,UV_3,UV radiation attributable DALYs ('000)
+1741,UV_4,UV radiation attributable deaths per 100'000 capita
+1742,UV_5,UV radiation attributable DALYs per 100'000 capita
+1743,VIOLENCE_CHILD_EMOTIONAL,Lifetime prevalence of child emotional abuse (%)
+1744,VIOLENCE_CHILD_NEGLECT,Lifetime prevalence of child physical neglect (%)
+1745,VIOLENCE_CHILD_PHYSICAL,Lifetime prevalence of child physical abuse (%)
+1746,VIOLENCE_CHILD_SEXUAL,Lifetime prevalence of child sexual abuse (%)
+1747,VIOLENCE_EXTENTIMP_ALLTYPES,Extent of implementation of  mental health services for victims of all types of violence
+1748,VIOLENCE_EXTENTIMP_CHILDHOMEVISIT,Child maltreatment: Extent of implementation of home-visiting programmes
+1749,VIOLENCE_EXTENTIMP_CHILDPROTECTION,Extent of implementation of child protection services
+1750,VIOLENCE_EXTENTIMP_ELDERCAREGIVER,Elder abuse: Extent of implementation  of caregiver-support programmes
+1751,VIOLENCE_EXTENTIMP_PARTNERVIOLPREVENTION,Intimate partner violence: Extent of implementation  of dating violence prevention programmes
+1752,VIOLENCE_EXTENTIMP_VICTIMSMEDICOLEGAL,Extent of implementation of medico-legal services for victims of sexual violence
+1753,VIOLENCE_EXTENTIMP_YOUTHLIFESKILLS,Youth violence: Extent of implementation of life-skills and social development programmes
+1754,VIOLENCE_HOMICIDENUM,Estimates of number of homicides
+1755,VIOLENCE_HOMICIDERATE,Estimates of rates of homicides per 100 000 population
+1756,vita,Children aged 6-59 months who received vitamin A supplementation (%)
+1757,W_Group,Warning about the dangers of tobacco
+1758,W1_HW_law_A,Law mandates that health warnings appear on tobacco packages
+1759,W1_HW_law_B,Law mandates that health warnings appear on other smoked tobacco packages
+1760,W1_HW_law_C,Law mandates that health warnings appear on smokeless tobacco packages
+1761,W10_graphic_A,Do the health warnings on cigarette packaging include a photograph or graphic?
+1762,W10_graphic_B,Do the health warnings on other smoked tobacco packaging include a photograph or graphic?
+1763,W10_graphic_C,Do the health warnings on smokeless tobacco packaging include a photograph or graphic?
+1764,W11_outside_pack_A,Do health warnings appear on each cigarette package and any outside packaging and labelling used in the retail sale?
+1765,W11_outside_pack_B,Do health warnings appear on each other smoked tobacco package and any outside packaging and labelling used in the retail sale?
+1766,W11_outside_pack_C,Do health warnings appear on each smokeless tobacco package and any outside packaging and labelling used in the retail sale?
+1767,W12_imports_dutyfree_A,Health warnings on cigarette packaging law applys to products whether manufactured domestically imported AND for duty-free sale
+1768,W12_imports_dutyfree_B,Health warnings on other smoked tobacco packaging law applys to products whether manufactured domestically imported AND for duty-free sale
+1769,W12_imports_dutyfree_C,Health warnings on smokeless tobacco packaging law applys to products whether manufactured domestically imported AND for duty-free sale
+1770,W13_ind_liability_A,Health warnings on cigarette packaging do not remove or diminish the liability of the tobacco industry
+1771,W13_ind_liability_B,Health warnings on other smoked tobacco packaging do not remove or diminish the liability of the tobacco industry
+1772,W13_ind_liability_C,Health warnings on smokeless tobacco packaging do not remove or diminish the liability of the tobacco industry
+1773,W14_harm_effects_A,Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?
+1774,W14_harm_effects_B,Do health warnings on other smoked tobacco packaging describe the harmful effects of tobacco use on health?
+1775,W14_harm_effects_C,Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?
+1776,W15_specific_hw_A,Does the law mandate specific health warnings on cigarette packaging?
+1777,W15_specific_hw_B,Does the law mandate specific health warnings on other smoked tobacco packaging?
+1778,W15_specific_hw_C,Does the law mandate specific health warnings on smokeless tobacco packaging?
+1779,W16_number_hw_A,How many health warnings are approved by the law for cigarette packaging?
+1780,W16_number_hw_B,How many health warnings are approved by the law for other smoked tobacco packaging?
+1781,W16_number_hw_C,How many health warnings are approved by the law for smokeless tobacco packaging?
+1782,W17_fines_A,Health warnings on cigarette packaging law requires or establishes fines for violations
+1783,W17_fines_B,Health warnings on other smoked tobacco packaging law requires or establishes fines for violations
+1784,W17_fines_C,Health warnings on smokeless tobacco packaging law requires or establishes fines for violations
+1785,W18_misleading_terms_A,Ban on deceitful terms on cigarette packaging
+1786,W18_misleading_terms_B,Ban on deceitful terms on other smoked tobacco packaging
+1787,W18_misleading_terms_C,Ban on deceitful terms on smokeless tobacco packaging
+1788,W19_colours_numbers_A,Cigarette packaging and labelling must not use figurative or other signs including colors or numbers as substitutes for prohibited misleading terms and descriptors
+1789,W19_colours_numbers_B,Other smoked tobacco packaging and labelling must not use figurative or other signs including colors or numbers as substitutes for prohibited misleading terms and descriptors
+1790,W19_colours_numbers_C,Smokeless tobacco packaging and labelling must not use figurative or other signs including colors or numbers as substitutes for prohibited misleading terms and descriptors
+1791,W2_pc_front_back_A,Percentage of principal display area mandated to be covered by health warnings - front and back of cigarette packaging
+1792,W2_pc_front_back_B,Percentage of principal display area mandated to be covered by health warnings - front and back of other smoked tobacco packaging
+1793,W2_pc_front_back_C,Percentage of principal display area mandated to be covered by health warnings - front and back of smokeless tobacco packaging
+1794,W20_flavours_A,Cigarette packaging and labelling must not use descriptors depicting flavours
+1795,W20_flavours_B,Other smoked tobacco packaging and labelling must not use descriptors depicting flavours
+1796,W20_flavours_C,Smokeless tobacco packaging and labelling must not use descriptors depicting flavours
+1797,W21_emissions_A,Cigarette packaging and labelling must not display quantitative information on emission yields (such as tar nicotine and carbon monoxide) including when used as part of a brand name or trademark
+1798,W21_emissions_quant_B,Other smoked tobacco packaging and labelling must not display quantitative information on emission yields (such as tar nicotine and carbon monoxide) including when used as part of a brand name or trademark
+1799,W23_emissions_front_back_A,Cigarette packaging and labelling must display qualitative information on constituents and emissions on one or more of the principal display areas
+1800,W21_emissions_quant_C,Smokeless tobacco packaging and labelling must not display quantitative information on emission yields (such as tar nicotine and carbon monoxide) including when used as part of a brand name or trademark
+1801,W22_emissions_qual_A,Cigarette packaging and labelling must display qualitative information on relevant constituents and emissions
+1802,W22_emissions_qual_B,Other smoked tobacco packaging and labelling must display qualitative information on relevant constituents and emissions
+1803,W22_emissions_qual_C,Smokeless tobacco packaging and labelling must display qualitative information on relevant constituents and emissions
+1804,W23_emissions_front_back_B,Other smoked tobacco packaging and labelling must display qualitative information on constituents and emissions on one or more of the principal display areas
+1805,W23_emissions_front_back_C,Smokeless tobacco packaging and labelling must display qualitative information on constituents and emissions on one or more of the principal display areas
+1806,W24_exp_date_A,Cigarette packaging and labelling must not display expiry dates
+1807,W24_exp_date_B,Other smoked tobacco packaging and labelling must not display expiry dates
+1808,W24_exp_date_C,Smokeless tobacco packaging and labelling must not display expiry dates
+1809,W25_quitline_number_A,The quit line number must appear on cigarette packaging or labelling
+1810,W25_quitline_number_B,The quit line number must appear on other smoked tobacco packaging or labelling
+1811,W25_quitline_number_C,The quit line number must appear on smokeless tobacco packaging or labelling
+1812,W26_plain_packaging_A,Plain packaging of cigarettes is mandatory (ie. the use of logos colours brand images or promotional information on packaging other than brand names and product names displayed in a standard colour and font style is prohibited).
+1813,W26_plain_packaging_B,Plain packaging of other smoked tobacco products is mandatory (ie. the use of logos colours brand images or promotional information on packaging other than brand names and product names displayed in a standard colour and font style is prohibited).
+1814,W26_plain_packaging_C,Plain packaging of smokeless tobacco products is mandatory (ie. the use of logos colours brand images or promotional information on packaging other than brand names and product names displayed in a standard colour and font style is prohibited).
+1815,W27_smokeless_prod_ban,The sale of all smokeless tobacco products is completely banned
+1816,W3_pc_front_A,Percentage of principal display area mandated to be covered by health warnings - front of cigarette packaging
+1817,W3_pc_front_B,Percentage of principal display area mandated to be covered by health warnings - front of other smoked tobacco packaging
+1818,W3_pc_front_C,Percentage of principal display area mandated to be covered by health warnings - front of smokeless tobacco packaging
+1819,W4_pc_back_A,Percentage of principal display area mandated to be covered by health warnings - back of cigarette packaging
+1820,W4_pc_back_B,Percentage of principal display area mandated to be covered by health warnings - back of other smoked tobacco packaging
+1821,W4_pc_back_C,Percentage of principal display area mandated to be covered by health warnings - back of smokeless tobacco packaging
+1822,W5_top_side_A,Health warnings on cigarette packaging must be placed at the top of the principal display areas of the package
+1823,W5_top_side_B,Health warnings on other smoked tobacco packaging must be placed at the top of the principal display areas of the package
+1824,W5_top_side_C,Health warnings on smokeless tobacco packaging must be placed at the top of the principal display areas of the package
+1825,W6_font_A,"Does the law mandate font style, font size and colour of health warnings on cigarette packaging?"
+1826,W6_font_B,"Does the law mandate font style, font size and colour of health warnings on other smoked tobacco packaging?"
+1827,W6_font_C,"Does the law mandate font style, font size and colour of health warnings on smokeless tobacco packaging?"
+1828,W7_rotation_A,Are the health warnings on cigarette packaging rotating?
+1829,W7_rotation_B,Are the health warnings on other smoked tobacco packaging rotating?
+1830,W7_rotation_C,Are the health warnings on smokeless tobacco packaging rotating?
+1831,W8_princ_langs_A,Are the health warnings on cigarette packaging written in the principal language(s) of the country?
+1832,W8_princ_langs_B,Are the health warnings on other smoked tobacco packaging written in the principal language(s) of the country?
+1833,W8_princ_langs_C,Are the health warnings on smokeless tobacco packaging written in the principal language(s) of the country?
+1834,W9_no_obscure_A,Health warnings on cigarette packaging must not be obscured in any way including by required markings such as tax stamps
+1835,W9_no_obscure_B,Health warnings on other smoked tobacco packaging must not be obscured in any way including by required markings such as tax stamps
+1836,W9_no_obscure_C,Health warnings on smokeless tobacco packaging must not be obscured in any way including by required markings such as tax stamps
+1837,wast5,Wasting prevalence in children aged < 5 years (%)
+1838,WHOSIS_000001,Life expectancy at birth (years)
+1839,WHOSIS_000002,Healthy life expectancy (HALE) at birth (years)
+1840,WHOSIS_000003,Neonatal mortality rate (per 1000 live births)
+1841,WHOSIS_000004,Adult mortality rate (probability of dying between 15 and 60 years per 1000 population)
+1842,WHOSIS_000006,Infants exclusively breastfed for the first six months of life (%)
+1843,WHOSIS_000007,Healthy life expectancy (HALE) at age 60 (years)
+1844,WHOSIS_000014,Stillbirth rate (per 1000 total births)
+1845,WHOSIS_000015,Life expectancy at age 60 (years)
+1846,WHS_PBR,Preterm birth rate (per 100 live births)
+1847,WHS10_8,Civil registration coverage of cause-of-death (%)
+1848,WHS10_9,Ill-defined causes in cause-of-death registration (%)
+1849,WHS2_126,Distribution of years of life lost by major cause group
+1850,WHS2_131,Age-standardized NCD mortality rate  (per 100 000 population)
+1851,WHS2_138,Deaths due to HIV/AIDS (per 100 000 population)
+1852,WHS2_152,Deaths due to malaria (per 100 000 population)
+1853,WHS2_160,Age-standardized mortality rate by cause (per 100 000 population) - Cancer
+1854,WHS2_161,Age-standardized mortality rate by cause (per 100 000 population) - Cardiovascular
+1855,WHS2_174,Distribution of years of life lost by broader causes (%) - Injuries
+1856,WHS3_41,Diphtheria - number of reported cases
+1857,WHS3_42,Japanese encephalitis - number of reported cases
+1858,WHS3_43,Pertussis - number of reported cases
+1859,WHS3_45,Number of new leprosy cases
+1860,WHS3_46,Total tetanus - number of reported cases
+1861,WHS3_49,Poliomyelitis - number of reported cases
+1862,WHS3_50,Yellow fever - number of reported cases
+1863,WHS3_522,Number of reported cases of tuberculosis
+1864,WHS3_53,Mumps - number of reported cases
+1865,WHS3_55,Congenital Rubella Syndrome - number of reported cases
+1866,WHS3_56,Neonatal tetanus - number of reported cases
+1867,WHS3_57,Rubella - number of reported cases
+1868,WHS3_62,Measles - number of reported cases
+1869,WHS4_100,Diphtheria tetanus toxoid and pertussis (DTP3) immunization coverage among 1-year-olds (%)
+1870,WHS4_106,Children aged < 5 years with pneumonia symptoms taken to a healthcare provider (%)
+1871,WHS4_111,Antenatal care coverage - at least one visit (%)
+1872,WHS4_111_AGE1519,"Antenatal care coverage - at least one visit, among girls aged 15-19 (%)"
+1873,WHS4_115,Births by caesarean section (%)
+1874,WHS4_117,Hepatitis B (HepB3) immunization coverage among 1-year-olds (%)
+1875,WHS4_128,Neonates protected at birth against neonatal tetanus (PAB) (%)
+1876,WHS4_129,Hib (Hib3) immunization coverage among 1-year-olds (%)
+1877,WHS4_154,Antenatal care coverage - at least four visits (%)
+1878,WHS4_543,BCG immunization coverage among 1-year-olds (%)
+1879,WHS4_544,Polio (Pol3) immunization coverage among 1-year-olds (%)
+1880,WHS5_512,Population using solid fuels (%)
+1881,WHS6_100,Radiotherapy units (per 1 000 000 population)
+1882,WHS6_101,Median availability of selected generic medicines (%) - Private
+1883,WHS6_102,Hospital beds (per 10 000 population)
+1884,WHS6_116,Median consumer price ratio of selected generic medicines - Private
+1885,WHS8_110,Measles-containing-vaccine first-dose (MCV1) immunization coverage among 1-year-olds (%)
+1886,W-MM_Group,Anti-tobacco mass media campaigns
+1887,WSH_1,SDG 3.9.2 WASH deaths
+1888,WSH_10,"Number of diarrhoea deaths from inadequate water, sanitation and hygiene"
+1889,WSH_10_HYG,Number of diarrhoea deaths from inadequate hygiene
+1890,WSH_10_SAN,Number of diarrhoea deaths from inadequate sanitation
+1891,WSH_10_WAT,Number of diarrhoea deaths from inadequate water
+1892,WSH_2,"Water, sanitation and hygiene attributable deaths ('000) in children under 5 years"
+1893,WSH_20,"Attributable fraction of diarrhoea to inadequate water, sanitation and hygiene"
+1894,WSH_20_HYG,Attributable fraction of diarrhoea to inadequate hygiene
+1895,WSH_20_SAN,Attributable fraction of diarrhoea to inadequate sanitation
+1896,WSH_20_WAT,Attributable fraction of diarrhoea to inadequate water
+1897,WSH_3,"Water, sanitation and hygiene attributable deaths per 100'000 capita"
+1898,WSH_30,"Number of diarrhoea DALYs from inadequate water, sanitation and hygiene"
+1899,WSH_30_HYG,Number of diarrhoea DALYs from inadequate hygiene
+1900,WSH_30_SAN,Number of diarrhoea DALYs from inadequate sanitation
+1901,WSH_30_WAT,Number of diarrhoea DALYs from inadequate water
+1902,WSH_4,"Water, sanitation and hygiene  attributable deaths per 100'000 children under 5 years"
+1903,WSH_5,"Water, sanitation and hygiene attributable DALYs ('000)"
+1904,WSH_6,"Water, sanitation and hygiene attributable DALYs ('000) in children under 5 years"
+1905,WSH_7,"Water, sanitation and hygiene attributable DALYs per 100'000 capita"
+1906,WSH_8,"Water, sanitation and hygiene  attributable DALYs per 100'000 children under 5 years"
+1907,WSH_HYGIENE_BASIC,Population with basic handwashing facilities at home (%)
+1908,WSH_SANITATION_BASIC,Population using at least basic sanitation services (%)
+1909,WSH_SANITATION_OD,Population practising open defecation (%)
+1910,WSH_SANITATION_SAFELY_MANAGED,Population using safely managed sanitation services (%)
+1911,WSH_WATER_BASIC,Population using at least basic drinking-water services (%)
+1912,WSH_WATER_SAFELY_MANAGED,Population using safely managed drinking-water services (%)
+1913,NCD_CCS_ARB,General availability of Angiotensin II receptor blockers (ARBs) in the public health sector
+1914,NCD_CCS_CRD_GUIDE,Existence of evidence-based national guidelines/protocols/standards for the management of chronic respiratory diseases
+1915,NCD_CCS_MORT_TARGET,Existence of a national target on NCD mortality
+1916,IHRSPAR_CAPACITY01,Legislation and Financing
+1917,bfearly,Early initiation of breastfeeding (in the two years preceding the survey) (%)
+1918,R_Price_lowest_cost_ppp,Cheapest brand of cigarettes - price in PPP$
+1919,ASSISTIVETECH_SOURCESOFAT,Sources of assistive products (%)
+1920,MALARIA_PF_INDIG,Number of indigenous P. falciparum malaria cases
+1921,O_Cytisine_sold,Cytisine - legally sold
+1922,NCD_CCS_PA_POL_WORK,Existence of policy promoting physical activity: workplace initiatives
+1923,FINPROTECTION_IMP_BNLFHU_FURIMP_HH,"Households further impoverished by out-of-pocket payments (relative poverty line reflecting basic needs: food, housing, utilities) (%)"
+1924,IHRSPAR_CAPACITY13,Radiation Emergencies
+1925,PHE_HHAIR_POP_CATEGORY_FUELS,"Population with primary reliance on fuels and technologies)for cooking, by fuel type (in millions)"
+1926,Yth_curr_cig_smoking,Prevalence of current cigarette smoking among adolescents (%)
+1927,NCD_CCS_ESS_MEDS_TECH_TARGET,Existence of a national target on essential medicines and technologies
+1928,MALARIA_IMPORTED,Number of imported malaria cases
+1929,R_earmarking,Reported use of earmarked tobacco taxes
+1930,IHRSPAR_CAPACITY03,Zoonotic Events and the Human-animal Interface
+1931,IHRSPAR_CAPACITY07,Human Resources (SPAR)
+1932,PHE_HHAIR_POP_POLLUTING_FUELS,Population with primary reliance on polluting fuels and technologies for cooking (in millions)
+1933,IHRSPAR_CAPACITY06,Surveillance (SPAR)
+1934,MALARIA_ITN_COVERAGE,"Population with access to an insecticide-treated bed net (ITN) for malaria protection (%), modelled"
+1935,Adult_curr_smokeless,Prevalence of current smokeless tobacco use among adults (%)
+1936,Yth_nonsmoked_svy_title,Name of latest youth prevalence survey (nonsmoked)
+1937,RADON_Q501_1,Reference level for dwellings (Bq/m3)
+1938,CARE_SOURCE,Care-seeking by type of patient and source of care (%)
+1939,E_compl_e10,Compliance with ban on promotional discounts (score)
+1940,NCD_CCS_TOB_SVY,"Has conducted a recent, national adult risk factor survey covering tobacco use"
+1941,Adult_nonsmoked_national,Representation of latest adult prevalence survey (nonsmoked)
+1942,Yth_nonsmoked_svy_yr,Year of latest youth prevalence survey (nonsmoked)
+1943,E_compl_e14,Compliance with ban on appearance of tobacco products in TV and/or films (score)
+1944,FINPROTECTION_IMP_P310_LEVEL_MILLION,Total population pushed  further below the $3.20 a day poverty line by household health expenditures (millions)
+1945,NCD_CCS_PA_GUIDELINES_OLDADULTS,Existence of national guidelines for physical activity for older adults
+1946,P_compl_p1,Compliance with smoke-free health-care facilities law (score)
+1947,RADON_Q503,Existence of national reference level for workplaces
+1948,NCD_CCS_ALC_TARGET,Existence of a national target on alcohol
+1949,NCD_CCS_PA_SVY,"Has conducted a recent, national adult risk factor survey covering physical inactivity"
+1950,NCD_CCS_PA_POL_WALKBIKE,Existence of policy promoting physical activity: walking and cycling
+1951,MALARIA_EST_DEATHS,Estimated number of malaria deaths
+1952,FINPROTECTION_IMP_P310_POP,Population pushed further below the $3.20 a day poverty line by household health expenditures (%)
+1953,R_Price_mp_estimate_ppp,Most sold brand of cigarettes - price in PPP$
+1954,P_compl_p4,Compliance with smoke-free government facilities law (score)
+1955,W21_emissions_quant_A,Cigarette packaging and labelling must not display quantitative information on emission yields (such as tar nicotine and carbon monoxide) including when used as part of a brand name or trademark
+1956,WHOSIS_000016,Mortality rate among children ages 5 to 9 years (per 1000 children aged 5)
+1957,MALARIA_EST_INCIDENCE,Estimated malaria incidence (per 1000 population at risk)
+1958,IHRSPAR_CAPACITY10,Risk Communication (SPAR)
+1959,E23_vending_machines,Ban on tobacco vending machines
+1960,E22_subnational_authority_exists,"Subnational bans on tobacco advertising, promotion and sponsorship authority exists"
+1961,AIR_71,Ambient air pollution attributable DALYs in children under 15 years
+1962,ASSISTIVETECH_Q06,Workforce availability for assistive technology
+1963,SDGIPV,Proportion of ever-partnered women and girls aged 15-49 years subjected to physical and/or sexual violence by a current or former intimate partner in the previous 12 months
+1964,SDGHEALTHFACILITIESESSENTIALMEDS,Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis
+1965,NCD_CCS_bone_marrow,General availability of bone marrow transplantation in the public health system
+1966,RADON_Q502_1,Reference level for buildings with high public occupancy (Bq/m3)
+1967,NCD_CCS_CHOL_SVY,"Has conducted a recent, national adult risk factor survey covering raised total cholesterol"
+1968,NCD_CCS_DRUG_THERAPY_TARGET,Existence of a national target on drug therapy and counselling
+1969,IHRSPAR_CAPACITY11,Points of Entry (SPAR)
+1970,NCD_CCS_PBCR,Existence of population-based cancer registry
+1971,HEMOGLOBINLEVEL_CHILDREN_MEAN,Mean hemoglobin level of children aged 6-59 months
+1972,Adult_nonsmoked_age_grp,Age range of latest adult prevalence survey (nonsmoked)
+1973,GASPRP,Reporting countries
+1974,TB_e_inc_rr_num,Estimated number of MDR/RR-TB incident cases
+1975,R_Price_lowest_cost_estimate,Cheapest brand of cigarettes - price in currency reported
+1976,NCD_HYP_DIAGNOSIS_A,"Prevalence of previous diagnosis of hypertension among adults aged 30-79 with hypertension, age-standardized"
+1977,Yth_daily_smokeless,Prevalence of daily smokeless tobacco use among adolescents (%)
+1978,ASSISTIVETECH_Q07,Availability of education/training for assistive technology
+1979,E_compl_e_all_indir,Overall compliance with bans on promotion and sponsorship (score)
+1980,HEMOGLOBINLEVEL_PREGNANT_MEAN,Mean hemoglobin level of pregnant women (aged 15-49 years)
+1981,ASSISTIVETECH_Q08,Existence of financial mechanisms for assistive technology
+1982,RADON_Q202,Existence of any subnational radon activity
+1983,cpmowho,Contraceptive prevalence - use of modern methods (%)
+1984,NCD_CHOL_MEANHDL_A,"Mean HDL cholesterol, age-standardized"
+1985,E_compl_all_dir,Overall compliance with bans on direct advertising (score)
+1986,Adult_svy_national,Representativeness of most recent survey of adults
+1987,IHRSPAR_CAPACITY02,IHR Coordination and National IHR Focal Point Functions
+1988,MALARIA_MICR_TEST,Number of malaria suspects examined by microscopy
+1989,MALARIA_EST_CASES,Estimated number of malaria cases
+1990,P_compl_p5,Compliance with smoke-free indoor offices law (score)
+1991,IHRSPAR_CAPACITY12,Chemical Events
+1992,Adult_curr_e-cig,Prevalence of current e-cigarette use among adults (%)
+1993,FINPROTECTION_IMP_PRELPL_POP,Population pushed further  below a relative poverty line by household health expenditures (60% of median daily per capita consumption or income) (%)
+1994,IHRSPAR_CAPACITY05,Laboratory (SPAR)
+1995,MALARIA_SUSPECTS,Number of suspected malaria cases
+1996,SDGIPVLT,Proportion of ever-partnered women and girls aged 15–49 years subjected to physical and/or sexual violence by a current or former intimate partner in their lifetime
+1997,NCD_HYP_PREVALENCE_A,"Prevalence of hypertension among adults aged 30-79 years, age-standardized"
+1998,IHRSPAR_CAPACITY08,National Health Emergency Framework
+1999,NCD_HYP_PREVALENCE_C,"Prevalence of hypertension among adults aged 30-79 years, crude"
+2000,O_Cytisine_where,Cytisine - place available
+2001,GLASSAMC_GPW13_T4B,Target ≥60% of total antibiotic consumption being Access group antibiotics (GPW13 target 4b)
+2002,vbcg,BCG immunization coverage among one-year-olds (%)
+2003,SDGIPV12M,Proportion of ever-partnered women and girls aged 15–49 years subjected to physical and/or sexual violence by a current or former intimate partner in the previous 12 months
+2004,NCD_CCS_TEL_HYDRO_COMBO,General availability of Fixed dose combination avail (telmisartan + hydrochlorothiazide) in the public health sector
+2005,MALARIA_INDIG_STATUS,Status of indigenous malaria cases
+2006,NCD_CCS_FOOD_TAX,"Existence of tax on foods high in fat, sugars or salt"
+2007,MH_27,Publication year of the policy or plan (latest revision)
+2008,HIV_0000000028,"Estimated number of tests performed where results were received by a person (testing volume), estimated number per 1000 population"
+2009,NCD_CCS_EyePlan,Existence of operational policy/strategy/action plan for eye health
+2010,NCD_HYP_CONTROL_A,"Prevalence of controlled hypertension among adults aged 30-79 years with hypertension, age-standardized"
+2011,MALARIA_PV_INDIG,Number of indigenous P. vivax malaria cases
+2012,AMR_INFECT_MRSA,"Proportion of bloodstream infection due to methicillin-resistant Staphylococcus aureus (MRSA), median (%)"
+2013,NCD_CCS_PA_GUIDELINES_5to19,Existence of national guidelines for physical activity for children and adolescents aged 5-19
+2014,IMMUNIZATION_VACCINATIONCARDSSEEN,Proportion of vaccination cards seen (%)
+2015,GASPRSCFM,Proportion of isolates with decreased susceptibility or resistance (DS/R) to cefixime reported to WHO-GASP
+2016,NCD_CCS_CANCER_GUIDE,Existence of evidence-based national guidelines/protocols/standards for the management of cancer
+2017,MALARIA_INDIG,Number of indigenous malaria cases
+2018,RADON_Q707,Inclusion of radon education for building professionals
+2019,NCD_CCS_PA_POL_CHILDCARE,Existence of policy promoting physical activity: childcare settings
+2020,ASSISTIVETECH_Q10,Existence of initiatives/collaborations on assistive technology
+2021,MALARIA_CONF_CASES,Number of confirmed malaria cases
+2022,E_compl_e12,Compliance with ban on indentifying non-tobacco products with tobacco brand names (score)
+2023,NUTRITION_ANAEMIA_NONPREGNANT_PREV,Prevalence of anaemia in non-pregnant women (aged 15-49) (%)
+2024,ASSISTIVETECH_SATISFACTIONACTIVITIES,Satisfaction with assistive products for different environments and activities (%)
+2025,E_compl_e6,Compliance with ban on advertising at point of sale (score)
+2026,MALARIA_RDT_TEST,Number of malaria suspects examined by rapid diagnostic test (RDT)
+2027,NCD_CCS_BPmsmt,General availability of blood pressure measurement at the primary health care level
+2028,NCD_CCS_BP_SVY,"Has conducted a recent, national adult risk factor survey covering raised blood pressure/hypertension"
+2029,uwgt5,Underweight prevalence in children aged < 5 years (%) (Health inequality monitor)
+2030,CARE_SEEK,Care-seeking by type of patient and source of care (%) (see CARE_SOURCE)
+2031,NTD_BU_END,Status of endemicity of buruli ulcder
+2032,P_compl_p6,Compliance with smoke-free restaurants law (score)
+2033,M_Est_smk_curr,Estimate of current tobacco smoking prevalence (%)
+2034,NCD_CHOL_MEANTOTALCHOL_C,"Mean total cholesterol,  crude"
+2035,FINPROTECTION_IMP_BNLFHU_P_HH,"Households impoverished by out-of-pocket payments (relative poverty line reflecting basic needs: food, housing, utilities) (%)"
+2036,RADON_Q605,Authorization/accreditation required for official radon measurement providers
+2037,Adult_daily_smokeless,Prevalence of daily smokeless tobacco use among adults (%)
+2038,E17a_csr_ban,Ban on Corporate Social Responsibility activities (CSR)
+2039,vzdpt,One-year-old children who have not received any doses of the DTP vaccine (%)
+2040,NCD_CCS_ALC_MGMT_GUIDE,Existence of evidence-based national guidelines/protocols/standards for the management of alcohol use disorders
+2041,ASSISTIVETECH_SATISFACTIONSERVICES,Satisfaction with assistive products and related services (%)
+2042,NCD_CCS_diab_retin,General availability of diabetic retinopathy screening in the public health system
+2043,ASSISTIVETECH_BARRIERAT,Barriers to accessing assistive products (%)
+2044,NCD_HYP_CONTROL_C,"Prevalence of controlled hypertension among adults aged 30-79 years with hypertension, crude"
+2045,E_compl_e5,Compliance with ban on billboard and outdoor advertising (score)
+2046,NCD_CCS_PA_POL_PUBLIC,Existence of policy promoting physical activity: public open spaces
+2047,NUTRITION_ANAEMIA_REPRODUCTIVEAGE_PREV,Prevalence of anaemia in women of reproductive age (aged 15-49) (%)
+2048,HIV_0000000027,Reported number of tests performed where results were received by a person (testing volume)
+2049,NCD_CCS_CVD_GUIDE,Existence of evidence-based national guidelines/protocols/standards for the management of cardiovascular diseases
+2050,NCD_CCS_PA_TARGET,Existence of a national target on physical inactivity
+2051,NCD_CCS_OVWT_SVY,"Has conducted a recent, national adult risk factor survey covering overweight and obesity"
+2052,NCD_HYP_TREATMENT_A,"Prevalence of treatment (taking medicine) for hypertension among adults aged 30-79 with hypertension, age-standardized"
+2053,E_compl_e3,Compliance with ban on advertising in local magazines and newspapers (score)
+2054,Youth_svy_age_range,Age range of most recent adolescent survey
+2055,NCD_CCS_PA_MASS_PART,Implementation of a recent mass participation event
+2056,NCD_CHOL_MEANHDL_C,"Mean HDL cholesterol, crude"
+2057,P_compl_p2,Compliance with smoke-free education facilities except universities law (score)
+2058,Adult_survey_title,Title of most recent survey of adults
+2059,RADON_Q305,Existence of national radon map
+2060,FINPROTECTION_IMP_PREL_LEVEL_MILLION,Total population pushed   further  below a relative poverty line by household health expenditures (60% of median daily per capita consumption or income) (millions)
+2061,ASSISTIVETECH_TRAVELDISTANCEAT,Travel distance to obtain assistive products (%)
+2062,SRHINSTITUTIONALBIRTH,Institutional Births (birth taken place in a facility) (%)
+2063,FINPROTECTION_IMP_NPRELPL_POP,Population pushed below a relative poverty line by household health expenditures (60% of median daily per capita consumption or income) (%)
+2064,NCD_CCS_TOB_MGMT_GUIDE,Existence of evidence-based national guidelines/protocols/standards for the management of tobacco dependence
+2065,FAMILYPLANNINGUNPDUHC,"Women of reproductive age (15−49 years) who are married or in-union who have their need for family planning satisfied with modern methods (%), UNPD"
+2066,NUTRITION_ANAEMIA_REPRODUCTIVEAGE_NUM,Number of women of reproductive age (aged 15-49 years) with anaemia (thousands)
+2067,M_Est_cig_curr_std,Estimate of current cigarette smoking prevalence (%) (age-standardized rate)
+2068,AMR_INFECT_ECOLI,"Proportion of bloodstream infection due Escherichia coli resistant to 3rd-generation cephalosporin, median (%)"
+2069,SDGFPALL,Women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods (%)
+2070,E_compl_e9,Compliance with ban on free distribution in mail or through other means (score)
+2071,Yth_daily_tob_smoking,Prevalence of daily tobacco smoking among adolescents (%)
+2072,NCD_CCS_OBES_TARGET,Existence of a national target on obesity
+2073,LBW_NUMBER,Low birth weight (in thousands)
+2074,LBW_PREVALENCE,"Low birth weight, prevalence (%)"
+2075,ASSISTIVETECH_TOTALNEED,Prevalence of need of assistive products (%)
+2076,OHS_POLICYSTATUS,Existence of national policy instruments for occupational health and safety for health workers
+2077,FINPROTECTION_IMP_P190_LEVEL_SH,Total population pushed further below the $1.90 a day poverty line by household health expenditures (%)
+2078,FINPROTECTION_IMP_NP_REL_LEVEL_MILLION,Total population pushed below a relative poverty line by household health expenditures (60% of median daily per capita consumption or income) (millions)
+2079,AIR_73,Ambient air pollution attributable YLL in children under 15 years
+2080,AMRGLASS_SURVL04,Number of surveillance sites reporting to GLASS: In- and outpatient facilities
+2081,NCD_CCS_cancer_surgery,General availability of cancer surgery in the public sector
+2082,FINPROTECTION_IMP_P310_LEVEL_SH,Total population pushed  further  below the $3.20 a day poverty line by household health expenditures (%)
+2083,CHILDVIOL,Indicator 16.2.1: Proportion of children aged 1-17 years who experienced any physical punishment and/or psychological aggression by caregivers in the past month
+2084,GASPRSESC,Proportion of isolates with decreased susceptibility or resistance (DS/R) to extended-spectrum cephalosporins reported to WHO-GASP
+2085,Camp_media_monitor,Process evaluation was employed to assess implementation of the campaign
+2086,NCD_CCS_CANCER_DEPT,General availability of cancer centres or cancer departments at tertiary level in the public sector
+2087,GASPRSCIP,Proportion of isolates with resistance to ciprofloxacin reported to WHO-GASP
+2088,NCD_CCS_PA_GUIDELINES_UNDER5,Existence of national guidelines for physical activity for children under 5
+2089,MALARIA_ACT_TREATED,Number of malaria cases treated with artemisinin-based combination therapies (ACTs)
+2090,NUTRITION_ANAEMIA_CHILDREN_NUM,Number of children aged 6–59 months with anaemia (thousands)
+2091,NCD_CCS_PA_POL_COMM_BASED,Existence of policy promoting physical activity: community-based and sports initiatives
+2092,VACCINEPREVENTABLE_WILDPOLIO,Number of reported cases of poliomyelitis by wild poliovirus (WPV)
+2093,Adult_curr_tob_smoking,Prevalence of current tobacco smoking among adults (%)
+2094,MALARIA_MICR_POS,Number of malaria positive cases by microscopy
+2095,Yth_curr_smokeless,Prevalence of current smokeless tobacco use among adolescents (%)
+2096,P_compl_p7,Compliance with smoke-free pubs and bars law (score)
+2097,Adult_curr_cig_smoking,Prevalence of current cigarette smoking among adults (%)
+2098,SDGHPVRECEIVED,Girls aged 15 years old that received the recommended doses of HPV vaccine (%)
+2099,Yth_daily_cig_smoking,Prevalence of daily cigarette smoking among adolescents (%)
+2100,ASSISTIVETECH_Q04,Existence of responsible ministry/authority on assistive technology
+2101,GASPRSCRO,Proportion of isolates with decreased susceptibility or resistance (DS/R) to ceftriaxone reported to WHO-GASP
+2102,NCD_CCS_HearingPlan,Existence of operational policy/strategy/action plan for hearing health
+2103,Yth_nonsmoked_national,Representation of latest youth prevalence survey (nonsmoked)
+2104,NUTRITION_ANAEMIA_PREGNANT_NUM,Number of pregnant women (aged 15-49 years) with anaemia (thousands)
+2105,SDGODAWS,Amount of water- and sanitation-related official development assistance that is part of a government-coordinated spending plan (current US$ millions)
+2106,Youth_svy_yr,Year of most recent adolescent survey
+2107,NCD_CCS_path_lab,General availability of pathology services (laboratories) in the public sector
+2108,IHRSPAR_CAPACITY09,Health Service Provision
+2109,Adult_curr_tob_use,Prevalence of current tobacco use among adults (%)
+2110,ASSISTIVETECH_Q01,Existence of legislation on access to assistive technology
+2111,GASPRSAZM,Proportion of isolates with resistance to azithromycin reported to WHO-GASP
+2112,Yth_daily_e-cig,Prevalence of daily e-cigarette use among adolescents (%)
+2113,AMRGLASS_SURVL05,Total number of surveillance sites reporting to GLASS
+2114,AIR_72,Ambient air pollution attributable deaths in children under 15 years
+2115,E17b_csr_promo_self,Ban on tobacco companies/the tobacco industry publicizing their CSR activities
+2116,P_comprehensive_subnat,Subnational smoking bans - at least one jurisdiction has a comprehensive ban in place
+2117,FINPROTECTION_IMP_PG_RELPL_STD,"Increase in poverty gap due to household health expenditures, expressed as a proportion of a relative poverty line (60% of median daily per capita consumption or income) (%)"
+2118,NUTRITION_ANAEMIA_CHILDREN_PREV,Prevalence of anaemia in children aged 6–59 months (%)
+2119,NCD_CCS_PA_MGMT_GUIDE,Existence of evidence-based national guidelines/protocols/standards for the management of physical inactivity
+2120,NCD_HYP_TREATMENT_C,"Prevalence of treatment (taking medicine) for hypertension among adults aged 30-79 with hypertension, crude"
+2121,NCD_CCS_TransFat,Existence of national policies on trans-fatty acid elimination
+2122,E17c_csr_promo_others,Ban on entities other than tobacco companies/the tobacco industry publicizing the CSR activities of the tobacco companies/industry
+2123,R_Price_lowest_cost_usd,Cheapest brand of cigarettes - price in US$ at official exchange rates
+2124,NCD_CHOL_MEANNONHDL_C,"Mean Non-HDL cholesterol, crude"
+2125,ASSISTIVETECH_Q02,Coverage of people in need of assistive technology by legislation
+2126,E_compl_e15,Compliance with ban on sponsorship (contributions and/or publicity of contributions) (score)
+2127,E_compl_e1,Compliance with ban on advertising on national television and radio (score)
+2128,O_Cytisine_ins,Cytisine - cost covered
+2129,ICD11_IMPL_LVL,ICD-11 implementation progress level
+2130,RADON_Q503_1,Reference level for workplaces (Bq/m3)
+2131,P_compl_p8,Compliance with smoke-free public transport law (score)
+2132,HWF_0026,Nursing personnel (%)
+2133,NCD_CHOL_MEANTOTALCHOL_A,"Mean total cholesterol,  age-standardized"
+2134,CHILDMORT_DEATHS_10TO14,Number of deaths among children ages 10 to 14 years
+2135,NCD_CCS_ALC_SVY,"Has conducted a recent, national adult risk factor survey covering harmful alcohol use"
+2136,MH_26,Year the law was enacted (latest revision)
+2137,MALARIA_RDT_POS,Number of malaria positive cases by rapid diagnostic test (RDT)
+2138,R_Price_mp_estimate_usd,Most sold brand of cigarettes - price in US$ at official exchange rates
+2139,FINPROTECTION_IMP_P190_LEVEL_MILLION,Total population pushed  further below the $1.90 a day poverty line by household health expenditures (millions)
+2140,PHE_HHAIR_PROP_POP_POLLUTING_FUELS,Proportion of population with primary reliance on polluting fuels and technologies for cooking (%)
+2141,NCD_CCS_DIET_AWARE,Implementation of a nutrition public awareness program
+2142,R_admin_tax_stamps_cig,"Tax stamps, fiscal marks, banderole or other types of marking are applied on cigarettes"
+2143,NCD_CCS_TOB_TARGET,Existence of a national target on tobacco
+2144,FINPROTECTION_IMP_BNLFHU_TOT_HH,"Households pushed below or further below a relative poverty line (reflecting basic needs: food, housing, utilities) by out-of-pocket payments (%)"
+2145,NCD_HYP_DIAGNOSIS_C,"Prevalence of previous diagnosis of hypertension among adults aged 30-79 with hypertension, crude"
+2146,E_compl_e13,Compliance with ban on appearance of tobacco brands in TV and/or films (score)
+2147,NCD_CCS_LIS_AML_COMBO,General availability of Fixed dose combination avail (lisinopril + amlodipine) in the public health sector
+2148,MALARIA_1STLINE_TREATED,Number of malaria cases treated with any first  line tx courses (including artemisinin-based combination therapies (ACTs))
+2149,HEMOGLOBINLEVEL_REPRODUCTIVEAGE_MEAN,Mean hemoglobin level of women of reproductive age (aged 15-49 years)
+2150,NCD_CCS_DIAB_SVY,"Has conducted a recent, national adult risk factor survey covering raised blood glucose/diabetes"
+2151,NCD_CCS_PA_POL_AGEING,Existence of policy promoting physical activity: active ageing
+2152,CM_04,Number of deaths among children ages 5 to 9 years
+2153,Adult_nonsmoked_svy_title,Name of latest adult prevalence survey (nonsmoked)
+2154,NCD_CCS_PA_TAX,Existence of tax incentives to promote physical activity
+2155,WSH_DOMESTIC_WASTE_SAFELY_TREATED,SDG 6.3.1 Proportion of safely treated domestic wastewater flows (%)
+2156,ASSISTIVETECH_Q05,Availability of government/registered services for assistive technology
+2157,NTD_YAWSNUM_CONF,Number of confirmed yaws cases reported
+2158,GLASSAMC_TC,Total consumption of antibacterials expressed as DDD per 1000 inhabitants per day
+2159,vfull,Full immunization coverage among one-year-olds (%)
+2160,FINPROTECTION_IMP_P190_POP,Population pushed further below the $1.90 a day poverty line by household health expenditures (%)
+2161,PHE_HHAIR_POP_CLEAN_FUELS,Population with primary reliance on clean fuels and technologies for cooking (in millions)
+2162,NCD_CCS_radio,General availability of radiotherapy in the public sector
+2163,NCD_CCS_dilated_fundus,General availability of dilated fundus examination at the primary health care level
+2164,HWF_0025,Medical doctors (%)
+2165,MALARIA_EST_MORTALITY,Estimated malaria mortality rate (per 100 000 population)
+2166,Yth_curr_tob_use,Prevalence of current tobacco use among adolescents (%)
+2167,R_afford_cat,"Affordability – category of change 2010-2020 (Yes (less affordable), No (more affordable), No change)."
+2168,Yth_nonsmoked_age_grp,Age range of latest youth prevalence survey (nonsmoked)
+2169,NCD_CCS_SALT_TARGET,Existence of a national target on salt
+2170,bmi30wm,"Obesity prevalence in non-pregnant women aged 15-49 years, BMI >= 30 (%)"
+2171,sevwast5,Severe wasting prevalence in children aged < 5 years (%)
+2172,NCD_CCS_BP_TARGET,Existence of a national target on blood pressure / hypertension
+2173,CHILDMORT_MORTALITY_10TO14,Mortality rate among children ages 10 to 14 years (per 1000 children aged 10)
+2174,ASSISTIVETECH_Q03,Availability of public funding for assistive technology
+2175,ASSISTIVETECH_PAYERSAT,Funding for assistive products (%)
+2176,Adult_svy_yr,Year of most recent survey of adults
+2177,GASPTICIP,Number of isolates tested for ciprofloxacin
+2178,Yth_curr_tob_smoking,Prevalence of current tobacco smoking among adolescents (%)
+2179,NCD_CCS_TEL_AML_COMBO,General availability of Fixed dose combination avail (telmisartan + amlodipine) in the public health sector
+2180,PHE_HHAIR_PROP_POP_CLEAN_FUELS,Proportion of population with primary reliance on clean fuels and technologies for cooking (%)
+2181,NCD_CCS_LIS_HYDRO_COMBO,General availability of Fixed dose combination avail (lisinopril + hydrochlorothiazide) in the public health sector
+2182,R_admin_tax_stamps_other,"Tax stamps, fiscal marks, banderole or other types of marking are applied on other tobacco products"
+2183,MALARIA_IPTP3_COVERAGE,Pregnant women attending antenatal care  at least once and receiving at least 3 doses of Intermittent Preventive Treatment of Malaria for Pregnant Women (IPTp3) (%)
+2184,vmsl,Measles immunization coverage among one-year-olds (%)
+2185,AIR_75,Household air pollution attributable DALYs in children under 15 years
+2186,HIV_0000000029,"Reported number of tests performed where results were received by a person (testing volume), reporting period"
+2187,MALARIA_PRES_CASES,Number of presumed malaria cases
+2188,FINPROTECTION_IMP_NP_REL_LEVEL_SH,Total population pushed below a relative poverty line by household health expenditures (60% of median daily per capita consumption or income) (%)
+2189,NCD_CCS_OvwtPlan,Existence of operational policy/strategy/action plan to reduce overweight/obesity
+2190,Youth_survey_title,Title of most recent adolescent survey
+2191,GLASSAMC_AWARE,Pattern of antibiotic consumption at national level (relative consumption by AWaRe classification)
+2192,NCD_CCS_OBES_MGMT_GUIDE,Existence of evidence-based national guidelines/protocols/standards for the management of overweight/obesity
+2193,NCD_CCS_ComboInhaler,General availability of combination budesonide formoterol inhaler in the public health sector
+2194,NCD_CHOL_MEANNONHDL_A,"Mean Non-HDL cholesterol, age-standardized"
+2195,NTD_YAWSNUM_SUSP,Number of suspected yaws cases reported
+2196,NCD_CCS_DIAB_TARGET,Existence of a national target on diabetes
+2197,NCD_CCS_DIET_SVY,"Has conducted a recent, national adult risk factor survey covering unhealthy diet"
+2198,fpsmowho,Demand for family planning satisfied - use of modern methods (%)
+2199,AIR_74,Household air pollution attributable deaths in children under 15 years
+2200,GASPTIAZM,Number of isolates tested for azithromycin
+2201,Adult_daily_cig_smoking,Prevalence of daily cigarette smoking among adults (%)
+2202,NCD_CCS_SALT_SVY,"Has conducted a recent, national adult risk factor survey covering salt/sodium intake"
+2203,ASSISTIVETECH_Q09,Existence of regulations/standards/guidelines/protocols on assistive technology
+2204,M_Est_tob_curr_std,Estimate of current tobacco use prevalence (%) (age-standardized rate)
+2205,NUTRITION_ANAEMIA_NONPREGNANT_NUM,Number of non-pregnant women (aged 15-49 years) with anaemia (thousands)
+2206,FINPROTECTION_IMP_PREL_LEVEL_SH,Total population pushed  further  below a relative poverty line by household health expenditures (60% of median daily per capita consumption or income) (%)
+2207,NCD_CCS_PA_GUIDELINES,Existence of national guidelines for physical activity
+2208,E6a_pt_of_sale,Ban on advertising at point of sale
+2209,FINPROTECTION_CATA_CTPFHU_40_HH,"Households with out-of-pocket payments greater than 40% of capacity to pay for health care (food, housing and utilities approach - developed by WHO/Europe) (%)"
+2210,NCD_CXCA_SCREENED_WITHIN_TIMEPERIOD,Prevalence of cervical cancer screening  among women aged 30-49 years (%)
+2211,Yth_curr_e-cig,Prevalence of current e-cigarette use among adolescents (%)
+2212,Adult_daily_tob_smoking,Prevalence of daily tobacco smoking among adults (%)
+2213,NCD_CCS_DIAB_GUIDE,Existence of evidence-based national guidelines/protocols/standards for the management of diabetes
+2214,MALARIA_IRS_COVERAGE,Number of people protected from malaria by indoor residual spraying (IRS)
+2215,R_admin_duty_free_banned,Ban on sale of duty-free or excise-free cigarettes
+2216,Youth_svy_national,Representativeness of most recent adolescent survey
+2217,NUTRITION_ANAEMIA_PREGNANT_PREV,Prevalence of anaemia in pregnant women (aged 15-49) (%)
+2218,R_min_price_policy,A minimum price policy is implemented
+2219,SDGIHR2018,"Average of 13 International Health Regulations core capacity scores, SPAR version, 1st edition"
+2220,P_compl_p3,Compliance with smoke-free universities law (score)
+2221,vpolio,Polio immunization coverage among one-year-olds (%)
+2222,HEMOGLOBINLEVEL_NONPREGNANT_MEAN,Mean hemoglobin level of non-pregnant women (aged 15-49 years)
+2223,E21a_direct_ad_fines,Law requires fines for violations of advertising bans
+2224,PHE_HHAIR_PROP_POP_CATEGORY_FUELS,"Proportion of population with primary reliance on fuels and technologies for cooking, by fuel type (%)"
+2225,E_compl_e11,Compliance with ban on use of brand name of non-tobacco product for tobacco product (score)
+2226,NCD_CCS_foot_vibr,General availability of foot vibration perception by tuning fork at the primary health care level
+2227,E21b_indirect_ad_fines,Law requires fines for violations of promotion and sponsorship bans
+2228,IHRSPAR_CAPACITY04,Food Safety (SPAR)
+2229,vdpt,DTP3 immunization coverage among one-year-olds (%)
+2230,NCD_CCS_PRICE_SUBS,Existence of price subsidies for healthy foods
+2231,NTD_LEPR13,New leprosy child case detection rate (less than 15 years of age) per 1 000 000 child population
+2232,GASPTIESC,Number of isolates tested for extended-spectrum cephalosporins
+2233,GASPTICRO,Number of isolates tested for ceftriaxone
+2234,ASSISTIVETECH_USEPREVALENCE,Prevalence of use of assistive products (%)
+2235,Adult_daily_tob_use,Prevalence of daily tobacco use among adults (%)
+2236,Adult_svy_age_range,Age range of most recent survey of adults
+2237,MALARIA_TOTAL_CASES,Total number of  malaria cases (presumed + confirmed cases)
+2238,SE_PRM_PRSL_ZS,Persistence to last grade of primary (% of cohort)
+2239,RADON_Q401_1,Existence of national radon action plan - Years covered
+2240,M_Est_smk_curr_std,Estimate of current tobacco smoking prevalence (%) (age-standardized rate)
+2241,NCD_CCS_alteplase,General availability of alteplase for acute stroke management in the public health system
+2242,Adult_nonsmoked_svy_yr,Year of latest adult prevalence survey (nonsmoked)
+2243,NCD_CCS_PA_GUIDELINES_ADULTS,Existence of national guidelines for physical activity for adults
+2244,Adult_daily_e-cig,Prevalence of daily e-cigarette use among adults (%)
+2245,P_compl_all_sfe,Overall compliance with regulations on smoke-free environments (score)
+2246,GASPTICFM,Number of isolates tested for cefixime
+2247,UHCTRANSFATS,Best-practice policy implemented for industrially produced trans-fatty acids (TFA) (Y/N)
+2248,NCD_CCS_urine_strips_gluc_ketone,General availability of urine strips for glucose and ketone measurement at the primary health care level
