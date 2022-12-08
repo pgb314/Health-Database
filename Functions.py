@@ -110,6 +110,22 @@ def test_dump(data_set):
     col_names = list(data_set.columns.values)
     for name in col_names:
         print(name,data_set[name].nunique())
+def check_nan(data: pd.DataFrame) -> None:
+    
+    nan_cols=data.isna().mean() * 100  # el porcentaje
+    
+    display(f'N nan cols: {len(nan_cols[nan_cols>0])}')
+    display(nan_cols[nan_cols>0])
+    
+    plt.figure(figsize=(10, 6))  # inicia la figura y establece tamaño
+
+    sns.heatmap(data.isna(),  # mapa de calor
+                yticklabels=False,
+                cmap='viridis',
+                cbar=False)
+
+    plt.show()
+
 
 
 
