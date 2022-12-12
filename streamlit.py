@@ -1,130 +1,197 @@
-import numpy as np
+import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-import json
-import requests as requests
-import time
+import numpy as np
+import pickle  #to load a saved model
+import base64
+
+import streamlit as st
+import pandas as pd
+import numpy as np
+import pickle
+import base64
 
 
 
+@st.cache(suppress_st_warning=True)
 
-
-
-
-def ml1():
-    
-    models = {'RFR':{'MODEL':RFR(),'PARAM':{'n_estimators': [10, 50, 100, 150, 200, 500],'max_depth':             [1,5,10,15,20],'min_weight_fraction_leaf':[0.0,0.1,0.2]}},
-              'XGB':{'MODEL':XGBR(),'PARAM':{'n_estimators': [10, 50, 100, 150, 200, 500],'max_depth': [1, 5,6, 10, 15, 20],'learning_rate':[0.001,0.002,0.01,0.05] }},
-              'SVR':{'MODEL':SVR(),'PARAM':{'kernel':['rbf','poly','linear']}},
-              #'CTR':{'MODEL':CTR(),'PARAM:':{'depth' : [6,8,10],'learning_rate' : [0.01, 0.05, 0.1],'iterations': [30, 50, 100],'subsample' : [0.5, 0.7, 1.0]}},
-              #'GaussianNB':{'MODEL':GaussianNB(),'PARAM':{'var_smoothing':[1e-09]}},
+app_mode = st.sidebar.selectbox('Select Disease',['Home','Prediction'])
+ 
    
-           'Lasso':{'MODEL':Lasso(),'PARAM':{'alpha':[0.3,0.5,0.7,0.9,1.0],'max_iter':[800,1000,1200]}},
-              'LGBMR': {'MODEL':LGBMR(),'PARAM':{'boosting_type':['gbdt','dart'],'n_estimators':[10,50,100,150,200,500],}}}
+   
+if app_mode =='Adolescent birth rate (per1000)':
     
-    rmse = []
-    name = []
-    #b = []
-    score = []
-    dfmodels = pd.DataFrame()
-    for m in models:
-        x = models[m]["MODEL"]
-        p = models[m]["PARAM"]
-        y_pred=grid(x,p).predict(X_test)
-        #best= grid(x,p).best_params_   
-        #sco = grid(x,p).best_score_
-        MSE = mse(y_test, y_pred, squared=False)
-        #score.append(sco)
-        #b.append(best)
-        rmse.append(MSE)
-        name.append(m)
-    dfmodels['Modelo'] = name
-    dfmodels['RMSE'] = rmse
-    #dfmodels['Best_Parametres'] = b
-    #dfmodels['bestsco'] = score                        
-    dfmodels.sort_values("RMSE",ascending=True,inplace=True,ignore_index=True)
-    print(f'model {dfmodels.Modelo[0]} rmse {dfmodels.RMSE[0]} ')
-    return dfmodels
+    csv=pd.read_csv("informations.csv")
+    st.write(csv)
+
+    st.image('slider-short-3.jpg')
+
+    st.subheader('Sir/Mme , YOU need to fill all neccesary informations in order to get a reply to your prediction !')
+    st.sidebar.header("Predictive Factors :")
+    ApplicantIncome=st.sidebar.slider('ApplicantIncome',0,10000,0,)
+    CoapplicantIncome=st.sidebar.slider('CoapplicantIncome',0,10000,0,)
+    LoanAmount=st.sidebar.slider('LoanAmount in K$',9.0,700.0,200.0)
+    Loan_Amount_Term=st.sidebar.selectbox('Loan_Amount_Term',(12.0,36.0,60.0,84.0,120.0,180.0,240.0,300.0,360.0))
+    Credit_History=st.sidebar.radio('Credit_History',(0.0,1.0))
+    Property_Area=st.sidebar.radio('Property_Area',tuple(prop.keys()))
 
 
-def grid(modelo, param):
-    
-    g=GridSearchCV(modelo, # modelo de sklearn
-                   param,  # dictio de parametros
-                   cv=5,   # nº de cortes del cross-validation
-                   return_train_score=True, # error en entrenamiento para checkear
-                   n_jobs=-1  # usa todos los nucleos disponibles
-                  )
-
-    g.fit(X_train, y_train)
-    print('Acierto test: {:.2f}'.format(g.score(X_test, y_test)))
-    print('Acierto train: {:.2f}'.format(g.score(X_train, y_train)))
-    print('Mejores parametros: {}'.format(g.best_params_))
-    print('Modelo: {}'.format(modelo))
-    print('Mejor acierto cv: {:.2f}'.format(g.best_score_))
-
-    return g.best_estimator_.fit(X_train, y_train)
-
-
-    
-def scaler(df,num):    
-    from sklearn.preprocessing import StandardScaler
-
-    scaler=StandardScaler()
-
-    df[num]=scaler.fit_transform(df[num])
-
-    return df.head()
-
-def dummies(df):
-    df = pd.get_dummies(df,df.select_dtypes(exclude=["int64", 'float64']).columns, drop_first = True)
-    return df
-
-def get_indicator(ind_code, ind_text):
-    import requests
-    BASE_URL = 'https://ghoapi.azureedge.net/api/'
-    DATE_2000S = '?$filter=date(TimeDimensionBegin) ge 2000-01-01'    
-    service_url = BASE_URL + ind_code + DATE_2000S
-    response = requests.get(service_url)
-
-    if(response.ok):
-        data_j = response.json()
-        data = pd.DataFrame(data_j["value"]).rename(
-            columns = {'NumericValue':ind_text, 'SpatialDim':'country_code', 'TimeDim':'year'})
-        data = data[(data.SpatialDimType != 'REGION') & (data.SpatialDimType != 'WORLDBANKINCOMEGROUP')]
-
-        print("Data for \"{}\" loaded, set {} rows {} columns".format(ind_text, data.shape[0], data.shape[1]))
-        return data
+    class_0 , class_3 , class_1,class_2 = 0,0,0,0
+    if Dependents == '0':
+        class_0 = 1
+    elif Dependents == '1':
+        class_1 = 1
+    elif Dependents == '2' :
+        class_2 = 1
     else:
-        print("Response was not OK", response)
-        return None
-def remove_duplicates(data_set):
-    dup_set = data_set.duplicated(subset=["country_code", "year"], keep='last')
-    return data_set[~dup_set]
-def test_dump(data_set):
-    print(data_set.shape)
-    print(data_set.info())
-    print(data_set[data_set['country_code'] == 'BEL'])
+        class_3= 1
 
-    col_names = list(data_set.columns.values)
-    for name in col_names:
-        print(name,data_set[name].nunique())
-def check_nan(data: pd.DataFrame) -> None:
-    
-    nan_cols=data.isna().mean() * 100  # el porcentaje
-    
-    display(f'N nan cols: {len(nan_cols[nan_cols>0])}')
-    display(nan_cols[nan_cols>0])
-    
-    plt.figure(figsize=(10, 6))  # inicia la figura y establece tamaño
+    Rural,Urban,Semiurban=0,0,0
+    if Property_Area == 'Urban' :
+        Urban = 1
+    elif Property_Area == 'Semiurban' :
+        Semiurban = 1
+    else :
+        Rural=1
+   
+    data1={
+    'Gender':Gender,
+    'Married':Married,
+    'Dependents':[class_0,class_1,class_2,class_3],
+    'Education':Education,
+    'ApplicantIncome':ApplicantIncome,
+    'CoapplicantIncome':CoapplicantIncome,
+    'Self Employed':Self_Employed,
+    'LoanAmount':LoanAmount,
+    'Loan_Amount_Term':Loan_Amount_Term,
+    'Credit_History':Credit_History,
+    'Property_Area':[Rural,Urban,Semiurban],
+    }
 
-    sns.heatmap(data.isna(),  # mapa de calor
-                yticklabels=False,
-                cmap='viridis',
-                cbar=False)
+    feature_list=[ApplicantIncome,CoapplicantIncome,LoanAmount,Loan_Amount_Term,Credit_History,get_value(Gender,gender_dict),get_fvalue(Married),data1['Dependents'][0],data1['Dependents'][1],data1['Dependents'][2],data1['Dependents'][3],get_value(Education,edu),get_fvalue(Self_Employed),data1['Property_Area'][0],data1['Property_Area'][1],data1['Property_Area'][2]]
 
-    plt.show()
+    single_sample = np.array(feature_list).reshape(1,-1)
+
+    if st.button("Predict"):
+        file_ = open("6m-rain.gif", "rb")
+        contents = file_.read()
+        data_url = base64.b64encode(contents).decode("utf-8")
+        file_.close()
+   
+        file = open("green-cola-no.gif", "rb")
+        contents = file.read()
+        data_url_no = base64.b64encode(contents).decode("utf-8")
+        file.close()
+   
+   
+        loaded_model = pickle.load(open('Random_Forest.sav', 'rb'))
+        prediction = loaded_model.predict(single_sample)
+        if prediction[0] == 0 :
+            st.error(
+    'According to our Calculations, you will not get the loan from Bank'
+    )
+            st.markdown(
+    f'<img src="data:image/gif;base64,{data_url_no}" alt="cat gif">',
+    unsafe_allow_html=True,)
+        elif prediction[0] == 1 :
+            st.success(
+    'Congratulations!! you will get the loan from Bank'
+    )
+            st.markdown(
+    f'<img src="data:image/gif;base64,{data_url}" alt="cat gif">',
+    unsafe_allow_html=True,
+    )
+elif app_mode =='Prediction':
+    
+    csv=pd.read_csv("informations.csv")
+    st.write(csv)
+
+    st.image('slider-short-3.jpg')
+
+    st.subheader('Sir/Mme , YOU need to fill all neccesary informations in order to get a reply to your loan request !')
+    st.sidebar.header("Informations about the client :")
+    gender_dict = {"Male":1,"Female":2}
+    feature_dict = {"No":1,"Yes":2}
+    edu={'Graduate':1,'Not Graduate':2}
+    prop={'Rural':1,'Urban':2,'Semiurban':3}
+    Gender=st.sidebar.radio('Gender',tuple(gender_dict.keys()))
+    Married=st.sidebar.radio('Married',tuple(feature_dict.keys()))
+    Self_Employed=st.sidebar.radio('Self Employed',tuple(feature_dict.keys()))
+    Dependents=st.sidebar.radio('Dependents',options=['0','1' , '2' , '3+'])
+    Education=st.sidebar.radio('Education',tuple(edu.keys()))
+    ApplicantIncome=st.sidebar.slider('ApplicantIncome',0,10000,0,)
+    CoapplicantIncome=st.sidebar.slider('CoapplicantIncome',0,10000,0,)
+    LoanAmount=st.sidebar.slider('LoanAmount in K$',9.0,700.0,200.0)
+    Loan_Amount_Term=st.sidebar.selectbox('Loan_Amount_Term',(12.0,36.0,60.0,84.0,120.0,180.0,240.0,300.0,360.0))
+    Credit_History=st.sidebar.radio('Credit_History',(0.0,1.0))
+    Property_Area=st.sidebar.radio('Property_Area',tuple(prop.keys()))
+
+
+    class_0 , class_3 , class_1,class_2 = 0,0,0,0
+    if Dependents == '0':
+        class_0 = 1
+    elif Dependents == '1':
+        class_1 = 1
+    elif Dependents == '2' :
+        class_2 = 1
+    else:
+        class_3= 1
+
+    Rural,Urban,Semiurban=0,0,0
+    if Property_Area == 'Urban' :
+        Urban = 1
+    elif Property_Area == 'Semiurban' :
+        Semiurban = 1
+    else :
+        Rural=1
+   
+    data1={
+    'Gender':Gender,
+    'Married':Married,
+    'Dependents':[class_0,class_1,class_2,class_3],
+    'Education':Education,
+    'ApplicantIncome':ApplicantIncome,
+    'CoapplicantIncome':CoapplicantIncome,
+    'Self Employed':Self_Employed,
+    'LoanAmount':LoanAmount,
+    'Loan_Amount_Term':Loan_Amount_Term,
+    'Credit_History':Credit_History,
+    'Property_Area':[Rural,Urban,Semiurban],
+    }
+
+    feature_list=[ApplicantIncome,CoapplicantIncome,LoanAmount,Loan_Amount_Term,Credit_History,get_value(Gender,gender_dict),get_fvalue(Married),data1['Dependents'][0],data1['Dependents'][1],data1['Dependents'][2],data1['Dependents'][3],get_value(Education,edu),get_fvalue(Self_Employed),data1['Property_Area'][0],data1['Property_Area'][1],data1['Property_Area'][2]]
+
+    single_sample = np.array(feature_list).reshape(1,-1)
+
+    if st.button("Predict"):
+        file_ = open("6m-rain.gif", "rb")
+        contents = file_.read()
+        data_url = base64.b64encode(contents).decode("utf-8")
+        file_.close()
+   
+        file = open("green-cola-no.gif", "rb")
+        contents = file.read()
+        data_url_no = base64.b64encode(contents).decode("utf-8")
+        file.close()
+   
+   
+        loaded_model = pickle.load(open('Random_Forest.sav', 'rb'))
+        prediction = loaded_model.predict(single_sample)
+        if prediction[0] == 0 :
+            st.error(
+    'According to our Calculations, you will not get the loan from Bank'
+    )
+            st.markdown(
+    f'<img src="data:image/gif;base64,{data_url_no}" alt="cat gif">',
+    unsafe_allow_html=True,)
+        elif prediction[0] == 1 :
+            st.success(
+    'Congratulations!! you will get the loan from Bank'
+    )
+            st.markdown(
+    f'<img src="data:image/gif;base64,{data_url}" alt="cat gif">',
+    unsafe_allow_html=True,
+    )
+
 
 
 
