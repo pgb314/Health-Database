@@ -17,7 +17,7 @@ def get_value(val,my_dict):
     for key,value in my_dict.items():
         if val == key:
             return value
-app_mode = st.sidebar.selectbox('Select Disease',['Home','Prediction'])
+app_mode = st.sidebar.selectbox('Select Disease',['Adolescent birth rate (per1000)','Total NCD Deaths (in thousands)','Homicide rates (per 100 000)','Suicide rates (per 100 000)','Prevalence Hypertension among adults'])
  
    
    
@@ -282,7 +282,7 @@ elif app_mode =='Suicide rates (per 100 000)':
     )      
             
             
-elif app_mode =='Prevalence Hypertension
+elif app_mode =='Prevalence Hypertension among adults'
     
     csv=pd.read_csv("informations.csv")
     st.write(csv)
@@ -290,16 +290,16 @@ elif app_mode =='Prevalence Hypertension
     st.image('slider-short-3.jpg')
     st.subheader('Sir/Mme , YOU need to fill all neccesary informations in order to get a reply to your prediction !')
     st.sidebar.header("Predictive Factors :")
-    viop_dict = {1:-0.6943,2:-0.63,3:-0.53,4:-0.44,5:-0.351,6:-0.12,7:0.05,8:0.16,9:4.1,10:8.7}
-    hiv_dict = {1:-0.37286,2:-0.37,3:-0.359,4:-0.35,5:-0.34,6:-0.25,7:-0.2,8:-0.17,9:1.5,10:8.86}
-    cold_dict = {1:-0.454,2:-0.415,3:-0.395,4:-0.34,5:-0.29,6:-0.23,7:-0.18,8:-0.02,9:4.4,10:8.47}
-    road_dict = {1:-1.31,2:-0.92,3:-0.41,4:-0.28,5:-0.16,6:0.01,7:0.15,8:0.52,9:2.8,10:5.28}
-    pois_dict = {1:-0.82,2:-0.69,3:-0.601,4:-0.52,5:-0.432,6:-0.21,7:0.1,8:0.84,9:4.2,10:8.5}
+    vio_dict = {1:-0.337,2:-0.329,3:-0.32,4:-0.3,5:-0.28:0.2,7:0.4,8:1.4,9:2.82,10:8.5}
+    drug_dict = {1:-0.1742,2:-0.173,3:-0.17,4:-0.166,5:-0.1616,6:-0.145,7:-0.13,8:-0.11,9:0.5,10:1.87}
+    gdp_dict = {1:-0.661,2:-0.63,3:-0.56,4:-0.5,5:-0.437,6:-0.28,7:-0.2,8:1.55,9:3.75,10:6.2497}
+    health_dict = {1:-0.48,2:-0.462,3:-0.42,4:-0.38,5:-0.335,6:-0.26,7:-0.05,8:0.065,9:0.5,10:1.07}
+    tuber_dict = {1:-0.67,2:-0.64,3:-0.592,4:-0.53,5:-0.47,6:-0.23,7:0.1,8:0.54,9:3.6,10:7.7}
     Violence=st.sidebar.slider('Violence',1,10,1)
-    HIV=st.sidebar.slider('HIV',1,10,1)
-    Environmental=st.sidebar.slider('Environmental',1,10,1)
-    Road=st.sidebar.slider('Road',1,10,1)
-    Poisoning=st.sidebar.slider('Poisoning',1,10,1)
+    Drugs=st.sidebar.slider('Drugs',1,10,1)
+    gdp=st.sidebar.slider('gdp',1,10,1)
+    Health_ex=st.sidebar.slider('Health_ex',1,10,1)
+    Tuberculosis=st.sidebar.slider('Tuberculosis',1,10,1)
 
     
    
