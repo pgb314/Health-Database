@@ -11,7 +11,7 @@ import pickle
 import base64
 
 
-
+st.subheader("This app will predict if a desired value with its corresponding variables")
 @st.cache(suppress_st_warning=True)
 def get_value(val,my_dict):
     for key,value in my_dict.items():
@@ -23,10 +23,7 @@ app_mode = st.sidebar.selectbox('Select Disease',['Adolescent birth rate (per100
    
 if app_mode =='Adolescent birth rate (per1000)':
     
-    csv=pd.read_csv("informations.csv")
-    st.write(csv)
-
-    st.image('slider-short-3.jpg')
+    
 
     st.subheader('Sir/Mme , YOU need to fill all neccesary informations in order to get a reply to your prediction !')
     st.sidebar.header("Predictive Factors :")
@@ -44,26 +41,16 @@ if app_mode =='Adolescent birth rate (per1000)':
  
    
    
-    data1={
-    'ApplicantIncome':ApplicantIncome,
-    'CoapplicantIncome':CoapplicantIncome,
-    'Self Employed':Self_Employed,
-    'LoanAmount':LoanAmount,
-    'Loan_Amount_Term':Loan_Amount_Term,
-    'Credit_History':Credit_History,
-    'Property_Area':[Rural,Urban,Semiurban],
-    }
+   
+    
+    
 
-    feature_list=[ApplicantIncome,CoapplicantIncome,LoanAmount,Loan_Amount_Term,Credit_History,get_value(Gender,gender_dict),get_fvalue(Married),data1['Dependents'][0],data1['Dependents'][1],data1['Dependents'][2],data1['Dependents'][3],get_value(Education,edu),get_fvalue(Self_Employed),data1['Property_Area'][0],data1['Property_Area'][1],data1['Property_Area'][2]]
+    feature_list=  [get_value(Violence,vio_dict),get_value(Hepatitis,hep_dict),get_value(Malaria,mala_dict),get_value(HIV,hiv_dict),get_value(gdp,gdp_dict)]
 
     single_sample = np.array(feature_list).reshape(1,-1)
 
     if st.button("Predict"):
-        file_ = open("6m-rain.gif", "rb")
-        contents = file_.read()
-        data_url = base64.b64encode(contents).decode("utf-8")
-        file_.close()
-   
+        
    
         loaded_model = pickle.load(open('Random_Forest.sav', 'rb'))
         prediction = loaded_model.predict(single_sample)
@@ -88,10 +75,9 @@ if app_mode =='Adolescent birth rate (per1000)':
 
 elif app_mode =='Total NCD Deaths (in thousands)':
     
-    csv=pd.read_csv("informations.csv")
-    st.write(csv)
+    
 
-    st.image('slider-short-3.jpg')
+    
     st.subheader('Sir/Mme , YOU need to fill all neccesary informations in order to get a reply to your prediction !')
     st.sidebar.header("Predictive Factors :")
     drug_dict = {1:-0.1742,2:-0.173,3:-0.17,4:-0.166,5:-0.1616,6:-0.145,7:-0.13,8:-0.11,9:0.5,10:1.87}
@@ -107,29 +93,13 @@ elif app_mode =='Total NCD Deaths (in thousands)':
     
    
    
-    data1={
-    'ApplicantIncome':ApplicantIncome,
-    'CoapplicantIncome':CoapplicantIncome,
-    'Self Employed':Self_Employed,
-    'LoanAmount':LoanAmount,
-    'Loan_Amount_Term':Loan_Amount_Term,
-    'Credit_History':Credit_History
-    }
 
-    feature_list=[ApplicantIncome,CoapplicantIncome,LoanAmount,Loan_Amount_Term,Credit_History,get_value(Gender,gender_dict),get_fvalue(Married),data1['Dependents'][0],data1['Dependents'][1],data1['Dependents'][2],data1['Dependents'][3],get_value(Education,edu),get_fvalue(Self_Employed),data1['Property_Area'][0],data1['Property_Area'][1],data1['Property_Area'][2]]
+    feature_list=[get_value(Drugs,drug_dict),get_value(Violence,viop_dict),get_value(Cirrhosis,cirr_dict),NCD,get_value(Traffic,traff_dict)]
 
     single_sample = np.array(feature_list).reshape(1,-1)
 
     if st.button("Predict"):
-        file_ = open("6m-rain.gif", "rb")
-        contents = file_.read()
-        data_url = base64.b64encode(contents).decode("utf-8")
-        file_.close()
-   
-        file = open("green-cola-no.gif", "rb")
-        contents = file.read()
-        data_url_no = base64.b64encode(contents).decode("utf-8")
-        file.close()
+        
    
    
         loaded_model = pickle.load(open('Random_Forest.sav', 'rb'))
@@ -152,10 +122,9 @@ elif app_mode =='Total NCD Deaths (in thousands)':
 
 elif app_mode =='Homicide rates (per 100 000)':
     
-    csv=pd.read_csv("informations.csv")
-    st.write(csv)
+    
 
-    st.image('slider-short-3.jpg')
+    
     st.subheader('Sir/Mme , YOU need to fill all neccesary informations in order to get a reply to your prediction !')
     st.sidebar.header("Predictive Factors :")
     viop_dict = {1:-0.6943,2:-0.63,3:-0.53,4:-0.44,5:-0.351,6:-0.12,7:0.05,8:0.16,9:4.1,10:8.7}
@@ -172,30 +141,14 @@ elif app_mode =='Homicide rates (per 100 000)':
     
    
    
-    data1={
-    'ApplicantIncome':ApplicantIncome,
-    'CoapplicantIncome':CoapplicantIncome,
-    'Self Employed':Self_Employed,
-    'LoanAmount':LoanAmount,
-    'Loan_Amount_Term':Loan_Amount_Term,
-    'Credit_History':Credit_History
-    }
+    
 
-    feature_list=[ApplicantIncome,CoapplicantIncome,LoanAmount,Loan_Amount_Term,Credit_History,get_value(Gender,gender_dict),get_fvalue(Married),data1['Dependents'][0],data1['Dependents'][1],data1['Dependents'][2],data1['Dependents'][3],get_value(Education,edu),get_fvalue(Self_Employed),data1['Property_Area'][0],data1['Property_Area'][1],data1['Property_Area'][2]]
+    feature_list=[get_value(Violence,viop_dict),get_value(Alcohol,alco_dict),get_value(Protein,prot_dict),get_value(Cirrhosis,cirr_dict),get_value(Traffic,traff_dict)]
 
     single_sample = np.array(feature_list).reshape(1,-1)
 
     if st.button("Predict"):
-        file_ = open("6m-rain.gif", "rb")
-        contents = file_.read()
-        data_url = base64.b64encode(contents).decode("utf-8")
-        file_.close()
-   
-        file = open("green-cola-no.gif", "rb")
-        contents = file.read()
-        data_url_no = base64.b64encode(contents).decode("utf-8")
-        file.close()
-   
+        
    
         loaded_model = pickle.load(open('Random_Forest.sav', 'rb'))
         prediction = loaded_model.predict(single_sample)
@@ -218,10 +171,9 @@ elif app_mode =='Homicide rates (per 100 000)':
             
 elif app_mode =='Suicide rates (per 100 000)':
     
-    csv=pd.read_csv("informations.csv")
-    st.write(csv)
+    
 
-    st.image('slider-short-3.jpg')
+    
     st.subheader('Sir/Mme , YOU need to fill all neccesary informations in order to get a reply to your prediction !')
     st.sidebar.header("Predictive Factors :")
     viop_dict = {1:-0.6943,2:-0.63,3:-0.53,4:-0.44,5:-0.351,6:-0.12,7:0.05,8:0.16,9:4.1,10:8.7}
@@ -238,29 +190,14 @@ elif app_mode =='Suicide rates (per 100 000)':
     
    
    
-    data1={
-    'ApplicantIncome':ApplicantIncome,
-    'CoapplicantIncome':CoapplicantIncome,
-    'Self Employed':Self_Employed,
-    'LoanAmount':LoanAmount,
-    'Loan_Amount_Term':Loan_Amount_Term,
-    'Credit_History':Credit_History
-    }
+    
 
-    feature_list=[ApplicantIncome,CoapplicantIncome,LoanAmount,Loan_Amount_Term,Credit_History,get_value(Gender,gender_dict),get_fvalue(Married),data1['Dependents'][0],data1['Dependents'][1],data1['Dependents'][2],data1['Dependents'][3],get_value(Education,edu),get_fvalue(Self_Employed),data1['Property_Area'][0],data1['Property_Area'][1],data1['Property_Area'][2]]
+    feature_list=[get_value(Violence,viop_dict),get_value(HIV,hiv_dict),get_value(Environmental,cold_dict),get_value(Road,road_dict),get_value(Poisoning,pois_dict)]
 
     single_sample = np.array(feature_list).reshape(1,-1)
 
     if st.button("Predict"):
-        file_ = open("6m-rain.gif", "rb")
-        contents = file_.read()
-        data_url = base64.b64encode(contents).decode("utf-8")
-        file_.close()
-   
-        file = open("green-cola-no.gif", "rb")
-        contents = file.read()
-        data_url_no = base64.b64encode(contents).decode("utf-8")
-        file.close()
+        
    
    
         loaded_model = pickle.load(open('Random_Forest.sav', 'rb'))
@@ -282,15 +219,13 @@ elif app_mode =='Suicide rates (per 100 000)':
     )      
             
             
-elif app_mode =='Prevalence Hypertension among adults'
+elif app_mode =='Prevalence Hypertension among adults':
     
-    csv=pd.read_csv("informations.csv")
-    st.write(csv)
 
-    st.image('slider-short-3.jpg')
+    
     st.subheader('Sir/Mme , YOU need to fill all neccesary informations in order to get a reply to your prediction !')
     st.sidebar.header("Predictive Factors :")
-    vio_dict = {1:-0.337,2:-0.329,3:-0.32,4:-0.3,5:-0.28:0.2,7:0.4,8:1.4,9:2.82,10:8.5}
+    vio_dict = {1:-0.337,2:-0.329,3:-0.32,4:-0.3,5:-0.28,6:0.2,7:0.4,8:1.4,9:2.82,10:8.5}
     drug_dict = {1:-0.1742,2:-0.173,3:-0.17,4:-0.166,5:-0.1616,6:-0.145,7:-0.13,8:-0.11,9:0.5,10:1.87}
     gdp_dict = {1:-0.661,2:-0.63,3:-0.56,4:-0.5,5:-0.437,6:-0.28,7:-0.2,8:1.55,9:3.75,10:6.2497}
     health_dict = {1:-0.48,2:-0.462,3:-0.42,4:-0.38,5:-0.335,6:-0.26,7:-0.05,8:0.065,9:0.5,10:1.07}
@@ -304,16 +239,9 @@ elif app_mode =='Prevalence Hypertension among adults'
     
    
    
-    data1={
-    'ApplicantIncome':ApplicantIncome,
-    'CoapplicantIncome':CoapplicantIncome,
-    'Self Employed':Self_Employed,
-    'LoanAmount':LoanAmount,
-    'Loan_Amount_Term':Loan_Amount_Term,
-    'Credit_History':Credit_History
-    }
+    
 
-    feature_list=[ApplicantIncome,CoapplicantIncome,LoanAmount,Loan_Amount_Term,Credit_History,get_value(Gender,gender_dict),get_fvalue(Married),data1['Dependents'][0],data1['Dependents'][1],data1['Dependents'][2],data1['Dependents'][3],get_value(Education,edu),get_fvalue(Self_Employed),data1['Property_Area'][0],data1['Property_Area'][1],data1['Property_Area'][2]]
+    feature_list=[get_value(Violence,vio_dict),get_value(Drugs,drug_dict),get_value(gdp,gdp_dict),get_value(Health_ex,health_dict),get_value(Tuberculosis,tuber_dict)]
 
     single_sample = np.array(feature_list).reshape(1,-1)
 
@@ -322,11 +250,6 @@ elif app_mode =='Prevalence Hypertension among adults'
         contents = file_.read()
         data_url = base64.b64encode(contents).decode("utf-8")
         file_.close()
-   
-        file = open("green-cola-no.gif", "rb")
-        contents = file.read()
-        data_url_no = base64.b64encode(contents).decode("utf-8")
-        file.close()
    
    
         loaded_model = pickle.load(open('Random_Forest.sav', 'rb'))
