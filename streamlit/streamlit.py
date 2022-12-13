@@ -4,10 +4,8 @@ import numpy as np
 import pickle  #to load a saved model
 import base64
 
-import streamlit as st
-import pandas as pd
-import numpy as np
-import pickle
+import seaborn as sns
+import matplotlib.pyplot as plt
 import base64
 
 
@@ -38,13 +36,13 @@ elif app_mode == 'Data' :
         selection = st.multiselect('Filtrar Columnas', columnas, default=[ 'country','year','Malaria', 'average_age'])
 
     with countries:
-        equipo = st.selectbox('Filtrar Paises', df.country.unique())
+        pais = st.selectbox('Filtrar Paises', df.country.unique())
 
     
 
     df1 = df[selection]
 
-    var = df1[df1.country== equipo]
+    var = df1[df1.country== pais]
 
     st.dataframe(var)
 
@@ -84,11 +82,36 @@ elif app_mode =='Adolescent birth rate (per1000)':
     single_sample = np.array(feature_list).reshape(1,-1)
 
     if st.button("Predict"):
-        
+        df = pd.read_csv('clean_full_data.csv')
    
-        loaded_model = pickle.load(open('model_Adolescent birth rate (per 1000 women aged 15-19 years).pkl', 'rb'))
+        loaded_model = pickle.load(open('model_Estimates of rates of homicides per 100 000 population.pkl', 'rb'))
         prediction = loaded_model.predict(single_sample)
         st.metric(label="Adolescent birth rate per 1000 women", value=prediction)
+        fig = plt.figure(figsize=(10, 4))
+        sns.regplot(x= df["Interpersonal Violence"], y = df["Estimates of rates of homicides per 100 000 population"],scatter_kws={"color": "black"}, line_kws={"color": "red"})
+        plt.title('NCD Deaths  vs. Interpersonal Violence')
+        st.pyplot(fig)
+        
+        fig = plt.figure(figsize=(10, 4))
+        sns.regplot(x= df["Acute Hepatitis"], y = df["Estimates of rates of homicides per 100 000 population"],scatter_kws={"color": "black"}, line_kws={"color": "red"})
+        plt.title('NCD Deaths  vs. Acute Hepatitis')
+        st.pyplot(fig)
+
+        fig = plt.figure(figsize=(10, 4))
+        sns.regplot(x= df["per_capita-Malaria"], y = df["Estimates of rates of homicides per 100 000 population"],scatter_kws={"color": "black"}, line_kws={"color": "red"})
+        plt.title('NCD Deaths  vs. Per capita Malaria rates')
+        st.pyplot(fig)
+        
+        
+        fig = plt.figure(figsize=(10, 4))
+        sns.regplot(x= df["per_capita-HIV/AIDS"], y = df["Estimates of rates of homicides per 100 000 population"],scatter_kws={"color": "black"}, line_kws={"color": "red"})
+        plt.title('NCD Deaths  vs. Per capita HIV rates')
+        st.pyplot(fig)
+
+        fig = plt.figure(figsize=(10, 4))
+        sns.regplot(x= df["gdp/percap"], y = df["Estimates of rates of homicides per 100 000 population"],scatter_kws={"color": "black"}, line_kws={"color": "red"})
+        plt.title('NCD Deaths  vs. GDP per capita')
+        st.pyplot(fig)
 
             
 
@@ -121,12 +144,34 @@ elif app_mode =='Total NCD Deaths (in thousands)':
     single_sample = np.array(feature_list).reshape(1,-1)
 
     if st.button("Predict"):
-        
-   
-   
+        df = pd.read_csv('clean_full_data.csv')
         loaded_model = pickle.load(open('model_Total NCD Deaths (in thousands).pkl', 'rb'))
         prediction = loaded_model.predict(single_sample)
         st.metric(label="Total NCD Deaths in thousands", value=prediction)
+
+        fig = plt.figure(figsize=(10, 4))
+        sns.regplot(x= df["Drug Use Disorders"], y = df["Total NCD Deaths (in thousands)"],scatter_kws={"color": "black"}, line_kws={"color": "red"})
+        plt.title('NCD Deaths  vs. Drug Use Disorders')
+        st.pyplot(fig)
+        
+        fig = plt.figure(figsize=(10, 4))
+        sns.regplot(x= df["per_capita-Interpersonal Violence"], y = df["Total NCD Deaths (in thousands)"],scatter_kws={"color": "black"}, line_kws={"color": "red"})
+        plt.title('NCD Deaths  vs. per capita Interpersonal Violence')
+        st.pyplot(fig)
+
+        fig = plt.figure(figsize=(10, 4))
+        sns.regplot(x= df["per_capita-Cirrhosis and Other Chronic Liver Diseases"], y = df["Total NCD Deaths (in thousands)"],scatter_kws={"color": "black"}, line_kws={"color": "red"})
+        plt.title('NCD Deaths  vs. Per capita Cirrhosis and Other Chronic Liver Diseases')
+        st.pyplot(fig)
+        
+        
+        fig = plt.figure(figsize=(10, 4))
+        sns.regplot(x= df["Crude suicide rates (per 100 000 population)"], y = df["Total NCD Deaths (in thousands)"],scatter_kws={"color": "black"}, line_kws={"color": "red"})
+        plt.title('NCD Deaths  vs. Suicide rates (per 100 000)')
+        st.pyplot(fig)
+
+        
+        
         
 elif app_mode =='Homicide rates (per 100 000)':
     
@@ -157,11 +202,37 @@ elif app_mode =='Homicide rates (per 100 000)':
     single_sample = np.array(feature_list).reshape(1,-1)
 
     if st.button("Predict"):
+        df = pd.read_csv('clean_full_data.csv')
         
    
         loaded_model = pickle.load(open('model_Estimates of rates of homicides per 100 000 population.pkl', 'rb'))
         prediction = loaded_model.predict(single_sample)
         st.metric(label="Homicide rates per 100 000", value=prediction)
+        fig = plt.figure(figsize=(10, 4))
+        sns.regplot(x= df["per_capita-Interpersonal Violence"], y = df["Estimates of rates of homicides per 100 000 population"],scatter_kws={"color": "black"}, line_kws={"color": "red"})
+        plt.title('Homicides rates (per 100 000)  vs. Interpersonal Violence')
+        st.pyplot(fig)
+        
+        fig = plt.figure(figsize=(10, 4))
+        sns.regplot(x= df["per_capita-Alcohol Use Disorders"], y = df["Estimates of rates of homicides per 100 000 population"],scatter_kws={"color": "black"}, line_kws={"color": "red"})
+        plt.title('Homicides rates (per 100 000)  vs. per capita Alcohol Use Disorders')
+        st.pyplot(fig)
+
+        fig = plt.figure(figsize=(10, 4))
+        sns.regplot(x= df["per_capita-Protein-Energy Malnutrition"], y = df["Estimates of rates of homicides per 100 000 population"],scatter_kws={"color": "black"}, line_kws={"color": "red"})
+        plt.title('Homicides rates (per 100 000)  vs. Per capita Protein Malnutrition')
+        st.pyplot(fig)
+        
+        
+        fig = plt.figure(figsize=(10, 4))
+        sns.regplot(x= df["per_capita-Cirrhosis and Other Chronic Liver Diseases"], y = df["Estimates of rates of homicides per 100 000 population"],scatter_kws={"color": "black"}, line_kws={"color": "red"})
+        plt.title('Homicides rates (per 100 000)  vs. Per capita Cirrhosis and other Liver Diseases')
+        st.pyplot(fig)
+
+        fig = plt.figure(figsize=(10, 4))
+        sns.regplot(x= df["Estimated road traffic death rate (per 100 000 population)"], y = df["Estimates of rates of homicides per 100 000 population"],scatter_kws={"color": "black"}, line_kws={"color": "red"})
+        plt.title('Homicides rates (per 100 000)  vs. Road Traffic death rate (per 100 000)')
+        st.pyplot(fig)
         
             
             
@@ -194,12 +265,39 @@ elif app_mode =='Suicide rates (per 100 000)':
     single_sample = np.array(feature_list).reshape(1,-1)
 
     if st.button("Predict"):
+        df = pd.read_csv('clean_full_data.csv')
         
    
    
         loaded_model = pickle.load(open('model_Age-standardized suicide rates (per 100 000 population).pkl', 'rb'))
         prediction = loaded_model.predict(single_sample)
         st.metric(label="Suicide rates per 100 000", value=prediction)
+        
+        fig = plt.figure(figsize=(10, 4))
+        sns.regplot(x= df["per_capita-Interpersonal Violence"], y = df["Age-standardized suicide rates (per 100 000 population)"],scatter_kws={"color": "black"}, line_kws={"color": "red"})
+        plt.title('Homicides rates (per 100 000)  vs. per capita Interpersonal Violence')
+        st.pyplot(fig)
+        
+        fig = plt.figure(figsize=(10, 4))
+        sns.regplot(x= df["per_capita-HIV/AIDS"], y = df["Age-standardized suicide rates (per 100 000 population)"],scatter_kws={"color": "black"}, line_kws={"color": "red"})
+        plt.title('Homicides rates (per 100 000)  vs. per capita HIV/AIDS')
+        st.pyplot(fig)
+
+        fig = plt.figure(figsize=(10, 4))
+        sns.regplot(x= df["per_capita-Environmental Heat and Cold Exposure"], y = df["Age-standardized suicide rates (per 100 000 population)"],scatter_kws={"color": "black"}, line_kws={"color": "red"})
+        plt.title('Homicides rates (per 100 000)  vs. Per capita Environmental Heat and Cold Exposure')
+        st.pyplot(fig)
+        
+        
+        fig = plt.figure(figsize=(10, 4))
+        sns.regplot(x= df["per_capita-Road Injuries"], y = df["Age-standardized suicide rates (per 100 000 population)"],scatter_kws={"color": "black"}, line_kws={"color": "red"})
+        plt.title('Homicides rates (per 100 000)  vs. Per capita Road Injuries')
+        st.pyplot(fig)
+
+        fig = plt.figure(figsize=(10, 4))
+        sns.regplot(x= df["Mortality rate attributed to unintentional poisoning (per 100 000 population)"], y = df["Age-standardized suicide rates (per 100 000 population)"],scatter_kws={"color": "black"}, line_kws={"color": "red"})
+        plt.title('Homicides rates (per 100 000)  vs. Poisoning death rate (per 100 000)')
+        st.pyplot(fig)
             
 elif app_mode =='Prevalence Hypertension among adults':
     
@@ -229,11 +327,37 @@ elif app_mode =='Prevalence Hypertension among adults':
     single_sample = np.array(feature_list).reshape(1,-1)
 
     if st.button("Predict"):
+        df = pd.read_csv('clean_full_data.csv')
    
    
         loaded_model = pickle.load(open('model_Prevalence of controlled hypertension among adults aged 30-79 years with hypertension, age-standardized.pkl', 'rb'))
         prediction = loaded_model.predict(single_sample)
-        st.metric(label="Prevalence of hypertension among adults", value=prediction)        
+        st.metric(label="Prevalence of hypertension among adults", value=prediction)
+        fig = plt.figure(figsize=(10, 4))
+        sns.regplot(x= df["Interpersonal Violence"], y = df["Prevalence of controlled hypertension among adults aged 30-79 years with hypertension, age-standardized"],scatter_kws={"color": "black"}, line_kws={"color": "red"})
+        plt.title('Prevalence of hypertension among adults  vs. per capita Interpersonal Violence')
+        st.pyplot(fig)
+        
+        fig = plt.figure(figsize=(10, 4))
+        sns.regplot(x= df["Drug Use Disorders"], y = df["Prevalence of controlled hypertension among adults aged 30-79 years with hypertension, age-standardized"],scatter_kws={"color": "black"}, line_kws={"color": "red"})
+        plt.title('Prevalence of hypertension among adults  vs. Drug Use Disorders')
+        st.pyplot(fig)
+
+        fig = plt.figure(figsize=(10, 4))
+        sns.regplot(x= df["gdp/percap"], y = df["Prevalence of controlled hypertension among adults aged 30-79 years with hypertension, age-standardized"],scatter_kws={"color": "black"}, line_kws={"color": "red"})
+        plt.title('Prevalence of hypertension among adults  vs. Per capita GDP')
+        st.pyplot(fig)
+        
+        
+        fig = plt.figure(figsize=(10, 4))
+        sns.regplot(x= df["Domestic private health expenditure (PVT-D) per capita in US$"], y = df["Prevalence of controlled hypertension among adults aged 30-79 years with hypertension, age-standardized"],scatter_kws={"color": "black"}, line_kws={"color": "red"})
+        plt.title('Prevalence of hypertension among adults  vs. Per capita private health expenditure')
+        st.pyplot(fig)
+
+        fig = plt.figure(figsize=(10, 4))
+        sns.regplot(x= df["Deaths due to tuberculosis among HIV-negative people (per 100 000 population)"], y = df["Prevalence of controlled hypertension among adults aged 30-79 years with hypertension, age-standardized"],scatter_kws={"color": "black"}, line_kws={"color": "red"})
+        plt.title('Prevalence of hypertension among adults  vs. Tuberculosis (non-HIV) death rate (per 100 000)')
+        st.pyplot(fig)      
             
             
             
