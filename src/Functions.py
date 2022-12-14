@@ -11,7 +11,7 @@ import time
 
 
 
-
+### This function has no input, but uses the before defined, from train test split extracted, dataframes and iterates over each finding the optimal regression model and its optimal parametres.
 def ml1():
     
     models = {'RFR':{'MODEL':RFR(),'PARAM':{'n_estimators': [10, 50, 100, 150, 200, 500],'max_depth':             [1,5,10,15,20],'min_weight_fraction_leaf':[0.0,0.1,0.2]}},
@@ -47,7 +47,7 @@ def ml1():
     print(f'model {dfmodels.Modelo[0]} rmse {dfmodels.RMSE[0]} ')
     return dfmodels
 
-
+### The grid function has as an input a regression model, and its parametres, this function is nested inside the previous one and is responsible for optimizing hyperparametres with 5 cuts of cross validation and parallelizes with all available cores
 def grid(modelo, param):
     
     g=GridSearchCV(modelo, # modelo de sklearn
@@ -67,6 +67,7 @@ def grid(modelo, param):
     return g.best_estimator_.fit(X_train, y_train)
 
 
+### This function normalizes a dataframe and the selected columns of that dataframe. The input is the dataframe and the desired normalized columns
     
 def scaler(df,num):    
     from sklearn.preprocessing import StandardScaler
@@ -76,11 +77,11 @@ def scaler(df,num):
     df[num]=scaler.fit_transform(df[num])
 
     return df.head()
-
+### This function doe a get dummies on all non numerical columns from the inputed dataframe
 def dummies(df):
     df = pd.get_dummies(df,df.select_dtypes(exclude=["int64", 'float64']).columns, drop_first = True)
     return df
-
+### The get_indicator function is responsible for the API extraction for a specific BASE_URL, the input is a dataframe containing both the IndCode of the desired data as well as its ind_text(the descriptor of the column being extracted)
 def get_indicator(ind_code, ind_text):
     import requests
     BASE_URL = 'https://ghoapi.azureedge.net/api/'
@@ -99,9 +100,12 @@ def get_indicator(ind_code, ind_text):
     else:
         print("Response was not OK", response)
         return None
+### Removes duplicates in this case duplicates where country code and year is identical        
 def remove_duplicates(data_set):
     dup_set = data_set.duplicated(subset=["country_code", "year"], keep='last')
     return data_set[~dup_set]
+
+### Test dump with specifically Belgian data, checks connection to the API and gives us an indication of the years in which we have information
 def test_dump(data_set):
     print(data_set.shape)
     print(data_set.info())
@@ -110,6 +114,8 @@ def test_dump(data_set):
     col_names = list(data_set.columns.values)
     for name in col_names:
         print(name,data_set[name].nunique())
+
+### Checks for NaN values per columns and displays a graphic showing their distribution
 def check_nan(data: pd.DataFrame) -> None:
     
     nan_cols=data.isna().mean() * 100  # el porcentaje
