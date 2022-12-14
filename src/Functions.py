@@ -115,7 +115,7 @@ def test_dump(data_set):
     for name in col_names:
         print(name,data_set[name].nunique())
 
-### Checks for NaN values per columns and displays a graphic showing their distribution
+### Checks for NaN values per columns and displays a heatmap graphic showing their distribution
 def check_nan(data: pd.DataFrame) -> None:
     
     nan_cols=data.isna().mean() * 100  # el porcentaje
