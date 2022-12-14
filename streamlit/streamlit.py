@@ -16,6 +16,24 @@ import webbrowser
 
 
 @st.cache(suppress_st_warning=True)
+def add_bg_from_url():
+    st.markdown(
+        f"""
+        <style>
+        .stApp {{
+            background-image: url("https://github.com/Barge7/PROYECTO-FINAL/blob/main/imagenes/fondosivia70.png?raw=true");
+            background-attachment: fixed;
+            background-size: cover
+            }}
+            </style>
+            """,
+            unsafe_allow_html=True
+            )
+add_bg_from_url()
+
+
+
+
 def get_value(val,my_dict):
     for key,value in my_dict.items():
         if val == key:
