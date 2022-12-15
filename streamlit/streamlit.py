@@ -11,25 +11,13 @@ import base64
 import seaborn as sns
 import matplotlib.pyplot as plt
 import base64
-import plotly.express as px
 import webbrowser
 
 
+st.set_page_config(page_title="Health-Database", page_icon=“https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/1f484@2x.png”, layout=“wide”, initial_sidebar_state=“auto”, menu_items=None)
+
 @st.cache(suppress_st_warning=True)
-def add_bg_from_url():
-    st.markdown(
-        f"""
-        <style>
-        .stApp {{
-            background-image: url("https://github.com/Barge7/PROYECTO-FINAL/blob/main/imagenes/fondosivia70.png?raw=true");
-            background-attachment: fixed;
-            background-size: cover
-            }}
-            </style>
-            """,
-            unsafe_allow_html=True
-            )
-add_bg_from_url()
+
 
 
 
@@ -43,20 +31,7 @@ app_mode = st.sidebar.selectbox('Select Disease',['Home','Data','Adolescent birt
    
 
 if app_mode == 'Home':
-    def add_bg_from_url():
-        st.markdown(
-        f"""
-        <style>
-        .stApp {{
-            background-image: url("https://github.com/Barge7/PROYECTO-FINAL/blob/main/imagenes/fondosivia70.png?raw=true");
-            background-attachment: fixed;
-            background-size: cover
-            }}
-            </style>
-            """,
-            unsafe_allow_html=True
-            )
-    add_bg_from_url()
+    
     
     
     
@@ -73,7 +48,7 @@ if app_mode == 'Home':
     unsafe_allow_html=True)
     st.markdown("#### Project Goal:")
     
-    st.markdown("##### This Project attempts to build a database with factors that influence disease outcomes, and the frequency of the diseases. With the help of a machine learning algorithms the factors are ranked and the user can modify each input and get a predictive value for the chosen disease")
+    st.markdown("##### This Project attempts to build a database with factors that influence disease outcomes, and the frequency of the diseases. With the help of a machine learning algorithms the factors are ranked and the user can modify each input and get a predictive value for a chosen disease")
     
 
     if st.button('PowerBi'):
@@ -95,20 +70,7 @@ if app_mode == 'Home':
 
 elif app_mode == 'Data' :
     df = pd.read_csv('clean_full_data.csv')
-    def add_bg_from_url():
-        st.markdown(
-        f"""
-        <style>
-        .stApp {{
-            background-image: url("https://github.com/Barge7/PROYECTO-FINAL/blob/main/imagenes/fondosivia70.png?raw=true");
-            background-attachment: fixed;
-            background-size: cover
-            }}
-            </style>
-            """,
-            unsafe_allow_html=True
-            )
-    add_bg_from_url()
+    
     st.caption('# Full Data:')
 
 
@@ -137,20 +99,7 @@ elif app_mode == 'Data' :
 
 
 elif app_mode =='Adolescent birth rate (per1000)':
-    def add_bg_from_url():
-        st.markdown(
-        f"""
-        <style>
-        .stApp {{
-            background-image: url("https://github.com/Barge7/PROYECTO-FINAL/blob/main/imagenes/fondosivia70.png?raw=true");
-            background-attachment: fixed;
-            background-size: cover
-            }}
-            </style>
-            """,
-            unsafe_allow_html=True
-            )
-    add_bg_from_url()
+    
     
 
     st.header("This app will predict a desired Medical value with its corresponding variables")
@@ -222,20 +171,7 @@ elif app_mode =='Adolescent birth rate (per1000)':
 
 
 elif app_mode =='Total NCD Deaths (in thousands)':
-    def add_bg_from_url():
-        st.markdown(
-        f"""
-        <style>
-        .stApp {{
-            background-image: url("https://github.com/Barge7/PROYECTO-FINAL/blob/main/imagenes/fondosivia70.png?raw=true");
-            background-attachment: fixed;
-            background-size: cover
-            }}
-            </style>
-            """,
-            unsafe_allow_html=True
-            )
-    add_bg_from_url()
+    
     
 
     
@@ -296,20 +232,7 @@ elif app_mode =='Total NCD Deaths (in thousands)':
         
         
 elif app_mode =='Homicide rates (per 100 000)':
-    def add_bg_from_url():
-        st.markdown(
-        f"""
-        <style>
-        .stApp {{
-            background-image: url("https://github.com/Barge7/PROYECTO-FINAL/blob/main/imagenes/fondosivia70.png?raw=true");
-            background-attachment: fixed;
-            background-size: cover
-            }}
-            </style>
-            """,
-            unsafe_allow_html=True
-            )
-    add_bg_from_url()
+    
     
 
     
@@ -378,20 +301,7 @@ elif app_mode =='Homicide rates (per 100 000)':
         st.image('Homicides.png')        
             
 elif app_mode =='Suicide rates (per 100 000)':
-    def add_bg_from_url():
-        st.markdown(
-        f"""
-        <style>
-        .stApp {{
-            background-image: url("https://github.com/Barge7/PROYECTO-FINAL/blob/main/imagenes/fondosivia70.png?raw=true");
-            background-attachment: fixed;
-            background-size: cover
-            }}
-            </style>
-            """,
-            unsafe_allow_html=True
-            )
-    add_bg_from_url()
+    
     
 
     
@@ -462,20 +372,7 @@ elif app_mode =='Suicide rates (per 100 000)':
 
 
 elif app_mode =='Prevalence Hypertension among adults':
-    def add_bg_from_url():
-        st.markdown(
-        f"""
-        <style>
-        .stApp {{
-            background-image: url("https://github.com/Barge7/PROYECTO-FINAL/blob/main/imagenes/fondosivia70.png?raw=true");
-            background-attachment: fixed;
-            background-size: cover
-            }}
-            </style>
-            """,
-            unsafe_allow_html=True
-            )
-    add_bg_from_url()
+    
 
     
     st.header("This app will predict a desired Medical value with its corresponding variables")
