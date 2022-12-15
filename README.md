@@ -1,24 +1,17 @@
 # Health-Database
 ## CONTENIDO 📑
 [1 - Objetivo 🎯](#O)<br />
-[2 - Extracción, Transformación y Carga ⚙️](#ETL) <br />
-[3 - Contrastes de Hipótesis - ANOVA 📈](#CH)<br />
+[2 - Extracción, Transformación y Carga ⚙](#ETL) <br />
+[3 - ](#CH)<br />
 [4 - Feature Importances 🔝](#FI)<br />
 [5 - Machine Learning 🤖](#ML)<br />
 [6 - Scrappeo en Caliente 🔥](#SC)<br />
  
 ## 1 - OBJETIVO 🎯<a name="O"/>   
-💥 Construir un modelo de machine learning capaz de aproximar la cantidad de puntos que obtendrá una canción en Eurovisión con el menor error posible, entendiendo el planteamiento como una analogía de la predicción de un beneficio (puntos) para un producto (canción) en un mercado (Eurovisión).<br />
+### -Usar todas las herramientas necesarias de extracion y limpieza de datos mas intentar automatizar el proceso de aprendizaje supervisado de los modelos:<br />
+### -Construir un modelo de machine learning capaz de predecir una variable medica con la ayuda de una base de datos de informacion medica por año y pais.<br />
+### -Construir una pagina streamlit que contenga toda la informacion necesaria para ilustrar las relaciones entre las variables.<br />
 
-💥 Crear la estructura programática capaz de:<br />
-
-&emsp; &emsp; • Escrappear en vivo para encontrar las variables clave para las canciones propuestas por la audiencia durante la exposición del trabajo.<br />
-&emsp; &emsp; • Predecir las puntuaciones de las canciones propuestas.<br />
-&emsp; &emsp; • Clasificar las canciones y mostrar el resultado en una interfaz web.<br />
-&emsp; &emsp; • Embeber el video de YouTube del ganador en la interfaz web para que se reproduzca su videoclip.<br />
-&emsp; &emsp; • Crear una lista de Spotify ordenada según la clasificación. <br />
-
-💥 Emplear todos los conceptos y herramientas posibles en el campo del análisis de datos:<br />
 
 
 
