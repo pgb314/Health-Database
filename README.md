@@ -23,7 +23,7 @@
 4. Hacemos una API desde la OMS https://www.who.int/data/gho/info/gho-odata-api , contiene mas de 2000 columnas, mas adelante tendremos que separar las columnas viables para conseguir algo que se asemeje a una base de datos utilizable.
 5. Por ultimo añadimos metricas de edad media descargandonos un csv desde la pagina del Banco Mundial https://databank.worldbank.org/source/health-nutrition-and-population-statistics#
 ### Limpiamos y selecionamos los datos relevantes
-1. Rellenamos Nulos con informacion o dada o extraida del internet, donde no sea posible borramos registros
+1. Rellenamos Nulos con informacion  extraida del internet, donde no sea posible borramos registros
 2. Inicialmente no discriminamos con los datos proporcionados por nuestra API, una vez ha sido creada la base de datos entera vamos borrando columnas que no tengan suficientes registros representativos dado a que evitamos a toda costa quitar filas.
 3. Al unir datos de nuestra API existen muchos indicadores con mediciones cada 5 o 3 años. Para evitar borrar columnas que puedan resultar interesantes para nuestros modelos creamos medias de los años con puntos de datos existentes y rellenamos con esas medias los datos que se encuentren entre esos años.
 4. Igualmente con las edades medias, con la ayuda de un poco de investigacion rellenamos los puntos que faltan
