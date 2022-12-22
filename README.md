@@ -1,4 +1,5 @@
 # Health-Database
+🇪🇸 
 ## CONTENIDO 📑
 [1 - Objetivo 🎯](#O)<br />
 [2 - Extracción, Transformación y Carga ⚙](#ETL) <br />
@@ -42,6 +43,8 @@
 ## 5 - STREAMLIT 📡 <a name="SL"/>
 #### Contruimos la estructura de la pagina en la que incluimos: La base de datos entera construida, Una pagina para cada factor a predecir , con un selector para cada variable que consideramos en nuestra feature selection como relevante. Por ultimo presentamos una conclusion
 
+
+🇬🇧
 ## CONTENT 📑
 [1 - Objective 🎯](#O)<br />
 [2 - Extraction, Transformation and Loading ⚙](#ETL) <br />
